@@ -1,0 +1,14 @@
+{
+  "schema_version": "mol-fixed-points-v0.1",
+  "source_family": "ehrsql",
+  "columns": [],
+  "value_columns": [
+    {
+      "database_id": "eicu",
+      "table": "diagnosis",
+      "column": "icd9code",
+      "key_column": "diagnosisid",
+      "reason": "ICD-9/ICD-10 code strings are semantic identifiers, not natural-language disease descriptions."
+    }
+  ]
+}

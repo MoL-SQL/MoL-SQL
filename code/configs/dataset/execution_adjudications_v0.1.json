@@ -1,0 +1,104 @@
+{
+  "schema_version": "mol-execution-adjudications-v0.1",
+  "decisions": [
+    {
+      "source_family": "spider",
+      "legacy_index": 579,
+      "source_sample_key": "index:579",
+      "database_id": "student_transcripts_tracking",
+      "decision": "drop",
+      "reason_code": "language_dependent_text_order",
+      "rationale": "The question explicitly requests reverse lexicographic ordering over translated free text, so no language-invariant ordered answer exists."
+    },
+    {
+      "source_family": "spider",
+      "legacy_index": 580,
+      "source_sample_key": "index:580",
+      "database_id": "student_transcripts_tracking",
+      "decision": "drop",
+      "reason_code": "language_dependent_text_order",
+      "rationale": "The question explicitly requests reverse lexicographic ordering over translated free text, so no language-invariant ordered answer exists."
+    },
+    {
+      "source_family": "spider",
+      "legacy_index": 585,
+      "source_sample_key": "index:585",
+      "database_id": "tvshow",
+      "decision": "drop",
+      "reason_code": "language_dependent_text_order",
+      "rationale": "Alphabetical title order changes under translation and is part of the requested answer semantics."
+    },
+    {
+      "source_family": "spider",
+      "legacy_index": 586,
+      "source_sample_key": "index:586",
+      "database_id": "tvshow",
+      "decision": "drop",
+      "reason_code": "language_dependent_text_order",
+      "rationale": "Alphabetical title order changes under translation and is part of the requested answer semantics."
+    },
+    {
+      "source_family": "bird",
+      "legacy_index": 411,
+      "source_sample_key": "220",
+      "database_id": "toxicology",
+      "decision": "drop",
+      "reason_code": "language_dependent_text_order",
+      "rationale": "The requested first three elements are defined by alphabetical order, which changes under translation."
+    },
+    {
+      "source_family": "bird",
+      "legacy_index": 484,
+      "source_sample_key": "129",
+      "database_id": "financial",
+      "decision": "drop",
+      "reason_code": "language_dependent_text_order",
+      "rationale": "The top ten result is selected by translated district-name lexical order rather than a language-invariant key."
+    },
+    {
+      "source_family": "kaggledbqa",
+      "legacy_index": 48,
+      "source_sample_key": "index:48",
+      "database_id": "Pesticide",
+      "decision": "drop",
+      "reason_code": "language_dependent_text_aggregate",
+      "rationale": "MAX over a translated text column is language-dependent and selects a different semantic value."
+    },
+    {
+      "source_family": "ehrsql",
+      "legacy_index": 360,
+      "source_sample_key": "e7dbe550dae0f01fb2e8c3ed",
+      "database_id": "eicu",
+      "decision": "drop",
+      "reason_code": "translation_value_collision_changes_cardinality",
+      "rationale": "Distinct English treatment labels collapse to the same Chinese medical term, changing which procedures occur exactly twice."
+    },
+    {
+      "source_family": "ehrsql",
+      "legacy_index": 576,
+      "source_sample_key": "4587e575793cfe8e5db11c25",
+      "database_id": "eicu",
+      "decision": "drop",
+      "reason_code": "translation_value_collision_changes_cardinality",
+      "rationale": "Singular and plural phenytoin treatment labels collapse to one Chinese value, changing the distinct-patient count."
+    },
+    {
+      "source_family": "ehrsql",
+      "legacy_index": 642,
+      "source_sample_key": "06211f272973e5ca6f75ae59",
+      "database_id": "eicu",
+      "decision": "drop",
+      "reason_code": "translation_value_collision_changes_ranking",
+      "rationale": "Multiple treatment labels collapse under translation, changing downstream diagnosis frequencies and the dense-rank boundary."
+    },
+    {
+      "source_family": "ehrsql",
+      "legacy_index": 665,
+      "source_sample_key": "02b76c411a77ee602060706b",
+      "database_id": "eicu",
+      "decision": "drop",
+      "reason_code": "translation_value_collision_changes_ranking",
+      "rationale": "Multiple treatment labels collapse under translation, changing grouped treatment frequencies and the dense-rank boundary."
+    }
+  ]
+}

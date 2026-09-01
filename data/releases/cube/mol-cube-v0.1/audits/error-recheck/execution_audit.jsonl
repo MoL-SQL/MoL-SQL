@@ -1,0 +1,2 @@
+{"database_id":"mimic_iii","logical_id":"logical_25763d4bc7da96a8f182","source_family":"ehrsql","status":"pass","unique_queries":4}
+{"database_id":"wta_1","logical_id":"logical_e2a6632cb4cf2b594cad","source_family":"spider","status":"pass","unique_queries":4}

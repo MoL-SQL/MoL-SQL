@@ -1,0 +1,10194 @@
+{
+  "tvshow": {
+    "tables": [
+      [
+        "TV_Channel",
+        "电视频道"
+      ],
+      [
+        "TV_series",
+        "电视剧"
+      ],
+      [
+        "Cartoon",
+        "动画片"
+      ]
+    ],
+    "columns": [
+      [
+        "TV_Channel",
+        "id",
+        "编号"
+      ],
+      [
+        "TV_Channel",
+        "series_name",
+        "节目名称"
+      ],
+      [
+        "TV_Channel",
+        "Country",
+        "国家"
+      ],
+      [
+        "TV_Channel",
+        "Language",
+        "语言"
+      ],
+      [
+        "TV_Channel",
+        "Content",
+        "内容类型"
+      ],
+      [
+        "TV_Channel",
+        "Pixel_aspect_ratio_PAR",
+        "像素宽高比_PAR"
+      ],
+      [
+        "TV_Channel",
+        "Hight_definition_TV",
+        "高清电视"
+      ],
+      [
+        "TV_Channel",
+        "Pay_per_view_PPV",
+        "按次付费_PPV"
+      ],
+      [
+        "TV_Channel",
+        "Package_Option",
+        "套餐选项"
+      ],
+      [
+        "TV_series",
+        "id",
+        "编号"
+      ],
+      [
+        "TV_series",
+        "Episode",
+        "集数"
+      ],
+      [
+        "TV_series",
+        "Air_Date",
+        "播出日期"
+      ],
+      [
+        "TV_series",
+        "Rating",
+        "收视率"
+      ],
+      [
+        "TV_series",
+        "Share",
+        "收视份额"
+      ],
+      [
+        "TV_series",
+        "18_49_Rating_Share",
+        "18至49岁收视率与份额"
+      ],
+      [
+        "TV_series",
+        "Viewers_m",
+        "观众人数_百万"
+      ],
+      [
+        "TV_series",
+        "Weekly_Rank",
+        "周排名"
+      ],
+      [
+        "TV_series",
+        "Channel",
+        "频道"
+      ],
+      [
+        "Cartoon",
+        "id",
+        "编号"
+      ],
+      [
+        "Cartoon",
+        "Title",
+        "标题"
+      ],
+      [
+        "Cartoon",
+        "Directed_by",
+        "导演"
+      ],
+      [
+        "Cartoon",
+        "Written_by",
+        "编剧"
+      ],
+      [
+        "Cartoon",
+        "Original_air_date",
+        "首播日期"
+      ],
+      [
+        "Cartoon",
+        "Production_code",
+        "制作编号"
+      ],
+      [
+        "Cartoon",
+        "Channel",
+        "频道"
+      ]
+    ],
+    "values": [
+      [
+        "TV_Channel",
+        "Content",
+        "music",
+        "音乐"
+      ],
+      [
+        "TV_Channel",
+        "Hight_definition_TV",
+        "no",
+        "否"
+      ],
+      [
+        "TV_Channel",
+        "Hight_definition_TV",
+        "yes",
+        "是"
+      ],
+      [
+        "TV_Channel",
+        "Language",
+        "Italian",
+        "意大利语"
+      ],
+      [
+        "TV_Channel",
+        "Language",
+        "English",
+        "英语"
+      ],
+      [
+        "TV_Channel",
+        "Pay_per_view_PPV",
+        "no",
+        "否"
+      ],
+      [
+        "TV_Channel",
+        "Package_Option",
+        "Sky Famiglia + Sky HD",
+        "Sky Famiglia + Sky HD"
+      ],
+      [
+        "TV_Channel",
+        "Package_Option",
+        "no ( FTV )",
+        "否（FTV）"
+      ],
+      [
+        "TV_Channel",
+        "Package_Option",
+        "Option",
+        "选项"
+      ],
+      [
+        "TV_Channel",
+        "Package_Option",
+        "Sky Famiglia",
+        "Sky Famiglia"
+      ],
+      [
+        "Cartoon",
+        "Directed_by",
+        "Ben Jones",
+        "本·琼斯"
+      ],
+      [
+        "Cartoon",
+        "Directed_by",
+        "Michael Chang",
+        "迈克尔·张"
+      ],
+      [
+        "Cartoon",
+        "Directed_by",
+        "Brandon Vietti",
+        "布兰登·维蒂"
+      ],
+      [
+        "Cartoon",
+        "Written_by",
+        "Michael Jelenic",
+        "迈克尔·杰莱尼奇"
+      ],
+      [
+        "Cartoon",
+        "Written_by",
+        "Todd Casey",
+        "托德·凯西"
+      ],
+      [
+        "Cartoon",
+        "Written_by",
+        "Matt Wayne",
+        "马特·韦恩"
+      ],
+      [
+        "Cartoon",
+        "Written_by",
+        "James Krieg",
+        "詹姆斯·克里格"
+      ],
+      [
+        "Cartoon",
+        "Written_by",
+        "Joseph Kuhr",
+        "约瑟夫·库尔"
+      ],
+      [
+        "Cartoon",
+        "Written_by",
+        "J. M. DeMatteis",
+        "J. M. 德马泰斯"
+      ],
+      [
+        "Cartoon",
+        "Written_by",
+        "Adam Beechen",
+        "亚当·比琴"
+      ],
+      [
+        "Cartoon",
+        "Written_by",
+        "Steven Melching",
+        "史蒂文·梅尔钦"
+      ],
+      [
+        "TV_series",
+        "Episode",
+        "Emily",
+        "艾米莉"
+      ],
+      [
+        "TV_series",
+        "Episode",
+        "A Love of a Lifetime",
+        "一生之爱"
+      ],
+      [
+        "TV_series",
+        "Episode",
+        "The Legend of Dylan McCleen",
+        "迪伦·麦克林传奇"
+      ],
+      [
+        "TV_series",
+        "Episode",
+        "Keepers",
+        "守护者"
+      ],
+      [
+        "TV_series",
+        "Episode",
+        "The Hanged Man",
+        "吊死之人"
+      ],
+      [
+        "TV_series",
+        "Episode",
+        "Game Three",
+        "第三局"
+      ],
+      [
+        "TV_series",
+        "Episode",
+        "Winterland",
+        "冬境"
+      ],
+      [
+        "TV_series",
+        "Episode",
+        "Blowback",
+        "反噬"
+      ],
+      [
+        "TV_series",
+        "Episode",
+        "Friendly Skies",
+        "晴朗天空"
+      ],
+      [
+        "TV_series",
+        "Episode",
+        "Double Down",
+        "加倍下注"
+      ],
+      [
+        "TV_series",
+        "Episode",
+        "The Year of the Rabbit",
+        "兔年"
+      ],
+      [
+        "TV_series",
+        "Episode",
+        "Home By Another Way",
+        "另辟归途"
+      ],
+      [
+        "Cartoon",
+        "Title",
+        "The Rise of the Blue Beetle!",
+        "蓝甲虫的崛起！"
+      ],
+      [
+        "Cartoon",
+        "Title",
+        "Evil Under the Sea!",
+        "海底之恶！"
+      ],
+      [
+        "Cartoon",
+        "Title",
+        "Dawn of the Dead Man!",
+        "亡者黎明！"
+      ],
+      [
+        "Cartoon",
+        "Title",
+        "Return of the Fearsome Fangs!",
+        "恐怖獠牙归来！"
+      ],
+      [
+        "Cartoon",
+        "Title",
+        "Day of the Dark Knight!",
+        "黑暗骑士之日！"
+      ],
+      [
+        "Cartoon",
+        "Title",
+        "Terror on Dinosaur Island!",
+        "恐龙岛惊魂！"
+      ],
+      [
+        "Cartoon",
+        "Title",
+        "Fall of the Blue Beetle!",
+        "蓝甲虫陨落！"
+      ],
+      [
+        "Cartoon",
+        "Title",
+        "Journey to the Center of the Bat!",
+        "蝙蝠侠地心之旅！"
+      ],
+      [
+        "Cartoon",
+        "Title",
+        "Enter the Outsiders!",
+        "局外人登场！"
+      ],
+      [
+        "Cartoon",
+        "Title",
+        "The Eyes of Despero!",
+        "德斯佩罗之眼！"
+      ],
+      [
+        "Cartoon",
+        "Title",
+        "Deep Cover for Batman!",
+        "蝙蝠侠深入卧底！"
+      ],
+      [
+        "Cartoon",
+        "Title",
+        "Invasion of the Secret Santas!",
+        "神秘圣诞老人入侵！"
+      ]
+    ]
+  },
+  "cre_Doc_Template_Mgt": {
+    "tables": [
+      [
+        "Ref_Template_Types",
+        "模板类型参考表"
+      ],
+      [
+        "Templates",
+        "模板"
+      ],
+      [
+        "Documents",
+        "文档"
+      ],
+      [
+        "Paragraphs",
+        "段落"
+      ]
+    ],
+    "columns": [
+      [
+        "Ref_Template_Types",
+        "Template_Type_Code",
+        "模板类型编码"
+      ],
+      [
+        "Ref_Template_Types",
+        "Template_Type_Description",
+        "模板类型描述"
+      ],
+      [
+        "Templates",
+        "Template_ID",
+        "模板编号"
+      ],
+      [
+        "Templates",
+        "Version_Number",
+        "版本号"
+      ],
+      [
+        "Templates",
+        "Template_Type_Code",
+        "模板类型编码"
+      ],
+      [
+        "Templates",
+        "Date_Effective_From",
+        "生效起始日期"
+      ],
+      [
+        "Templates",
+        "Date_Effective_To",
+        "生效截止日期"
+      ],
+      [
+        "Templates",
+        "Template_Details",
+        "模板详情"
+      ],
+      [
+        "Documents",
+        "Document_ID",
+        "文档编号"
+      ],
+      [
+        "Documents",
+        "Template_ID",
+        "模板编号"
+      ],
+      [
+        "Documents",
+        "Document_Name",
+        "文档名称"
+      ],
+      [
+        "Documents",
+        "Document_Description",
+        "文档描述"
+      ],
+      [
+        "Documents",
+        "Other_Details",
+        "其他详情"
+      ],
+      [
+        "Paragraphs",
+        "Paragraph_ID",
+        "段落编号"
+      ],
+      [
+        "Paragraphs",
+        "Document_ID",
+        "文档编号"
+      ],
+      [
+        "Paragraphs",
+        "Paragraph_Text",
+        "段落文本"
+      ],
+      [
+        "Paragraphs",
+        "Other_Details",
+        "其他详情"
+      ]
+    ],
+    "values": [
+      [
+        "Ref_Template_Types",
+        "Template_Type_Description",
+        "Presentation",
+        "演示文稿"
+      ],
+      [
+        "Ref_Template_Types",
+        "Template_Type_Description",
+        "Paper",
+        "论文"
+      ],
+      [
+        "Ref_Template_Types",
+        "Template_Type_Description",
+        "Advertisement",
+        "广告"
+      ],
+      [
+        "Ref_Template_Types",
+        "Template_Type_Description",
+        "Book",
+        "图书"
+      ],
+      [
+        "Ref_Template_Types",
+        "Template_Type_Description",
+        "CV",
+        "简历"
+      ],
+      [
+        "Paragraphs",
+        "Paragraph_Text",
+        "Senegal",
+        "塞内加尔"
+      ],
+      [
+        "Paragraphs",
+        "Paragraph_Text",
+        "UK",
+        "英国"
+      ],
+      [
+        "Paragraphs",
+        "Paragraph_Text",
+        "Papua New Guinea",
+        "巴布亚新几内亚"
+      ],
+      [
+        "Paragraphs",
+        "Paragraph_Text",
+        "Somalia",
+        "索马里"
+      ],
+      [
+        "Paragraphs",
+        "Paragraph_Text",
+        "Brazil",
+        "巴西"
+      ],
+      [
+        "Paragraphs",
+        "Paragraph_Text",
+        "Japan",
+        "日本"
+      ],
+      [
+        "Paragraphs",
+        "Paragraph_Text",
+        "Palestinian Territory",
+        "巴勒斯坦领土"
+      ],
+      [
+        "Paragraphs",
+        "Paragraph_Text",
+        "Ireland",
+        "爱尔兰"
+      ],
+      [
+        "Paragraphs",
+        "Paragraph_Text",
+        "Fiji",
+        "斐济"
+      ],
+      [
+        "Paragraphs",
+        "Paragraph_Text",
+        "Micronesia",
+        "密克罗尼西亚"
+      ],
+      [
+        "Paragraphs",
+        "Paragraph_Text",
+        "Jersey",
+        "泽西岛"
+      ],
+      [
+        "Paragraphs",
+        "Paragraph_Text",
+        "Indonesia",
+        "印度尼西亚"
+      ],
+      [
+        "Paragraphs",
+        "Paragraph_Text",
+        "Ukraine",
+        "乌克兰"
+      ],
+      [
+        "Paragraphs",
+        "Paragraph_Text",
+        "Korea",
+        "韩国"
+      ]
+    ]
+  },
+  "employee_hire_evaluation": {
+    "tables": [
+      [
+        "employee",
+        "员工"
+      ],
+      [
+        "shop",
+        "门店"
+      ],
+      [
+        "hiring",
+        "聘用记录"
+      ],
+      [
+        "evaluation",
+        "绩效评估"
+      ]
+    ],
+    "columns": [
+      [
+        "employee",
+        "Employee_ID",
+        "员工编号"
+      ],
+      [
+        "employee",
+        "Name",
+        "姓名"
+      ],
+      [
+        "employee",
+        "Age",
+        "年龄"
+      ],
+      [
+        "employee",
+        "City",
+        "所在城市"
+      ],
+      [
+        "shop",
+        "Shop_ID",
+        "门店编号"
+      ],
+      [
+        "shop",
+        "Name",
+        "门店名称"
+      ],
+      [
+        "shop",
+        "Location",
+        "地址"
+      ],
+      [
+        "shop",
+        "District",
+        "行政区"
+      ],
+      [
+        "shop",
+        "Number_products",
+        "商品数量"
+      ],
+      [
+        "shop",
+        "Manager_name",
+        "经理姓名"
+      ],
+      [
+        "hiring",
+        "Shop_ID",
+        "门店编号"
+      ],
+      [
+        "hiring",
+        "Employee_ID",
+        "员工编号"
+      ],
+      [
+        "hiring",
+        "Start_from",
+        "入职日期"
+      ],
+      [
+        "hiring",
+        "Is_full_time",
+        "是否全职"
+      ],
+      [
+        "evaluation",
+        "Employee_ID",
+        "员工编号"
+      ],
+      [
+        "evaluation",
+        "Year_awarded",
+        "评定年份"
+      ],
+      [
+        "evaluation",
+        "Bonus",
+        "奖金"
+      ]
+    ],
+    "values": [
+      [
+        "shop",
+        "Location",
+        "Lahti",
+        "拉赫蒂"
+      ],
+      [
+        "shop",
+        "Location",
+        "Kotka",
+        "科特卡"
+      ],
+      [
+        "shop",
+        "Location",
+        "Valkeakoski",
+        "瓦尔凯阿科斯基"
+      ],
+      [
+        "shop",
+        "Location",
+        "Espoo",
+        "埃斯波"
+      ],
+      [
+        "shop",
+        "Location",
+        "Turku",
+        "图尔库"
+      ],
+      [
+        "shop",
+        "Location",
+        "Jakobstad",
+        "雅各布斯塔德"
+      ],
+      [
+        "shop",
+        "Location",
+        "Kuopio",
+        "库奥皮奥"
+      ],
+      [
+        "shop",
+        "Location",
+        "Helsinki",
+        "赫尔辛基"
+      ],
+      [
+        "shop",
+        "Location",
+        "Mariehamn",
+        "玛丽港"
+      ]
+    ]
+  },
+  "museum_visit": {
+    "tables": [
+      [
+        "museum",
+        "博物馆"
+      ],
+      [
+        "visitor",
+        "访客"
+      ],
+      [
+        "visit",
+        "参观记录"
+      ]
+    ],
+    "columns": [
+      [
+        "museum",
+        "Museum_ID",
+        "博物馆编号"
+      ],
+      [
+        "museum",
+        "Name",
+        "名称"
+      ],
+      [
+        "museum",
+        "Num_of_Staff",
+        "员工人数"
+      ],
+      [
+        "museum",
+        "Open_Year",
+        "开馆年份"
+      ],
+      [
+        "visitor",
+        "ID",
+        "访客编号"
+      ],
+      [
+        "visitor",
+        "Name",
+        "姓名"
+      ],
+      [
+        "visitor",
+        "Level_of_membership",
+        "会员等级"
+      ],
+      [
+        "visitor",
+        "Age",
+        "年龄"
+      ],
+      [
+        "visit",
+        "Museum_ID",
+        "博物馆编号"
+      ],
+      [
+        "visit",
+        "visitor_ID",
+        "访客编号"
+      ],
+      [
+        "visit",
+        "Num_of_Ticket",
+        "购票数量"
+      ],
+      [
+        "visit",
+        "Total_spent",
+        "总消费金额"
+      ]
+    ],
+    "values": []
+  },
+  "student_transcripts_tracking": {
+    "tables": [
+      [
+        "Addresses",
+        "地址"
+      ],
+      [
+        "Courses",
+        "课程"
+      ],
+      [
+        "Departments",
+        "学院"
+      ],
+      [
+        "Degree_Programs",
+        "学位项目"
+      ],
+      [
+        "Sections",
+        "教学班"
+      ],
+      [
+        "Semesters",
+        "学期"
+      ],
+      [
+        "Students",
+        "学生"
+      ],
+      [
+        "Student_Enrolment",
+        "学生注册"
+      ],
+      [
+        "Student_Enrolment_Courses",
+        "学生选课"
+      ],
+      [
+        "Transcripts",
+        "成绩单"
+      ],
+      [
+        "Transcript_Contents",
+        "成绩单明细"
+      ]
+    ],
+    "columns": [
+      [
+        "Addresses",
+        "address_id",
+        "地址编号"
+      ],
+      [
+        "Addresses",
+        "line_1",
+        "地址行1"
+      ],
+      [
+        "Addresses",
+        "line_2",
+        "地址行2"
+      ],
+      [
+        "Addresses",
+        "line_3",
+        "地址行3"
+      ],
+      [
+        "Addresses",
+        "city",
+        "城市"
+      ],
+      [
+        "Addresses",
+        "zip_postcode",
+        "邮政编码"
+      ],
+      [
+        "Addresses",
+        "state_province_county",
+        "州省县"
+      ],
+      [
+        "Addresses",
+        "country",
+        "国家"
+      ],
+      [
+        "Addresses",
+        "other_address_details",
+        "其他地址信息"
+      ],
+      [
+        "Courses",
+        "course_id",
+        "课程编号"
+      ],
+      [
+        "Courses",
+        "course_name",
+        "课程名称"
+      ],
+      [
+        "Courses",
+        "course_description",
+        "课程描述"
+      ],
+      [
+        "Courses",
+        "other_details",
+        "其他课程信息"
+      ],
+      [
+        "Departments",
+        "department_id",
+        "学院编号"
+      ],
+      [
+        "Departments",
+        "department_name",
+        "学院名称"
+      ],
+      [
+        "Departments",
+        "department_description",
+        "学院描述"
+      ],
+      [
+        "Departments",
+        "other_details",
+        "其他学院信息"
+      ],
+      [
+        "Degree_Programs",
+        "degree_program_id",
+        "学位项目编号"
+      ],
+      [
+        "Degree_Programs",
+        "department_id",
+        "学院编号"
+      ],
+      [
+        "Degree_Programs",
+        "degree_summary_name",
+        "学位简称"
+      ],
+      [
+        "Degree_Programs",
+        "degree_summary_description",
+        "学位简介"
+      ],
+      [
+        "Degree_Programs",
+        "other_details",
+        "其他学位项目信息"
+      ],
+      [
+        "Sections",
+        "section_id",
+        "教学班编号"
+      ],
+      [
+        "Sections",
+        "course_id",
+        "课程编号"
+      ],
+      [
+        "Sections",
+        "section_name",
+        "教学班名称"
+      ],
+      [
+        "Sections",
+        "section_description",
+        "教学班描述"
+      ],
+      [
+        "Sections",
+        "other_details",
+        "其他教学班信息"
+      ],
+      [
+        "Semesters",
+        "semester_id",
+        "学期编号"
+      ],
+      [
+        "Semesters",
+        "semester_name",
+        "学期名称"
+      ],
+      [
+        "Semesters",
+        "semester_description",
+        "学期描述"
+      ],
+      [
+        "Semesters",
+        "other_details",
+        "其他学期信息"
+      ],
+      [
+        "Students",
+        "student_id",
+        "学生编号"
+      ],
+      [
+        "Students",
+        "current_address_id",
+        "当前地址编号"
+      ],
+      [
+        "Students",
+        "permanent_address_id",
+        "永久地址编号"
+      ],
+      [
+        "Students",
+        "first_name",
+        "名"
+      ],
+      [
+        "Students",
+        "middle_name",
+        "中间名"
+      ],
+      [
+        "Students",
+        "last_name",
+        "姓"
+      ],
+      [
+        "Students",
+        "cell_mobile_number",
+        "手机号码"
+      ],
+      [
+        "Students",
+        "email_address",
+        "电子邮箱"
+      ],
+      [
+        "Students",
+        "ssn",
+        "社会安全号码"
+      ],
+      [
+        "Students",
+        "date_first_registered",
+        "首次注册日期"
+      ],
+      [
+        "Students",
+        "date_left",
+        "离校日期"
+      ],
+      [
+        "Students",
+        "other_student_details",
+        "其他学生信息"
+      ],
+      [
+        "Student_Enrolment",
+        "student_enrolment_id",
+        "学生注册编号"
+      ],
+      [
+        "Student_Enrolment",
+        "degree_program_id",
+        "学位项目编号"
+      ],
+      [
+        "Student_Enrolment",
+        "semester_id",
+        "学期编号"
+      ],
+      [
+        "Student_Enrolment",
+        "student_id",
+        "学生编号"
+      ],
+      [
+        "Student_Enrolment",
+        "other_details",
+        "其他注册信息"
+      ],
+      [
+        "Student_Enrolment_Courses",
+        "student_course_id",
+        "学生选课编号"
+      ],
+      [
+        "Student_Enrolment_Courses",
+        "course_id",
+        "课程编号"
+      ],
+      [
+        "Student_Enrolment_Courses",
+        "student_enrolment_id",
+        "学生注册编号"
+      ],
+      [
+        "Transcripts",
+        "transcript_id",
+        "成绩单编号"
+      ],
+      [
+        "Transcripts",
+        "transcript_date",
+        "成绩单日期"
+      ],
+      [
+        "Transcripts",
+        "other_details",
+        "其他成绩单信息"
+      ],
+      [
+        "Transcript_Contents",
+        "student_course_id",
+        "学生选课编号"
+      ],
+      [
+        "Transcript_Contents",
+        "transcript_id",
+        "成绩单编号"
+      ]
+    ],
+    "values": [
+      [
+        "Degree_Programs",
+        "degree_summary_description",
+        "earum",
+        "她们的"
+      ],
+      [
+        "Degree_Programs",
+        "degree_summary_description",
+        "qui",
+        "谁"
+      ],
+      [
+        "Degree_Programs",
+        "degree_summary_description",
+        "et",
+        "和"
+      ],
+      [
+        "Degree_Programs",
+        "degree_summary_description",
+        "architecto",
+        "建筑师"
+      ],
+      [
+        "Degree_Programs",
+        "degree_summary_description",
+        "esse",
+        "存在"
+      ],
+      [
+        "Degree_Programs",
+        "degree_summary_description",
+        "voluptas",
+        "愉悦"
+      ],
+      [
+        "Degree_Programs",
+        "degree_summary_description",
+        "aut",
+        "或"
+      ],
+      [
+        "Degree_Programs",
+        "degree_summary_description",
+        "placeat",
+        "令人满意的位置"
+      ],
+      [
+        "Degree_Programs",
+        "degree_summary_description",
+        "cumque",
+        "以及"
+      ],
+      [
+        "Degree_Programs",
+        "degree_summary_description",
+        "unde",
+        "从何处"
+      ],
+      [
+        "Degree_Programs",
+        "degree_summary_description",
+        "assumenda",
+        "应承担的"
+      ],
+      [
+        "Degree_Programs",
+        "degree_summary_description",
+        "aperiam",
+        "我将揭示"
+      ],
+      [
+        "Degree_Programs",
+        "degree_summary_description",
+        "officiis",
+        "职责"
+      ],
+      [
+        "Degree_Programs",
+        "degree_summary_description",
+        "quam",
+        "多么"
+      ],
+      [
+        "Departments",
+        "department_description",
+        "consequatur",
+        "因此"
+      ],
+      [
+        "Departments",
+        "department_description",
+        "non",
+        "不"
+      ],
+      [
+        "Departments",
+        "department_description",
+        "natus",
+        "天生的"
+      ],
+      [
+        "Departments",
+        "department_description",
+        "dolorem",
+        "痛苦"
+      ],
+      [
+        "Departments",
+        "department_description",
+        "aliquam",
+        "某些"
+      ],
+      [
+        "Departments",
+        "department_description",
+        "doloribus",
+        "痛苦（复数）"
+      ],
+      [
+        "Departments",
+        "department_description",
+        "nisi",
+        "除非"
+      ],
+      [
+        "Departments",
+        "department_description",
+        "nostrum",
+        "我们的"
+      ],
+      [
+        "Departments",
+        "department_description",
+        "nihil",
+        "无"
+      ],
+      [
+        "Departments",
+        "department_description",
+        "in",
+        "在……中"
+      ],
+      [
+        "Departments",
+        "department_description",
+        "autem",
+        "然而"
+      ],
+      [
+        "Departments",
+        "department_description",
+        "error",
+        "错误"
+      ],
+      [
+        "Departments",
+        "department_description",
+        "ea",
+        "她/它（主格或宾格，依语境）"
+      ],
+      [
+        "Students",
+        "other_student_details",
+        "qui",
+        "谁"
+      ],
+      [
+        "Students",
+        "other_student_details",
+        "omnis",
+        "全部"
+      ],
+      [
+        "Students",
+        "other_student_details",
+        "non",
+        "不"
+      ],
+      [
+        "Students",
+        "other_student_details",
+        "facilis",
+        "容易的"
+      ],
+      [
+        "Students",
+        "other_student_details",
+        "et",
+        "和"
+      ],
+      [
+        "Students",
+        "other_student_details",
+        "voluptatem",
+        "享乐"
+      ],
+      [
+        "Students",
+        "other_student_details",
+        "rerum",
+        "事物"
+      ],
+      [
+        "Students",
+        "other_student_details",
+        "atque",
+        "以及"
+      ],
+      [
+        "Students",
+        "other_student_details",
+        "dolorum",
+        "痛苦"
+      ],
+      [
+        "Students",
+        "other_student_details",
+        "quia",
+        "因为"
+      ],
+      [
+        "Students",
+        "other_student_details",
+        "nesciunt",
+        "不知"
+      ],
+      [
+        "Students",
+        "other_student_details",
+        "laborum",
+        "劳动"
+      ],
+      [
+        "Students",
+        "other_student_details",
+        "assumenda",
+        "应承担的"
+      ],
+      [
+        "Students",
+        "other_student_details",
+        "autem",
+        "然而"
+      ],
+      [
+        "Sections",
+        "section_description",
+        "ad",
+        "至"
+      ],
+      [
+        "Sections",
+        "section_description",
+        "non",
+        "非"
+      ],
+      [
+        "Sections",
+        "section_description",
+        "qui",
+        "谁"
+      ],
+      [
+        "Sections",
+        "section_description",
+        "et",
+        "和"
+      ],
+      [
+        "Sections",
+        "section_description",
+        "facilis",
+        "简易的"
+      ],
+      [
+        "Sections",
+        "section_description",
+        "voluptatem",
+        "享乐"
+      ],
+      [
+        "Sections",
+        "section_description",
+        "provident",
+        "深思熟虑的"
+      ],
+      [
+        "Sections",
+        "section_description",
+        "voluptas",
+        "愉悦"
+      ],
+      [
+        "Sections",
+        "section_description",
+        "reprehenderit",
+        "谴责"
+      ],
+      [
+        "Sections",
+        "section_description",
+        "ex",
+        "自"
+      ],
+      [
+        "Sections",
+        "section_description",
+        "nesciunt",
+        "未知的"
+      ],
+      [
+        "Sections",
+        "section_description",
+        "quis",
+        "谁"
+      ],
+      [
+        "Sections",
+        "section_description",
+        "doloremque",
+        "悲痛"
+      ],
+      [
+        "Addresses",
+        "line_2",
+        "Apt. 370",
+        "公寓370室"
+      ],
+      [
+        "Addresses",
+        "line_2",
+        "Apt. 388",
+        "公寓388室"
+      ],
+      [
+        "Addresses",
+        "line_2",
+        "Apt. 335",
+        "公寓335室"
+      ],
+      [
+        "Addresses",
+        "line_2",
+        "Apt. 583",
+        "公寓583室"
+      ],
+      [
+        "Addresses",
+        "line_2",
+        "Apt. 305",
+        "公寓305室"
+      ],
+      [
+        "Addresses",
+        "line_2",
+        "Apt. 689",
+        "公寓689室"
+      ],
+      [
+        "Addresses",
+        "line_2",
+        "Apt. 468",
+        "公寓468室"
+      ],
+      [
+        "Addresses",
+        "line_2",
+        "Suite 383",
+        "套间383室"
+      ],
+      [
+        "Addresses",
+        "line_2",
+        "Suite 079",
+        "套间079室"
+      ],
+      [
+        "Addresses",
+        "line_2",
+        "Suite 239",
+        "套间239室"
+      ],
+      [
+        "Addresses",
+        "line_2",
+        "Suite 830",
+        "套间830室"
+      ],
+      [
+        "Addresses",
+        "line_2",
+        "Suite 674",
+        "套间674室"
+      ],
+      [
+        "Addresses",
+        "line_2",
+        "Suite 865",
+        "套间865室"
+      ],
+      [
+        "Addresses",
+        "line_2",
+        "Apt. 406",
+        "公寓406室"
+      ],
+      [
+        "Addresses",
+        "line_2",
+        "Suite 703",
+        "套间703室"
+      ],
+      [
+        "Addresses",
+        "line_1",
+        "193 Marlin Brook",
+        "马林溪畔193号"
+      ],
+      [
+        "Addresses",
+        "line_1",
+        "2294 Grant Square Apt. 235",
+        "格兰特广场2294号235室"
+      ],
+      [
+        "Addresses",
+        "line_1",
+        "16998 Mraz Lodge",
+        "姆拉兹小屋16998号"
+      ],
+      [
+        "Addresses",
+        "line_1",
+        "186 Evan Motorway Apt. 409",
+        "埃文高速公路186号409室"
+      ],
+      [
+        "Addresses",
+        "line_1",
+        "74046 Metz Walk Apt. 113",
+        "梅茨步道74046号113室"
+      ],
+      [
+        "Addresses",
+        "line_1",
+        "979 Haag Shores Suite 656",
+        "哈格海岸979号656套间"
+      ],
+      [
+        "Addresses",
+        "line_1",
+        "67942 Carlotta Ferry Apt. 686",
+        "卡洛塔渡口67942号686室"
+      ],
+      [
+        "Addresses",
+        "line_1",
+        "492 Wilkinson Route",
+        "威尔金森大道492号"
+      ],
+      [
+        "Addresses",
+        "line_1",
+        "202 Hessel Views Apt. 468",
+        "赫塞尔景苑202号468室"
+      ],
+      [
+        "Addresses",
+        "line_1",
+        "9283 Schulist Falls Apt. 037",
+        "舒利斯特瀑布9283号037室"
+      ],
+      [
+        "Addresses",
+        "line_1",
+        "7081 Eda Center",
+        "埃达中心7081号"
+      ],
+      [
+        "Addresses",
+        "line_1",
+        "0643 Muller Vista",
+        "穆勒远景大道0643号"
+      ],
+      [
+        "Addresses",
+        "line_1",
+        "3999 Aufderhar Ways Suite 593",
+        "奥夫德哈尔路3999号593套间"
+      ],
+      [
+        "Addresses",
+        "line_1",
+        "0144 Lamar Plaza Apt. 346",
+        "拉马尔广场0144号346室"
+      ],
+      [
+        "Addresses",
+        "line_1",
+        "858 Peggie Bypass Suite 212",
+        "佩吉绕行路858号212套间"
+      ]
+    ]
+  },
+  "dog_kennels": {
+    "tables": [
+      [
+        "Breeds",
+        "犬种"
+      ],
+      [
+        "Charges",
+        "收费项目"
+      ],
+      [
+        "Sizes",
+        "体型"
+      ],
+      [
+        "Treatment_Types",
+        "治疗类型"
+      ],
+      [
+        "Owners",
+        "主人"
+      ],
+      [
+        "Dogs",
+        "犬只"
+      ],
+      [
+        "Professionals",
+        "专业人员"
+      ],
+      [
+        "Treatments",
+        "治疗记录"
+      ]
+    ],
+    "columns": [
+      [
+        "Breeds",
+        "breed_code",
+        "犬种编码"
+      ],
+      [
+        "Breeds",
+        "breed_name",
+        "犬种名称"
+      ],
+      [
+        "Charges",
+        "charge_id",
+        "收费编号"
+      ],
+      [
+        "Charges",
+        "charge_type",
+        "收费类型"
+      ],
+      [
+        "Charges",
+        "charge_amount",
+        "收费标准"
+      ],
+      [
+        "Sizes",
+        "size_code",
+        "体型编码"
+      ],
+      [
+        "Sizes",
+        "size_description",
+        "体型描述"
+      ],
+      [
+        "Treatment_Types",
+        "treatment_type_code",
+        "治疗类型编码"
+      ],
+      [
+        "Treatment_Types",
+        "treatment_type_description",
+        "治疗类型描述"
+      ],
+      [
+        "Owners",
+        "owner_id",
+        "主人编号"
+      ],
+      [
+        "Owners",
+        "first_name",
+        "名"
+      ],
+      [
+        "Owners",
+        "last_name",
+        "姓"
+      ],
+      [
+        "Owners",
+        "street",
+        "街道地址"
+      ],
+      [
+        "Owners",
+        "city",
+        "城市"
+      ],
+      [
+        "Owners",
+        "state",
+        "州"
+      ],
+      [
+        "Owners",
+        "zip_code",
+        "邮政编码"
+      ],
+      [
+        "Owners",
+        "email_address",
+        "电子邮箱"
+      ],
+      [
+        "Owners",
+        "home_phone",
+        "家庭电话"
+      ],
+      [
+        "Owners",
+        "cell_number",
+        "手机号码"
+      ],
+      [
+        "Dogs",
+        "dog_id",
+        "犬只编号"
+      ],
+      [
+        "Dogs",
+        "owner_id",
+        "主人编号"
+      ],
+      [
+        "Dogs",
+        "abandoned_yn",
+        "是否弃养"
+      ],
+      [
+        "Dogs",
+        "breed_code",
+        "犬种编码"
+      ],
+      [
+        "Dogs",
+        "size_code",
+        "体型编码"
+      ],
+      [
+        "Dogs",
+        "name",
+        "犬只名称"
+      ],
+      [
+        "Dogs",
+        "age",
+        "年龄"
+      ],
+      [
+        "Dogs",
+        "date_of_birth",
+        "出生日期"
+      ],
+      [
+        "Dogs",
+        "gender",
+        "性别"
+      ],
+      [
+        "Dogs",
+        "weight",
+        "体重"
+      ],
+      [
+        "Dogs",
+        "date_arrived",
+        "入所日期"
+      ],
+      [
+        "Dogs",
+        "date_adopted",
+        "领养日期"
+      ],
+      [
+        "Dogs",
+        "date_departed",
+        "离所日期"
+      ],
+      [
+        "Professionals",
+        "professional_id",
+        "专业人员编号"
+      ],
+      [
+        "Professionals",
+        "role_code",
+        "角色编码"
+      ],
+      [
+        "Professionals",
+        "first_name",
+        "名"
+      ],
+      [
+        "Professionals",
+        "street",
+        "街道地址"
+      ],
+      [
+        "Professionals",
+        "city",
+        "城市"
+      ],
+      [
+        "Professionals",
+        "state",
+        "州"
+      ],
+      [
+        "Professionals",
+        "zip_code",
+        "邮政编码"
+      ],
+      [
+        "Professionals",
+        "last_name",
+        "姓"
+      ],
+      [
+        "Professionals",
+        "email_address",
+        "电子邮箱"
+      ],
+      [
+        "Professionals",
+        "home_phone",
+        "家庭电话"
+      ],
+      [
+        "Professionals",
+        "cell_number",
+        "手机号码"
+      ],
+      [
+        "Treatments",
+        "treatment_id",
+        "治疗记录编号"
+      ],
+      [
+        "Treatments",
+        "dog_id",
+        "犬只编号"
+      ],
+      [
+        "Treatments",
+        "professional_id",
+        "专业人员编号"
+      ],
+      [
+        "Treatments",
+        "treatment_type_code",
+        "治疗类型编码"
+      ],
+      [
+        "Treatments",
+        "date_of_treatment",
+        "治疗日期"
+      ],
+      [
+        "Treatments",
+        "cost_of_treatment",
+        "治疗费用"
+      ]
+    ],
+    "values": [
+      [
+        "Charges",
+        "charge_type",
+        "Health Check",
+        "健康检查"
+      ],
+      [
+        "Charges",
+        "charge_type",
+        "Drugs",
+        "药品"
+      ],
+      [
+        "Charges",
+        "charge_type",
+        "Daily Accommodation",
+        "每日住宿"
+      ],
+      [
+        "Sizes",
+        "size_description",
+        "Medium",
+        "中号"
+      ],
+      [
+        "Sizes",
+        "size_description",
+        "Small",
+        "小号"
+      ],
+      [
+        "Sizes",
+        "size_description",
+        "Large",
+        "大号"
+      ],
+      [
+        "Treatment_Types",
+        "treatment_type_description",
+        "Physical examination",
+        "体格检查"
+      ],
+      [
+        "Treatment_Types",
+        "treatment_type_description",
+        "Vaccination",
+        "疫苗接种"
+      ],
+      [
+        "Treatment_Types",
+        "treatment_type_description",
+        "Take for a Walk",
+        "遛狗"
+      ],
+      [
+        "Owners",
+        "street",
+        "09615 McKenzie Stravenue Apt. 128\nWest Elliottview",
+        "麦肯齐大道09615号128室\n西埃利奥特维尤"
+      ],
+      [
+        "Owners",
+        "street",
+        "188 VonRueden Tunnel Suite 630\nNorth Macibury, NV ",
+        "冯吕登隧道188号630室\n北马西伯里，内华达州"
+      ],
+      [
+        "Owners",
+        "street",
+        "51934 Treutel Harbor",
+        "特鲁特尔港51934号"
+      ],
+      [
+        "Owners",
+        "street",
+        "36895 Eli Ferry\nPort Marcelle, FL 45712",
+        "伊莱渡口36895号\n马塞勒港，佛罗里达州45712"
+      ],
+      [
+        "Owners",
+        "street",
+        "07073 Brenna Ways Suite 089\nLowehaven, KY 93275-96",
+        "布伦纳路07073号089室\n洛厄黑文，肯塔基州93275-96"
+      ],
+      [
+        "Owners",
+        "street",
+        "6915 Oberbrunner Point Suite 491\nGleasonville, LA ",
+        "奥伯布鲁纳角6915号491室\n格里森维尔，路易斯安那州"
+      ],
+      [
+        "Owners",
+        "street",
+        "92912 Langworth Valleys Apt. 743\nThompsonborough, ",
+        "朗沃思山谷92912号743室\n汤普森伯勒"
+      ],
+      [
+        "Owners",
+        "street",
+        "72532 Hane Course\nLake Berylland, ND 95283",
+        "黑恩路72532号\n贝里兰湖，北达科他州95283"
+      ],
+      [
+        "Owners",
+        "street",
+        "88665 Terence Lodge Apt. 904\nCorneliusfort, NC 194",
+        "特伦斯小屋88665号904室\n康奈利乌斯福尔特，北卡罗来纳州194"
+      ],
+      [
+        "Owners",
+        "street",
+        "15828 Spencer Extensions",
+        "斯宾塞延伸区15828号"
+      ],
+      [
+        "Owners",
+        "street",
+        "2635 Caitlyn Plains",
+        "凯特琳平原2635号"
+      ],
+      [
+        "Owners",
+        "street",
+        "7783 Abraham Alley\nPort Madelynhaven, KY 59172-273",
+        "亚伯拉罕小巷7783号\n玛德琳黑文港，肯塔基州59172-273"
+      ],
+      [
+        "Owners",
+        "street",
+        "63949 Keeling Landing Apt. 502\nJohnsview, SD 06780",
+        "基林登陆区63949号502室\n约翰斯维尤，南达科他州06780"
+      ],
+      [
+        "Owners",
+        "street",
+        "6950 Katherine Forges Apt. 630",
+        "凯瑟琳锻冶厂6950号630室"
+      ],
+      [
+        "Owners",
+        "street",
+        "2417 Keara Stravenue Apt. 146",
+        "基拉大道2417号146室"
+      ],
+      [
+        "Owners",
+        "street",
+        "9212 Rosenbaum Lights",
+        "罗森鲍姆灯塔街9212号"
+      ],
+      [
+        "Owners",
+        "street",
+        "89011 Kertzmann Spring Suite 642",
+        "克尔茨曼泉街89011号642室"
+      ],
+      [
+        "Owners",
+        "street",
+        "44234 Marvin Shoals Suite 659\nNorth Frances, AL 23",
+        "马文急流区44234号659室\n北弗朗西斯，阿拉巴马州23"
+      ],
+      [
+        "Owners",
+        "street",
+        "68589 Bradly Manor\nNew Audrey, IN 91497",
+        "布拉德利庄园68589号\n新奥黛丽，印第安纳州91497"
+      ],
+      [
+        "Owners",
+        "street",
+        "1204 Mae Highway Apt. 107",
+        "梅高速公路1204号107室"
+      ],
+      [
+        "Owners",
+        "street",
+        "17286 Waters Green\nEast Bernadinefort, CA 89573",
+        "沃特斯绿地17286号\n东伯纳迪内福尔特，加利福尼亚州89573"
+      ],
+      [
+        "Owners",
+        "street",
+        "68118 Daniel Row",
+        "丹尼尔排屋68118号"
+      ],
+      [
+        "Owners",
+        "street",
+        "59509 Mellie Mountain",
+        "梅莉山59509号"
+      ],
+      [
+        "Owners",
+        "street",
+        "390 Bryce Drive\nNorth Dock, LA 65357-7228",
+        "布莱斯大道390号\n北码头，路易斯安那州65357-7228"
+      ],
+      [
+        "Owners",
+        "street",
+        "692 Jaskolski Forges",
+        "亚斯科尔斯基锻冶厂692号"
+      ],
+      [
+        "Owners",
+        "street",
+        "1858 Jan Park",
+        "珍公园1858号"
+      ],
+      [
+        "Owners",
+        "street",
+        "0647 Hintz Village Apt. 024",
+        "欣茨村0647号024室"
+      ],
+      [
+        "Owners",
+        "street",
+        "7284 Torphy Flats Apt. 610\nDiannaburgh, SC 78560",
+        "托菲公寓楼7284号610室\n迪安娜堡，南卡罗来纳州78560"
+      ],
+      [
+        "Owners",
+        "street",
+        "57382 Yost Ridges",
+        "约斯特山脊57382号"
+      ],
+      [
+        "Owners",
+        "street",
+        "60352 Kayleigh Crossing Suite 700",
+        "凯莉交叉路口60352号700室"
+      ],
+      [
+        "Professionals",
+        "street",
+        "09615 McKenzie Stravenue Apt. 128\nWest Elliottview",
+        "麦肯齐大道09615号128室\n西埃利奥特维尤"
+      ],
+      [
+        "Professionals",
+        "street",
+        "188 VonRueden Tunnel Suite 630\nNorth Macibury, NV ",
+        "冯吕登隧道188号630室\n北马西伯里，内华达州"
+      ],
+      [
+        "Professionals",
+        "street",
+        "51934 Treutel Harbor",
+        "特鲁特尔港51934号"
+      ],
+      [
+        "Professionals",
+        "street",
+        "36895 Eli Ferry\nPort Marcelle, FL 45712",
+        "伊莱渡口36895号\n马塞勒港，佛罗里达州45712"
+      ],
+      [
+        "Professionals",
+        "street",
+        "07073 Brenna Ways Suite 089\nLowehaven, KY 93275-96",
+        "布伦纳路07073号089室\n洛厄黑文，肯塔基州93275-96"
+      ],
+      [
+        "Professionals",
+        "street",
+        "6915 Oberbrunner Point Suite 491\nGleasonville, LA ",
+        "奥伯布鲁纳角6915号491室\n格里森维尔，路易斯安那州"
+      ],
+      [
+        "Professionals",
+        "street",
+        "92912 Langworth Valleys Apt. 743\nThompsonborough, ",
+        "朗沃思山谷92912号743室\n汤普森伯勒"
+      ],
+      [
+        "Professionals",
+        "street",
+        "72532 Hane Course\nLake Berylland, ND 95283",
+        "黑恩路72532号\n贝里兰湖，北达科他州95283"
+      ],
+      [
+        "Professionals",
+        "street",
+        "88665 Terence Lodge Apt. 904\nCorneliusfort, NC 194",
+        "特伦斯小屋88665号904室\n康奈利乌斯福尔特，北卡罗来纳州194"
+      ],
+      [
+        "Professionals",
+        "street",
+        "15828 Spencer Extensions",
+        "斯宾塞延伸区15828号"
+      ],
+      [
+        "Professionals",
+        "street",
+        "2635 Caitlyn Plains",
+        "凯特琳平原2635号"
+      ],
+      [
+        "Professionals",
+        "street",
+        "7783 Abraham Alley\nPort Madelynhaven, KY 59172-273",
+        "亚伯拉罕小巷7783号\n玛德琳黑文港，肯塔基州59172-273"
+      ],
+      [
+        "Professionals",
+        "street",
+        "63949 Keeling Landing Apt. 502\nJohnsview, SD 06780",
+        "基林登陆区63949号502室\n约翰斯维尤，南达科他州06780"
+      ],
+      [
+        "Professionals",
+        "street",
+        "6950 Katherine Forges Apt. 630",
+        "凯瑟琳锻冶厂6950号630室"
+      ],
+      [
+        "Professionals",
+        "street",
+        "2417 Keara Stravenue Apt. 146",
+        "基拉大道2417号146室"
+      ],
+      [
+        "Professionals",
+        "street",
+        "9212 Rosenbaum Lights",
+        "罗森鲍姆灯塔街9212号"
+      ],
+      [
+        "Professionals",
+        "street",
+        "89011 Kertzmann Spring Suite 642",
+        "克尔茨曼泉街89011号642室"
+      ],
+      [
+        "Professionals",
+        "street",
+        "44234 Marvin Shoals Suite 659\nNorth Frances, AL 23",
+        "马文急流区44234号659室\n北弗朗西斯，阿拉巴马州23"
+      ],
+      [
+        "Professionals",
+        "street",
+        "68589 Bradly Manor\nNew Audrey, IN 91497",
+        "布拉德利庄园68589号\n新奥黛丽，印第安纳州91497"
+      ],
+      [
+        "Professionals",
+        "street",
+        "1204 Mae Highway Apt. 107",
+        "梅高速公路1204号107室"
+      ],
+      [
+        "Professionals",
+        "street",
+        "17286 Waters Green\nEast Bernadinefort, CA 89573",
+        "沃特斯绿地17286号\n东伯纳迪内福尔特，加利福尼亚州89573"
+      ],
+      [
+        "Professionals",
+        "street",
+        "68118 Daniel Row",
+        "丹尼尔排屋68118号"
+      ],
+      [
+        "Professionals",
+        "street",
+        "59509 Mellie Mountain",
+        "梅莉山59509号"
+      ],
+      [
+        "Professionals",
+        "street",
+        "390 Bryce Drive\nNorth Dock, LA 65357-7228",
+        "布莱斯大道390号\n北码头，路易斯安那州65357-7228"
+      ],
+      [
+        "Professionals",
+        "street",
+        "692 Jaskolski Forges",
+        "亚斯科尔斯基锻冶厂692号"
+      ],
+      [
+        "Professionals",
+        "street",
+        "1858 Jan Park",
+        "珍公园1858号"
+      ],
+      [
+        "Professionals",
+        "street",
+        "0647 Hintz Village Apt. 024",
+        "欣茨村0647号024室"
+      ],
+      [
+        "Professionals",
+        "street",
+        "7284 Torphy Flats Apt. 610\nDiannaburgh, SC 78560",
+        "托菲公寓楼7284号610室\n迪安娜堡，南卡罗来纳州78560"
+      ],
+      [
+        "Professionals",
+        "street",
+        "57382 Yost Ridges",
+        "约斯特山脊57382号"
+      ],
+      [
+        "Professionals",
+        "street",
+        "60352 Kayleigh Crossing Suite 700",
+        "凯莉交叉路口60352号700室"
+      ]
+    ]
+  },
+  "battle_death": {
+    "tables": [
+      [
+        "battle",
+        "战役"
+      ],
+      [
+        "ship",
+        "舰船"
+      ],
+      [
+        "death",
+        "伤亡"
+      ]
+    ],
+    "columns": [
+      [
+        "battle",
+        "id",
+        "编号"
+      ],
+      [
+        "battle",
+        "name",
+        "名称"
+      ],
+      [
+        "battle",
+        "date",
+        "日期"
+      ],
+      [
+        "battle",
+        "bulgarian_commander",
+        "保加利亚指挥官"
+      ],
+      [
+        "battle",
+        "latin_commander",
+        "拉丁指挥官"
+      ],
+      [
+        "battle",
+        "result",
+        "结果"
+      ],
+      [
+        "ship",
+        "lost_in_battle",
+        "战损状态"
+      ],
+      [
+        "ship",
+        "id",
+        "编号"
+      ],
+      [
+        "ship",
+        "name",
+        "名称"
+      ],
+      [
+        "ship",
+        "tonnage",
+        "吨位"
+      ],
+      [
+        "ship",
+        "ship_type",
+        "舰船类型"
+      ],
+      [
+        "ship",
+        "location",
+        "位置"
+      ],
+      [
+        "ship",
+        "disposition_of_ship",
+        "舰船处置方式"
+      ],
+      [
+        "death",
+        "caused_by_ship_id",
+        "致损舰船编号"
+      ],
+      [
+        "death",
+        "id",
+        "编号"
+      ],
+      [
+        "death",
+        "note",
+        "备注"
+      ],
+      [
+        "death",
+        "killed",
+        "死亡人数"
+      ],
+      [
+        "death",
+        "injured",
+        "受伤人数"
+      ]
+    ],
+    "values": [
+      [
+        "battle",
+        "bulgarian_commander",
+        "Ivan Asen II",
+        "伊凡·阿森二世"
+      ],
+      [
+        "battle",
+        "bulgarian_commander",
+        "Unknown",
+        "未知"
+      ],
+      [
+        "battle",
+        "bulgarian_commander",
+        "Kaloyan",
+        "卡洛扬"
+      ],
+      [
+        "battle",
+        "bulgarian_commander",
+        "Boril",
+        "博里尔"
+      ],
+      [
+        "battle",
+        "result",
+        "Bulgarian victory",
+        "保加利亚胜利"
+      ],
+      [
+        "battle",
+        "result",
+        "Latin victory",
+        "拉丁胜利"
+      ],
+      [
+        "battle",
+        "result",
+        "Two Year Truce",
+        "两年休战"
+      ],
+      [
+        "ship",
+        "location",
+        "Mid-Atlantic",
+        "北大西洋中部"
+      ],
+      [
+        "ship",
+        "location",
+        "SW Approaches",
+        "西南进港航道"
+      ],
+      [
+        "ship",
+        "location",
+        "English Channel",
+        "英吉利海峡"
+      ],
+      [
+        "ship",
+        "ship_type",
+        "Brig",
+        "双桅横帆船"
+      ],
+      [
+        "ship",
+        "ship_type",
+        "8 gun Brig",
+        "8门炮双桅横帆船"
+      ],
+      [
+        "ship",
+        "ship_type",
+        "18-gun Brig",
+        "18门炮双桅横帆船"
+      ],
+      [
+        "battle",
+        "latin_commander",
+        "Unknown",
+        "未知"
+      ],
+      [
+        "battle",
+        "latin_commander",
+        "Henry I",
+        "亨利一世"
+      ],
+      [
+        "battle",
+        "latin_commander",
+        "Boniface of Montferrat",
+        "蒙费拉托的博尼法斯"
+      ],
+      [
+        "battle",
+        "latin_commander",
+        "Baldwin I",
+        "鲍德温一世"
+      ],
+      [
+        "battle",
+        "latin_commander",
+        "Thierry de Termond",
+        "泰里·德·泰尔蒙"
+      ],
+      [
+        "battle",
+        "latin_commander",
+        "John of Brienne",
+        "布里耶纳的约翰"
+      ],
+      [
+        "ship",
+        "disposition_of_ship",
+        "Wrecked",
+        "损毁"
+      ],
+      [
+        "ship",
+        "disposition_of_ship",
+        "Captured",
+        "被俘获"
+      ],
+      [
+        "ship",
+        "disposition_of_ship",
+        "Sank",
+        "沉没"
+      ],
+      [
+        "ship",
+        "disposition_of_ship",
+        "Scuttled",
+        "自沉"
+      ],
+      [
+        "death",
+        "note",
+        "Dantewada, Chhattisgarh",
+        "丹特瓦达，恰蒂斯加尔邦"
+      ],
+      [
+        "death",
+        "note",
+        "Bastar, Chattisgarh",
+        "巴斯塔尔，恰蒂斯加尔邦"
+      ],
+      [
+        "death",
+        "note",
+        "Erraboru, Chhattisgarh",
+        "埃拉博鲁，恰蒂斯加尔邦"
+      ],
+      [
+        "death",
+        "note",
+        "WestMidnapore, West Bengal",
+        "西米德纳普尔，西孟加拉邦"
+      ],
+      [
+        "death",
+        "note",
+        "Sundargarh, Odisha",
+        "孙达尔加尔赫，奥里萨邦"
+      ],
+      [
+        "death",
+        "note",
+        "Kanker, Chhattisgarh",
+        "坎克尔，恰蒂斯加尔邦"
+      ],
+      [
+        "death",
+        "note",
+        "Bokaro, Jharkhand",
+        "博卡罗，贾坎德邦"
+      ],
+      [
+        "death",
+        "note",
+        "East Champaran, Bihar",
+        "东查姆帕兰，比哈尔邦"
+      ],
+      [
+        "death",
+        "note",
+        "Gajapati, Odisha",
+        "加贾帕蒂，奥里萨邦"
+      ]
+    ]
+  },
+  "flight_2": {
+    "tables": [
+      [
+        "airlines",
+        "航空公司"
+      ],
+      [
+        "airports",
+        "机场"
+      ],
+      [
+        "flights",
+        "航班"
+      ]
+    ],
+    "columns": [
+      [
+        "airlines",
+        "uid",
+        "唯一标识符"
+      ],
+      [
+        "airlines",
+        "Airline",
+        "航空公司名称"
+      ],
+      [
+        "airlines",
+        "Abbreviation",
+        "缩写"
+      ],
+      [
+        "airlines",
+        "Country",
+        "所属国家"
+      ],
+      [
+        "airports",
+        "City",
+        "所在城市"
+      ],
+      [
+        "airports",
+        "AirportCode",
+        "机场代码"
+      ],
+      [
+        "airports",
+        "AirportName",
+        "机场名称"
+      ],
+      [
+        "airports",
+        "Country",
+        "所属国家"
+      ],
+      [
+        "airports",
+        "CountryAbbrev",
+        "国家缩写"
+      ],
+      [
+        "flights",
+        "Airline",
+        "航空公司名称"
+      ],
+      [
+        "flights",
+        "FlightNo",
+        "航班号"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "出发机场"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "到达机场"
+      ]
+    ],
+    "values": [
+      [
+        "airlines",
+        "Airline",
+        "Allegiant Air",
+        "精神航空"
+      ],
+      [
+        "airlines",
+        "Airline",
+        "Virgin America",
+        "维珍美国航空"
+      ],
+      [
+        "airlines",
+        "Airline",
+        "AirTran Airways",
+        "穿越航空"
+      ],
+      [
+        "airlines",
+        "Airline",
+        "Continental Airlines",
+        "大陆航空"
+      ],
+      [
+        "airlines",
+        "Airline",
+        "Southwest Airlines",
+        "西南航空"
+      ],
+      [
+        "airlines",
+        "Airline",
+        "American Airlines",
+        "美国航空"
+      ],
+      [
+        "airlines",
+        "Airline",
+        "Northwest Airlines",
+        "西北航空"
+      ],
+      [
+        "airlines",
+        "Airline",
+        "US Airways",
+        "全美航空"
+      ],
+      [
+        "airlines",
+        "Airline",
+        "United Airlines",
+        "联合航空"
+      ],
+      [
+        "airlines",
+        "Airline",
+        "Frontier Airlines",
+        "边疆航空"
+      ],
+      [
+        "airlines",
+        "Airline",
+        "Delta Airlines",
+        "达美航空"
+      ],
+      [
+        "airlines",
+        "Airline",
+        "JetBlue Airways",
+        "捷蓝航空"
+      ],
+      [
+        "airlines",
+        "Abbreviation",
+        "American",
+        "美国航空"
+      ],
+      [
+        "airlines",
+        "Abbreviation",
+        "Allegiant",
+        "忠实航空"
+      ],
+      [
+        "airlines",
+        "Abbreviation",
+        "Delta",
+        "达美航空"
+      ],
+      [
+        "airlines",
+        "Abbreviation",
+        "Continental",
+        "大陆航空"
+      ],
+      [
+        "airlines",
+        "Abbreviation",
+        "Northwest",
+        "西北航空"
+      ],
+      [
+        "airlines",
+        "Abbreviation",
+        "AirTran",
+        "穿越航空"
+      ],
+      [
+        "airlines",
+        "Abbreviation",
+        "Southwest",
+        "西南航空"
+      ],
+      [
+        "airlines",
+        "Abbreviation",
+        "USAir",
+        "全美航空"
+      ],
+      [
+        "airlines",
+        "Abbreviation",
+        "Virgin",
+        "维珍航空"
+      ],
+      [
+        "airlines",
+        "Abbreviation",
+        "UAL",
+        "UAL（联合航空控股公司）"
+      ],
+      [
+        "airlines",
+        "Abbreviation",
+        "JetBlue",
+        "捷蓝航空"
+      ],
+      [
+        "airlines",
+        "Abbreviation",
+        "Frontier",
+        "边疆航空"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "WKK",
+        "WKK"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ALM",
+        "ALM"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "RLI",
+        "RLI"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "AMW",
+        "AMW"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ATE",
+        "ATE"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "AKP",
+        "AKP"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "EDF",
+        "EDF"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "AMN",
+        "AMN"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ASY",
+        "ASY"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ASE",
+        "ASE"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "AHT",
+        "AHT"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ABI",
+        "ABI"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ARB",
+        "ARB"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ALN",
+        "ALN"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ANY",
+        "ANY"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "AST",
+        "AST"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "TDW",
+        "TDW"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ADG",
+        "ADG"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "AEX",
+        "AEX"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "CAK",
+        "CAK"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "AET",
+        "AET"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "MRI",
+        "MRI"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "AED",
+        "AED"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "AGN",
+        "AGN"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "HMN",
+        "HMN"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "APV",
+        "APV"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ADK",
+        "ADK"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ARX",
+        "ARX"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "AKO",
+        "AKO"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "AXS",
+        "AXS"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "AXN",
+        "AXN"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "AMA",
+        "AMA"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "QAW",
+        "QAW"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "AEL",
+        "AEL"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "AXG",
+        "AXG"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "MMI",
+        "MMI"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "APG",
+        "APG"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "AAF",
+        "AAF"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "VJI",
+        "VJI"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "NDV",
+        "NDV"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "KQA",
+        "KQA"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "AID",
+        "AID"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ABL",
+        "ABL"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "NAB",
+        "NAB"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "AHF",
+        "AHF"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "LTS",
+        "LTS"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ABY",
+        "ABY"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ANB",
+        "ANB"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "AKC",
+        "AKC"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "AXB",
+        "AXB"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "AOS",
+        "AOS"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ADM",
+        "ADM"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "AQY",
+        "AQY"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ATW",
+        "ATW"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ANA",
+        "ANA"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ALE",
+        "ALE"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "KKI",
+        "KKI"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ALI",
+        "ALI"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ANW",
+        "ANW"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "AXX",
+        "AXX"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "AYZ",
+        "AYZ"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "NGZ",
+        "NGZ"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ANC",
+        "ANC"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ATO",
+        "ATO"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "AIV",
+        "AIV"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "APN",
+        "APN"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "AKK",
+        "AKK"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ANI",
+        "ANI"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ABR",
+        "ABR"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ESF",
+        "ESF"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "AKI",
+        "AKI"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "AIK",
+        "AIK"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ABQ",
+        "ABQ"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ARC",
+        "ARC"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ADT",
+        "ADT"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "AHD",
+        "AHD"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "AFO",
+        "AFO"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ALZ",
+        "ALZ"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "AHN",
+        "AHN"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ANQ",
+        "ANQ"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ANV",
+        "ANV"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ADR",
+        "ADR"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "AHH",
+        "AHH"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "RFK",
+        "RFK"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "AND",
+        "AND"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "AUK",
+        "AUK"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ALS",
+        "ALS"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "OTS",
+        "OTS"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "DYS",
+        "DYS"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ATS",
+        "ATS"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "CVO",
+        "CVO"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ANP",
+        "ANP"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "AIB",
+        "AIB"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ACV",
+        "ACV"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "JLH",
+        "JLH"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ALB",
+        "ALB"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "AIA",
+        "AIA"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ANN",
+        "ANN"
+      ],
+      [
+        "flights",
+        "SourceAirport",
+        "ALX",
+        "ALX"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "WKK",
+        "WKK"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ALM",
+        "ALM"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "RLI",
+        "RLI"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "AMW",
+        "AMW"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ATE",
+        "ATE"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "AKP",
+        "AKP"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "EDF",
+        "EDF"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "AMN",
+        "AMN"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ASY",
+        "ASY"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ASE",
+        "ASE"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "AHT",
+        "AHT"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ABI",
+        "ABI"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ARB",
+        "ARB"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ALN",
+        "ALN"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ANY",
+        "ANY"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "AST",
+        "AST"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "TDW",
+        "TDW"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ADG",
+        "ADG"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "AEX",
+        "AEX"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "CAK",
+        "CAK"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "AET",
+        "AET"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "MRI",
+        "MRI"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "AED",
+        "AED"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "AGN",
+        "AGN"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "HMN",
+        "HMN"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "APV",
+        "APV"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ADK",
+        "ADK"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ARX",
+        "ARX"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "AKO",
+        "AKO"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "AXS",
+        "AXS"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "AXN",
+        "AXN"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "AMA",
+        "AMA"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "QAW",
+        "QAW"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "AEL",
+        "AEL"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "AXG",
+        "AXG"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "MMI",
+        "MMI"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "APG",
+        "APG"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "AAF",
+        "AAF"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "VJI",
+        "VJI"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "NDV",
+        "NDV"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "KQA",
+        "KQA"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "AID",
+        "AID"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ABL",
+        "ABL"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "NAB",
+        "NAB"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "AHF",
+        "AHF"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "LTS",
+        "LTS"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ABY",
+        "ABY"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ANB",
+        "ANB"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "AKC",
+        "AKC"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "AXB",
+        "AXB"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "AOS",
+        "AOS"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ADM",
+        "ADM"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "AQY",
+        "AQY"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ATW",
+        "ATW"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ANA",
+        "ANA"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ALE",
+        "ALE"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "KKI",
+        "KKI"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ALI",
+        "ALI"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ANW",
+        "ANW"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "AXX",
+        "AXX"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "AYZ",
+        "AYZ"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "NGZ",
+        "NGZ"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ANC",
+        "ANC"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ATO",
+        "ATO"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "AIV",
+        "AIV"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "APN",
+        "APN"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "AKK",
+        "AKK"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ANI",
+        "ANI"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ABR",
+        "ABR"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ESF",
+        "ESF"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "AKI",
+        "AKI"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "AIK",
+        "AIK"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ABQ",
+        "ABQ"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ARC",
+        "ARC"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ADT",
+        "ADT"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "AHD",
+        "AHD"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "AFO",
+        "AFO"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ALZ",
+        "ALZ"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "AHN",
+        "AHN"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ANQ",
+        "ANQ"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ANV",
+        "ANV"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ADR",
+        "ADR"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "AHH",
+        "AHH"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "RFK",
+        "RFK"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "AND",
+        "AND"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "AUK",
+        "AUK"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ALS",
+        "ALS"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "OTS",
+        "OTS"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "DYS",
+        "DYS"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ATS",
+        "ATS"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "CVO",
+        "CVO"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ANP",
+        "ANP"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "AIB",
+        "AIB"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ACV",
+        "ACV"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "JLH",
+        "JLH"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ALB",
+        "ALB"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "AIA",
+        "AIA"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ANN",
+        "ANN"
+      ],
+      [
+        "flights",
+        "DestAirport",
+        "ALX",
+        "ALX"
+      ]
+    ]
+  },
+  "poker_player": {
+    "tables": [
+      [
+        "poker_player",
+        "扑克选手"
+      ],
+      [
+        "people",
+        "人员"
+      ]
+    ],
+    "columns": [
+      [
+        "poker_player",
+        "Poker_Player_ID",
+        "扑克选手编号"
+      ],
+      [
+        "poker_player",
+        "People_ID",
+        "人员编号"
+      ],
+      [
+        "poker_player",
+        "Final_Table_Made",
+        "进入决赛桌次数"
+      ],
+      [
+        "poker_player",
+        "Best_Finish",
+        "最佳名次"
+      ],
+      [
+        "poker_player",
+        "Money_Rank",
+        "奖金排名"
+      ],
+      [
+        "poker_player",
+        "Earnings",
+        "累计奖金"
+      ],
+      [
+        "people",
+        "People_ID",
+        "人员编号"
+      ],
+      [
+        "people",
+        "Nationality",
+        "国籍"
+      ],
+      [
+        "people",
+        "Name",
+        "姓名"
+      ],
+      [
+        "people",
+        "Birth_Date",
+        "出生日期"
+      ],
+      [
+        "people",
+        "Height",
+        "身高"
+      ]
+    ],
+    "values": [
+      [
+        "people",
+        "Nationality",
+        "Russia",
+        "俄罗斯"
+      ],
+      [
+        "people",
+        "Nationality",
+        "Bulgaria",
+        "保加利亚"
+      ]
+    ]
+  },
+  "network_1": {
+    "tables": [
+      [
+        "Highschooler",
+        "高中生"
+      ],
+      [
+        "Friend",
+        "好友关系"
+      ],
+      [
+        "Likes",
+        "点赞记录"
+      ]
+    ],
+    "columns": [
+      [
+        "Highschooler",
+        "ID",
+        "学生编号"
+      ],
+      [
+        "Highschooler",
+        "name",
+        "姓名"
+      ],
+      [
+        "Highschooler",
+        "grade",
+        "年级"
+      ],
+      [
+        "Friend",
+        "student_id",
+        "学生编号"
+      ],
+      [
+        "Friend",
+        "friend_id",
+        "好友编号"
+      ],
+      [
+        "Likes",
+        "student_id",
+        "学生编号"
+      ],
+      [
+        "Likes",
+        "liked_id",
+        "被点赞者编号"
+      ]
+    ],
+    "values": []
+  },
+  "voter_1": {
+    "tables": [
+      [
+        "AREA_CODE_STATE",
+        "区号州信息"
+      ],
+      [
+        "CONTESTANTS",
+        "参赛者"
+      ],
+      [
+        "VOTES",
+        "投票记录"
+      ]
+    ],
+    "columns": [
+      [
+        "AREA_CODE_STATE",
+        "area_code",
+        "区号"
+      ],
+      [
+        "AREA_CODE_STATE",
+        "state",
+        "州"
+      ],
+      [
+        "CONTESTANTS",
+        "contestant_number",
+        "参赛者编号"
+      ],
+      [
+        "CONTESTANTS",
+        "contestant_name",
+        "参赛者姓名"
+      ],
+      [
+        "VOTES",
+        "vote_id",
+        "投票编号"
+      ],
+      [
+        "VOTES",
+        "phone_number",
+        "电话号码"
+      ],
+      [
+        "VOTES",
+        "state",
+        "州"
+      ],
+      [
+        "VOTES",
+        "contestant_number",
+        "参赛者编号"
+      ],
+      [
+        "VOTES",
+        "created",
+        "创建时间"
+      ]
+    ],
+    "values": []
+  },
+  "pets_1": {
+    "tables": [
+      [
+        "Student",
+        "学生"
+      ],
+      [
+        "Has_Pet",
+        "拥有宠物"
+      ],
+      [
+        "Pets",
+        "宠物"
+      ]
+    ],
+    "columns": [
+      [
+        "Student",
+        "StuID",
+        "学生编号"
+      ],
+      [
+        "Student",
+        "LName",
+        "姓"
+      ],
+      [
+        "Student",
+        "Fname",
+        "名"
+      ],
+      [
+        "Student",
+        "Age",
+        "年龄"
+      ],
+      [
+        "Student",
+        "Sex",
+        "性别"
+      ],
+      [
+        "Student",
+        "Major",
+        "专业"
+      ],
+      [
+        "Student",
+        "Advisor",
+        "导师"
+      ],
+      [
+        "Student",
+        "city_code",
+        "城市编码"
+      ],
+      [
+        "Has_Pet",
+        "StuID",
+        "学生编号"
+      ],
+      [
+        "Has_Pet",
+        "PetID",
+        "宠物编号"
+      ],
+      [
+        "Pets",
+        "PetID",
+        "宠物编号"
+      ],
+      [
+        "Pets",
+        "PetType",
+        "宠物类型"
+      ],
+      [
+        "Pets",
+        "pet_age",
+        "宠物年龄"
+      ],
+      [
+        "Pets",
+        "weight",
+        "体重"
+      ]
+    ],
+    "values": [
+      [
+        "Pets",
+        "PetType",
+        "dog",
+        "狗"
+      ],
+      [
+        "Pets",
+        "PetType",
+        "cat",
+        "猫"
+      ]
+    ]
+  },
+  "wta_1": {
+    "tables": [
+      [
+        "players",
+        "球员"
+      ],
+      [
+        "matches",
+        "比赛"
+      ],
+      [
+        "rankings",
+        "排名"
+      ]
+    ],
+    "columns": [
+      [
+        "players",
+        "player_id",
+        "球员编号"
+      ],
+      [
+        "players",
+        "first_name",
+        "名"
+      ],
+      [
+        "players",
+        "last_name",
+        "姓"
+      ],
+      [
+        "players",
+        "hand",
+        "持拍手"
+      ],
+      [
+        "players",
+        "birth_date",
+        "出生日期"
+      ],
+      [
+        "players",
+        "country_code",
+        "国家代码"
+      ],
+      [
+        "matches",
+        "best_of",
+        "局数限制"
+      ],
+      [
+        "matches",
+        "draw_size",
+        "签表规模"
+      ],
+      [
+        "matches",
+        "loser_age",
+        "负方年龄"
+      ],
+      [
+        "matches",
+        "loser_entry",
+        "负方参赛资格"
+      ],
+      [
+        "matches",
+        "loser_hand",
+        "负方持拍手"
+      ],
+      [
+        "matches",
+        "loser_ht",
+        "负方身高"
+      ],
+      [
+        "matches",
+        "loser_id",
+        "负方编号"
+      ],
+      [
+        "matches",
+        "loser_ioc",
+        "负方国家代码"
+      ],
+      [
+        "matches",
+        "loser_name",
+        "负方姓名"
+      ],
+      [
+        "matches",
+        "loser_rank",
+        "负方排名"
+      ],
+      [
+        "matches",
+        "loser_rank_points",
+        "负方排名积分"
+      ],
+      [
+        "matches",
+        "loser_seed",
+        "负方种子序号"
+      ],
+      [
+        "matches",
+        "match_num",
+        "场次编号"
+      ],
+      [
+        "matches",
+        "minutes",
+        "比赛时长（分钟）"
+      ],
+      [
+        "matches",
+        "round",
+        "轮次"
+      ],
+      [
+        "matches",
+        "score",
+        "比分"
+      ],
+      [
+        "matches",
+        "surface",
+        "场地类型"
+      ],
+      [
+        "matches",
+        "tourney_date",
+        "赛事日期"
+      ],
+      [
+        "matches",
+        "tourney_id",
+        "赛事编号"
+      ],
+      [
+        "matches",
+        "tourney_level",
+        "赛事级别"
+      ],
+      [
+        "matches",
+        "tourney_name",
+        "赛事名称"
+      ],
+      [
+        "matches",
+        "winner_age",
+        "胜方年龄"
+      ],
+      [
+        "matches",
+        "winner_entry",
+        "胜方参赛资格"
+      ],
+      [
+        "matches",
+        "winner_hand",
+        "胜方持拍手"
+      ],
+      [
+        "matches",
+        "winner_ht",
+        "胜方身高"
+      ],
+      [
+        "matches",
+        "winner_id",
+        "胜方编号"
+      ],
+      [
+        "matches",
+        "winner_ioc",
+        "胜方国家代码"
+      ],
+      [
+        "matches",
+        "winner_name",
+        "胜方姓名"
+      ],
+      [
+        "matches",
+        "winner_rank",
+        "胜方排名"
+      ],
+      [
+        "matches",
+        "winner_rank_points",
+        "胜方排名积分"
+      ],
+      [
+        "matches",
+        "winner_seed",
+        "胜方种子序号"
+      ],
+      [
+        "matches",
+        "year",
+        "年份"
+      ],
+      [
+        "rankings",
+        "ranking_date",
+        "排名日期"
+      ],
+      [
+        "rankings",
+        "ranking",
+        "排名"
+      ],
+      [
+        "rankings",
+        "player_id",
+        "球员编号"
+      ],
+      [
+        "rankings",
+        "ranking_points",
+        "排名积分"
+      ],
+      [
+        "rankings",
+        "tours",
+        "巡回赛次数"
+      ]
+    ],
+    "values": [
+      [
+        "matches",
+        "surface",
+        "Grass",
+        "草地"
+      ],
+      [
+        "matches",
+        "surface",
+        "Hard",
+        "硬地"
+      ],
+      [
+        "matches",
+        "surface",
+        "Clay",
+        "红土"
+      ],
+      [
+        "matches",
+        "score",
+        "7-6(0) 6-4",
+        "7-6(0) 6-4"
+      ],
+      [
+        "matches",
+        "score",
+        "6-7(6) 7-5 6-4",
+        "6-7(6) 7-5 6-4"
+      ],
+      [
+        "matches",
+        "score",
+        "7-6(1) 1-6 6-2",
+        "7-6(1) 1-6 6-2"
+      ],
+      [
+        "matches",
+        "score",
+        "7-6(2) 6-3",
+        "7-6(2) 6-3"
+      ],
+      [
+        "matches",
+        "score",
+        "7-6(4) 6-2",
+        "7-6(4) 6-2"
+      ],
+      [
+        "matches",
+        "score",
+        "7-6(3) 6-3",
+        "7-6(3) 6-3"
+      ],
+      [
+        "matches",
+        "score",
+        "6-3 3-6 6-3 ",
+        "6-3 3-6 6-3"
+      ],
+      [
+        "matches",
+        "score",
+        "3-6 6-1 6-1",
+        "3-6 6-1 6-1"
+      ],
+      [
+        "matches",
+        "score",
+        "7-6(3) 1-6 6-0",
+        "7-6(3) 1-6 6-0"
+      ],
+      [
+        "matches",
+        "score",
+        "6-1 4-6 6-1",
+        "6-1 4-6 6-1"
+      ],
+      [
+        "matches",
+        "score",
+        "6-1 6-3",
+        "6-1 6-3"
+      ],
+      [
+        "matches",
+        "score",
+        "6-4 3-6 6-3",
+        "6-4 3-6 6-3"
+      ],
+      [
+        "matches",
+        "score",
+        "6-2 7-6(3)",
+        "6-2 7-6(3)"
+      ],
+      [
+        "matches",
+        "score",
+        "6-2 6-3",
+        "6-2 6-3"
+      ],
+      [
+        "matches",
+        "score",
+        "6-7(1) 6-2 8-6",
+        "6-7(1) 6-2 8-6"
+      ],
+      [
+        "matches",
+        "score",
+        "7-5 2-6 6-2",
+        "7-5 2-6 6-2"
+      ],
+      [
+        "matches",
+        "score",
+        "3-6 6-2 7-6(6)",
+        "3-6 6-2 7-6(6)"
+      ],
+      [
+        "matches",
+        "score",
+        "7-6(3) 6-4",
+        "7-6(3) 6-4"
+      ],
+      [
+        "matches",
+        "score",
+        "7-5 6-1",
+        "7-5 6-1"
+      ],
+      [
+        "matches",
+        "score",
+        "6-0 6-4",
+        "6-0 6-4"
+      ],
+      [
+        "matches",
+        "score",
+        "7-5 7-6(2)",
+        "7-5 7-6(2)"
+      ],
+      [
+        "matches",
+        "score",
+        "6-7(3) 6-2 6-3",
+        "6-7(3) 6-2 6-3"
+      ],
+      [
+        "matches",
+        "score",
+        "1-6 7-6(2) 6-4",
+        "1-6 7-6(2) 6-4"
+      ],
+      [
+        "matches",
+        "score",
+        "4-6 7-6(2) 6-3",
+        "4-6 7-6(2) 6-3"
+      ],
+      [
+        "matches",
+        "score",
+        "6-7(5) 6-4 6-3",
+        "6-7(5) 6-4 6-3"
+      ],
+      [
+        "matches",
+        "score",
+        "4-6 6-3 6-0",
+        "4-6 6-3 6-0"
+      ],
+      [
+        "matches",
+        "score",
+        "6-0 3-6 6-2",
+        "6-0 3-6 6-2"
+      ],
+      [
+        "matches",
+        "score",
+        "6-1 6-0",
+        "6-1 6-0"
+      ],
+      [
+        "matches",
+        "score",
+        "6-3 6-7(0) 7-5",
+        "6-3 6-7(0) 7-5"
+      ],
+      [
+        "matches",
+        "score",
+        "7-5 1-6 7-5",
+        "7-5 1-6 7-5"
+      ],
+      [
+        "matches",
+        "score",
+        "6-4 6-7(4) 6-1",
+        "6-4 6-7(4) 6-1"
+      ],
+      [
+        "matches",
+        "score",
+        "6-3 6-7(2) 7-6(5)",
+        "6-3 6-7(2) 7-6(5)"
+      ],
+      [
+        "matches",
+        "score",
+        "6-1 4-6 6-2",
+        "6-1 4-6 6-2"
+      ],
+      [
+        "matches",
+        "score",
+        "6-4 3-6 6-1",
+        "6-4 3-6 6-1"
+      ],
+      [
+        "matches",
+        "score",
+        "7-6(5) 1-6 6-0",
+        "7-6(5) 1-6 6-0"
+      ],
+      [
+        "matches",
+        "score",
+        "7-6(4) 6-4",
+        "7-6(4) 6-4"
+      ],
+      [
+        "matches",
+        "score",
+        "7-5 4-6 6-3",
+        "7-5 4-6 6-3"
+      ],
+      [
+        "matches",
+        "score",
+        "6-7(3) 6-1 6-2",
+        "6-7(3) 6-1 6-2"
+      ],
+      [
+        "matches",
+        "score",
+        "6-4 6-2",
+        "6-4 6-2"
+      ],
+      [
+        "matches",
+        "score",
+        "4-1 RET",
+        "4-1 退赛"
+      ],
+      [
+        "matches",
+        "score",
+        "6-2 6-7(3) 6-3",
+        "6-2 6-7(3) 6-3"
+      ],
+      [
+        "matches",
+        "score",
+        "6-1 3-0 RET",
+        "6-1 3-0 退赛"
+      ],
+      [
+        "matches",
+        "score",
+        "2-6 6-4 6-1",
+        "2-6 6-4 6-1"
+      ],
+      [
+        "matches",
+        "score",
+        "4-6 6-3 6-4",
+        "4-6 6-3 6-4"
+      ],
+      [
+        "matches",
+        "score",
+        "6-3 3-6 7-6(2)",
+        "6-3 3-6 7-6(2)"
+      ],
+      [
+        "matches",
+        "score",
+        "7-6(1) 6-3",
+        "7-6(1) 6-3"
+      ],
+      [
+        "matches",
+        "score",
+        "6-4 1-6 6-4",
+        "6-4 1-6 6-4"
+      ],
+      [
+        "matches",
+        "score",
+        "7-6(5) 7-6(2)",
+        "7-6(5) 7-6(2)"
+      ],
+      [
+        "matches",
+        "score",
+        "6-4 3-6 6-2",
+        "6-4 3-6 6-2"
+      ],
+      [
+        "matches",
+        "score",
+        "6-1 7-5",
+        "6-1 7-5"
+      ],
+      [
+        "matches",
+        "score",
+        "2-6 6-3 1-0 RET",
+        "2-6 6-3 1-0 退赛"
+      ],
+      [
+        "matches",
+        "score",
+        "6-4 7-6(10)",
+        "6-4 7-6(10)"
+      ],
+      [
+        "matches",
+        "score",
+        "6-2 6-0",
+        "6-2 6-0"
+      ],
+      [
+        "matches",
+        "score",
+        "7-6(1) 0-0 RET",
+        "7-6(1) 0-0 退赛"
+      ],
+      [
+        "matches",
+        "score",
+        "6-7(7) 6-2 6-4",
+        "6-7(7) 6-2 6-4"
+      ],
+      [
+        "matches",
+        "score",
+        "6-0 7-5 ",
+        "6-0 7-5"
+      ],
+      [
+        "matches",
+        "score",
+        "4-6 6-3 1-0 RET",
+        "4-6 6-3 1-0 退赛"
+      ],
+      [
+        "matches",
+        "score",
+        "4-6 6-4 6-4",
+        "4-6、6-4、6-4"
+      ],
+      [
+        "matches",
+        "score",
+        "6-3 6-4",
+        "6-3、6-4"
+      ],
+      [
+        "matches",
+        "score",
+        "6-3 7-5 ",
+        "6-3、7-5"
+      ],
+      [
+        "matches",
+        "score",
+        "W/O",
+        "弃权"
+      ],
+      [
+        "matches",
+        "score",
+        "5-7 6-4 6-1",
+        "5-7、6-4、6-1"
+      ],
+      [
+        "matches",
+        "score",
+        "7-6(6) 6-1",
+        "7-6（6）、6-1"
+      ],
+      [
+        "matches",
+        "score",
+        "3-6 7-6(4) 6-2",
+        "3-6、7-6（4）、6-2"
+      ],
+      [
+        "matches",
+        "score",
+        "6-4 7-6(1)",
+        "6-4、7-6（1）"
+      ],
+      [
+        "matches",
+        "score",
+        "6-1 6-1",
+        "6-1、6-1"
+      ],
+      [
+        "matches",
+        "score",
+        "7-5 6-4",
+        "7-5、6-4"
+      ],
+      [
+        "matches",
+        "score",
+        "6-3 7-6(3)",
+        "6-3、7-6（3）"
+      ],
+      [
+        "matches",
+        "score",
+        "6-1 3-6 6-3",
+        "6-1、3-6、6-3"
+      ],
+      [
+        "matches",
+        "score",
+        "6-4 6-0",
+        "6-4、6-0"
+      ],
+      [
+        "matches",
+        "score",
+        "7-6(2) 1-6 6-4",
+        "7-6（2）、1-6、6-4"
+      ],
+      [
+        "matches",
+        "score",
+        "2-6 6-4 6-3",
+        "2-6、6-4、6-3"
+      ],
+      [
+        "matches",
+        "score",
+        "6-3 7-5",
+        "6-3、7-5"
+      ],
+      [
+        "matches",
+        "score",
+        "7-6(6) 7-6(4)",
+        "7-6（6）、7-6（4）"
+      ],
+      [
+        "matches",
+        "score",
+        "6-2 7-6(5)",
+        "6-2、7-6（5）"
+      ],
+      [
+        "matches",
+        "score",
+        "3-6 6-0 6-1",
+        "3-6、6-0、6-1"
+      ],
+      [
+        "matches",
+        "score",
+        "6-2 2-6 6-1",
+        "6-2、2-6、6-1"
+      ],
+      [
+        "matches",
+        "score",
+        "7-5 6-7(2) 6-2",
+        "7-5、6-7（2）、6-2"
+      ],
+      [
+        "matches",
+        "score",
+        "6-3 6-1",
+        "6-3、6-1"
+      ],
+      [
+        "matches",
+        "score",
+        "7-6(5) 2-6 6-3",
+        "7-6（5）、2-6、6-3"
+      ],
+      [
+        "matches",
+        "score",
+        "7-5 6-7(3) 6-4",
+        "7-5、6-7（3）、6-4"
+      ],
+      [
+        "matches",
+        "score",
+        "6-4 6-3 ",
+        "6-4、6-3"
+      ],
+      [
+        "matches",
+        "score",
+        "6-3 4-6 6-2",
+        "6-3、4-6、6-2"
+      ],
+      [
+        "matches",
+        "score",
+        "6-3 5-7 9-7",
+        "6-3、5-7、9-7"
+      ],
+      [
+        "matches",
+        "score",
+        "6-2 6-2",
+        "6-2、6-2"
+      ],
+      [
+        "matches",
+        "score",
+        "6-1 3-6 6-0",
+        "6-1、3-6、6-0"
+      ],
+      [
+        "matches",
+        "score",
+        "6-2 6-4",
+        "6-2、6-4"
+      ],
+      [
+        "matches",
+        "score",
+        "6-4 4-6 6-4",
+        "6-4、4-6、6-4"
+      ],
+      [
+        "matches",
+        "score",
+        "6-4 4-6 6-2",
+        "6-4、4-6、6-2"
+      ],
+      [
+        "matches",
+        "score",
+        "7-6(5) 6-4",
+        "7-6（5）、6-4"
+      ],
+      [
+        "matches",
+        "score",
+        "6-4 7-6(2)",
+        "6-4、7-6（2）"
+      ],
+      [
+        "matches",
+        "score",
+        "3-6 6-2 6-3",
+        "3-6、6-2、6-3"
+      ],
+      [
+        "matches",
+        "score",
+        "6-1 6-7(2) 6-3",
+        "6-1、6-7（2）、6-3"
+      ],
+      [
+        "matches",
+        "score",
+        "6-2 6-7(6) 6-2",
+        "6-2、6-7（6）、6-2"
+      ],
+      [
+        "matches",
+        "score",
+        "3-6 6-3 6-4",
+        "3-6、6-3、6-4"
+      ],
+      [
+        "matches",
+        "score",
+        "6-7(3) 6-4 6-3",
+        "6-7（3）、6-4、6-3"
+      ],
+      [
+        "matches",
+        "score",
+        "6-3 6-3",
+        "6-3、6-3"
+      ],
+      [
+        "matches",
+        "score",
+        "6-4 3-6 6-4",
+        "6-4、3-6、6-4"
+      ],
+      [
+        "matches",
+        "score",
+        "7-6(2) 7-6(5)",
+        "7-6（2）、7-6（5）"
+      ],
+      [
+        "matches",
+        "score",
+        "6-2 3-6 6-2",
+        "6-2、3-6、6-2"
+      ],
+      [
+        "matches",
+        "score",
+        "6-2 6-7(4) 7-5",
+        "6-2、6-7（4）、7-5"
+      ],
+      [
+        "matches",
+        "score",
+        "3-6 7-6(6) 6-0",
+        "3-6、7-6（6）、6-0"
+      ],
+      [
+        "matches",
+        "score",
+        "3-6 6-3 7-6(3)",
+        "3-6、6-3、7-6（3）"
+      ],
+      [
+        "matches",
+        "score",
+        "3-6 7-6(2) 6-0",
+        "3-6、7-6（2）、6-0"
+      ],
+      [
+        "matches",
+        "score",
+        "7-5 6-7(5) 6-2",
+        "7-5、6-7（5）、6-2"
+      ],
+      [
+        "matches",
+        "score",
+        "6-4 2-6 6-1",
+        "6-4、2-6、6-1"
+      ],
+      [
+        "matches",
+        "score",
+        "6-4 6-3",
+        "6-4、6-3"
+      ],
+      [
+        "matches",
+        "score",
+        "6-3 7-6(5)",
+        "6-3、7-6（5）"
+      ],
+      [
+        "matches",
+        "score",
+        "6-0 6-2",
+        "6-0、6-2"
+      ],
+      [
+        "matches",
+        "score",
+        "6-4 6-4",
+        "6-4、6-4"
+      ],
+      [
+        "matches",
+        "score",
+        "6-3 7-6(4)",
+        "6-3、7-6（4）"
+      ],
+      [
+        "matches",
+        "score",
+        "4-6 7-5 6-2",
+        "4-6、7-5、6-2"
+      ],
+      [
+        "matches",
+        "score",
+        "6-2 3-6 7-5",
+        "6-2、3-6、7-5"
+      ],
+      [
+        "matches",
+        "score",
+        "7-6(2) 6-2",
+        "7-6（2）、6-2"
+      ],
+      [
+        "matches",
+        "score",
+        "5-7 6-4 7-6(1)",
+        "5-7、6-4、7-6（1）"
+      ],
+      [
+        "matches",
+        "score",
+        "6-4 7-6(6)",
+        "6-4、7-6（6）"
+      ],
+      [
+        "matches",
+        "score",
+        "6-4 4-6 6-3",
+        "6-4、4-6、6-3"
+      ],
+      [
+        "matches",
+        "score",
+        "7-6(4) 6-3",
+        "7-6（4）、6-3"
+      ],
+      [
+        "matches",
+        "score",
+        "6-2 6-0 ",
+        "6-2、6-0"
+      ],
+      [
+        "matches",
+        "score",
+        "6-2 6-1",
+        "6-2、6-1"
+      ],
+      [
+        "matches",
+        "score",
+        "6-4 3-6 7-6(3)",
+        "6-4、3-6、7-6（3）"
+      ],
+      [
+        "matches",
+        "score",
+        "6-2 7-6(9)",
+        "6-2、7-6（9）"
+      ],
+      [
+        "matches",
+        "score",
+        "6-4 7-6(4)",
+        "6-4、7-6（4）"
+      ],
+      [
+        "matches",
+        "score",
+        "6-7(10) 7-5 6-4",
+        "6-7（10）、7-5、6-4"
+      ],
+      [
+        "matches",
+        "score",
+        "7-5 4-6 6-2",
+        "7-5、4-6、6-2"
+      ],
+      [
+        "matches",
+        "score",
+        "7-6(0) 6-3",
+        "7-6（0）、6-3"
+      ],
+      [
+        "matches",
+        "score",
+        "7-5 4-6 6-4",
+        "7-5、4-6、6-4"
+      ],
+      [
+        "matches",
+        "score",
+        "6-2 7-5",
+        "6-2、7-5"
+      ],
+      [
+        "matches",
+        "score",
+        "4-6 6-4 7-6(3)",
+        "4-6、6-4、7-6（3）"
+      ],
+      [
+        "matches",
+        "score",
+        "1-6 7-6(9) 6-4",
+        "1-6、7-6（9）、6-4"
+      ],
+      [
+        "matches",
+        "score",
+        "6-4 7-5",
+        "6-4、7-5"
+      ],
+      [
+        "matches",
+        "score",
+        "7-5 6-0",
+        "7-5、6-0"
+      ],
+      [
+        "matches",
+        "score",
+        "6-1 6-7(2) 6-4",
+        "6-1、6-7（2）、6-4"
+      ],
+      [
+        "matches",
+        "score",
+        "6-7(4) 6-4 6-3",
+        "6-7（4）、6-4、6-3"
+      ],
+      [
+        "matches",
+        "score",
+        "4-6 6-4 6-3",
+        "4-6、6-4、6-3"
+      ],
+      [
+        "matches",
+        "score",
+        "6-3 2-6 6-3",
+        "6-3、2-6、6-3"
+      ],
+      [
+        "matches",
+        "score",
+        "6-4 7-6(5)",
+        "6-4、7-6（5）"
+      ],
+      [
+        "matches",
+        "score",
+        "6-2 5-7 7-5",
+        "6-2、5-7、7-5"
+      ],
+      [
+        "matches",
+        "score",
+        "7-5 7-5",
+        "7-5、7-5"
+      ],
+      [
+        "matches",
+        "score",
+        "6-4 1-6 7-5",
+        "6-4、1-6、7-5"
+      ],
+      [
+        "matches",
+        "score",
+        "6-1 7-6(3)",
+        "6-1、7-6（3）"
+      ],
+      [
+        "matches",
+        "score",
+        "4-6 7-5 6-1",
+        "4-6、7-5、6-1"
+      ],
+      [
+        "matches",
+        "score",
+        "6-2 4-6 6-3",
+        "6-2、4-6、6-3"
+      ],
+      [
+        "matches",
+        "score",
+        "3-6 6-1 6-4",
+        "3-6、6-1、6-4"
+      ],
+      [
+        "matches",
+        "score",
+        "6-4 2-6 6-3",
+        "6-4、2-6、6-3"
+      ],
+      [
+        "matches",
+        "score",
+        "6-3 4-6 6-4",
+        "6-3、4-6、6-4"
+      ],
+      [
+        "matches",
+        "score",
+        "3-6 6-2 6-2",
+        "3-6、6-2、6-2"
+      ],
+      [
+        "matches",
+        "score",
+        "6-1 6-4",
+        "6-1、6-4"
+      ],
+      [
+        "matches",
+        "score",
+        "6-1 2-6 6-4",
+        "6-1、2-6、6-4"
+      ],
+      [
+        "matches",
+        "score",
+        "6-3 6-7(3) 7-6(4)",
+        "6-3、6-7（3）、7-6（4）"
+      ],
+      [
+        "matches",
+        "score",
+        "7-5 6-3",
+        "7-5、6-3"
+      ],
+      [
+        "matches",
+        "score",
+        "5-7 6-1 6-1",
+        "5-7、6-1、6-1"
+      ],
+      [
+        "matches",
+        "score",
+        "6-2 5-7 6-4",
+        "6-2、5-7、6-4"
+      ],
+      [
+        "matches",
+        "score",
+        "6-1 6-2",
+        "6-1、6-2"
+      ],
+      [
+        "matches",
+        "score",
+        "6-4 7-6(3)",
+        "6-4、7-6（3）"
+      ],
+      [
+        "matches",
+        "score",
+        "6-3 6-2",
+        "6-3、6-2"
+      ],
+      [
+        "matches",
+        "score",
+        "6-1 4-6 6-0",
+        "6-1、4-6、6-0"
+      ]
+    ]
+  },
+  "course_teach": {
+    "tables": [
+      [
+        "course",
+        "课程"
+      ],
+      [
+        "teacher",
+        "教师"
+      ],
+      [
+        "course_arrange",
+        "课程安排"
+      ]
+    ],
+    "columns": [
+      [
+        "course",
+        "Course_ID",
+        "课程编号"
+      ],
+      [
+        "course",
+        "Staring_Date",
+        "开课日期"
+      ],
+      [
+        "course",
+        "Course",
+        "课程名称"
+      ],
+      [
+        "teacher",
+        "Teacher_ID",
+        "教师编号"
+      ],
+      [
+        "teacher",
+        "Name",
+        "姓名"
+      ],
+      [
+        "teacher",
+        "Age",
+        "年龄"
+      ],
+      [
+        "teacher",
+        "Hometown",
+        "籍贯"
+      ],
+      [
+        "course_arrange",
+        "Course_ID",
+        "课程编号"
+      ],
+      [
+        "course_arrange",
+        "Teacher_ID",
+        "教师编号"
+      ],
+      [
+        "course_arrange",
+        "Grade",
+        "年级"
+      ]
+    ],
+    "values": [
+      [
+        "course",
+        "Course",
+        "Language Arts",
+        "语言艺术"
+      ],
+      [
+        "course",
+        "Course",
+        "Music",
+        "音乐"
+      ],
+      [
+        "course",
+        "Course",
+        "Science",
+        "科学"
+      ],
+      [
+        "course",
+        "Course",
+        "Sports",
+        "体育"
+      ],
+      [
+        "course",
+        "Course",
+        "Bible",
+        "圣经"
+      ],
+      [
+        "course",
+        "Course",
+        "Geography",
+        "地理"
+      ],
+      [
+        "course",
+        "Course",
+        "Health",
+        "健康"
+      ],
+      [
+        "course",
+        "Course",
+        "Math",
+        "数学"
+      ],
+      [
+        "course",
+        "Course",
+        "History",
+        "历史"
+      ],
+      [
+        "course",
+        "Course",
+        "French",
+        "法语"
+      ],
+      [
+        "teacher",
+        "Hometown",
+        "Horwich Urban District",
+        "霍尔维奇市区"
+      ],
+      [
+        "teacher",
+        "Hometown",
+        "Little Lever Urban District",
+        "利特尔莱弗市区"
+      ],
+      [
+        "teacher",
+        "Hometown",
+        "Farnworth Municipal Borough",
+        "法恩沃思自治市"
+      ],
+      [
+        "teacher",
+        "Hometown",
+        "Kearsley Urban District",
+        "基尔斯利市区"
+      ],
+      [
+        "teacher",
+        "Hometown",
+        "Bolton County Borough",
+        "博尔顿郡自治市"
+      ],
+      [
+        "teacher",
+        "Hometown",
+        "Blackrod Urban District",
+        "布莱克罗德市区"
+      ],
+      [
+        "teacher",
+        "Hometown",
+        "Turton Urban District",
+        "特顿市区"
+      ]
+    ]
+  },
+  "car_1": {
+    "tables": [
+      [
+        "continents",
+        "大洲"
+      ],
+      [
+        "countries",
+        "国家"
+      ],
+      [
+        "car_makers",
+        "汽车制造商"
+      ],
+      [
+        "model_list",
+        "车型列表"
+      ],
+      [
+        "car_names",
+        "汽车名称"
+      ],
+      [
+        "cars_data",
+        "汽车数据"
+      ]
+    ],
+    "columns": [
+      [
+        "continents",
+        "ContId",
+        "大洲编号"
+      ],
+      [
+        "continents",
+        "Continent",
+        "大洲名称"
+      ],
+      [
+        "countries",
+        "CountryId",
+        "国家编号"
+      ],
+      [
+        "countries",
+        "CountryName",
+        "国家名称"
+      ],
+      [
+        "countries",
+        "Continent",
+        "所属大洲"
+      ],
+      [
+        "car_makers",
+        "Id",
+        "制造商编号"
+      ],
+      [
+        "car_makers",
+        "Maker",
+        "制造商简称"
+      ],
+      [
+        "car_makers",
+        "FullName",
+        "制造商全称"
+      ],
+      [
+        "car_makers",
+        "Country",
+        "所属国家"
+      ],
+      [
+        "model_list",
+        "ModelId",
+        "车型编号"
+      ],
+      [
+        "model_list",
+        "Maker",
+        "制造商简称"
+      ],
+      [
+        "model_list",
+        "Model",
+        "车型名称"
+      ],
+      [
+        "car_names",
+        "MakeId",
+        "品牌编号"
+      ],
+      [
+        "car_names",
+        "Model",
+        "车型名称"
+      ],
+      [
+        "car_names",
+        "Make",
+        "品牌名称"
+      ],
+      [
+        "cars_data",
+        "Id",
+        "汽车编号"
+      ],
+      [
+        "cars_data",
+        "MPG",
+        "百公里油耗（英里/加仑）"
+      ],
+      [
+        "cars_data",
+        "Cylinders",
+        "气缸数"
+      ],
+      [
+        "cars_data",
+        "Edispl",
+        "排量（升）"
+      ],
+      [
+        "cars_data",
+        "Horsepower",
+        "马力"
+      ],
+      [
+        "cars_data",
+        "Weight",
+        "车重（磅）"
+      ],
+      [
+        "cars_data",
+        "Accelerate",
+        "0–60英里/小时加速时间（秒）"
+      ],
+      [
+        "cars_data",
+        "Year",
+        "生产年份"
+      ]
+    ],
+    "values": [
+      [
+        "continents",
+        "Continent",
+        "africa",
+        "非洲"
+      ],
+      [
+        "continents",
+        "Continent",
+        "asia",
+        "亚洲"
+      ],
+      [
+        "continents",
+        "Continent",
+        "europe",
+        "欧洲"
+      ],
+      [
+        "continents",
+        "Continent",
+        "america",
+        "美洲"
+      ],
+      [
+        "continents",
+        "Continent",
+        "australia",
+        "大洋洲"
+      ],
+      [
+        "car_makers",
+        "Maker",
+        "kia",
+        "起亚"
+      ],
+      [
+        "car_makers",
+        "Maker",
+        "daimler benz",
+        "戴姆勒-奔驰"
+      ],
+      [
+        "car_makers",
+        "Maker",
+        "saab",
+        "萨博"
+      ],
+      [
+        "car_makers",
+        "Maker",
+        "amc",
+        "美国汽车公司"
+      ],
+      [
+        "car_makers",
+        "Maker",
+        "triumph",
+        "凯旋"
+      ],
+      [
+        "car_makers",
+        "Maker",
+        "hyundai",
+        "现代"
+      ],
+      [
+        "car_makers",
+        "Maker",
+        "honda",
+        "本田"
+      ],
+      [
+        "car_makers",
+        "Maker",
+        "gm",
+        "通用汽车"
+      ],
+      [
+        "car_makers",
+        "Maker",
+        "citroen",
+        "雪铁龙"
+      ],
+      [
+        "car_makers",
+        "Maker",
+        "peugeaut",
+        "标致"
+      ],
+      [
+        "car_makers",
+        "Maker",
+        "subaru",
+        "斯巴鲁"
+      ],
+      [
+        "car_makers",
+        "Maker",
+        "chrysler",
+        "克莱斯勒"
+      ],
+      [
+        "car_makers",
+        "Maker",
+        "opel",
+        "欧宝"
+      ],
+      [
+        "car_makers",
+        "Maker",
+        "volvo",
+        "沃尔沃"
+      ],
+      [
+        "car_makers",
+        "Maker",
+        "renault",
+        "雷诺"
+      ],
+      [
+        "car_makers",
+        "Maker",
+        "nissan",
+        "日产"
+      ],
+      [
+        "car_makers",
+        "Maker",
+        "toyota",
+        "丰田"
+      ],
+      [
+        "car_makers",
+        "Maker",
+        "volkswagen",
+        "大众"
+      ],
+      [
+        "car_makers",
+        "Maker",
+        "bmw",
+        "宝马"
+      ],
+      [
+        "car_makers",
+        "Maker",
+        "fiat",
+        "菲亚特"
+      ],
+      [
+        "car_makers",
+        "Maker",
+        "ford",
+        "福特"
+      ],
+      [
+        "car_makers",
+        "Maker",
+        "mazda",
+        "马自达"
+      ],
+      [
+        "model_list",
+        "Model",
+        "kia",
+        "起亚"
+      ],
+      [
+        "model_list",
+        "Model",
+        "datsun",
+        "达特桑"
+      ],
+      [
+        "model_list",
+        "Model",
+        "scion",
+        "赛昂"
+      ],
+      [
+        "model_list",
+        "Model",
+        "saab",
+        "萨博"
+      ],
+      [
+        "model_list",
+        "Model",
+        "amc",
+        "美国汽车公司"
+      ],
+      [
+        "model_list",
+        "Model",
+        "audi",
+        "奥迪"
+      ],
+      [
+        "model_list",
+        "Model",
+        "capri",
+        "卡普里"
+      ],
+      [
+        "model_list",
+        "Model",
+        "triumph",
+        "凯旋"
+      ],
+      [
+        "model_list",
+        "Model",
+        "hyundai",
+        "现代"
+      ],
+      [
+        "model_list",
+        "Model",
+        "buick",
+        "别克"
+      ],
+      [
+        "model_list",
+        "Model",
+        "honda",
+        "本田"
+      ],
+      [
+        "model_list",
+        "Model",
+        "citroen",
+        "雪铁龙"
+      ],
+      [
+        "model_list",
+        "Model",
+        "dodge",
+        "道奇"
+      ],
+      [
+        "model_list",
+        "Model",
+        "cadillac",
+        "凯迪拉克"
+      ],
+      [
+        "model_list",
+        "Model",
+        "mercedes",
+        "梅赛德斯"
+      ],
+      [
+        "model_list",
+        "Model",
+        "subaru",
+        "斯巴鲁"
+      ],
+      [
+        "model_list",
+        "Model",
+        "peugeot",
+        "标致"
+      ],
+      [
+        "model_list",
+        "Model",
+        "chrysler",
+        "克莱斯勒"
+      ],
+      [
+        "model_list",
+        "Model",
+        "opel",
+        "欧宝"
+      ],
+      [
+        "model_list",
+        "Model",
+        "volvo",
+        "沃尔沃"
+      ],
+      [
+        "model_list",
+        "Model",
+        "renault",
+        "雷诺"
+      ],
+      [
+        "model_list",
+        "Model",
+        "mercedes-benz",
+        "梅赛德斯-奔驰"
+      ],
+      [
+        "model_list",
+        "Model",
+        "nissan",
+        "日产"
+      ],
+      [
+        "model_list",
+        "Model",
+        "toyota",
+        "丰田"
+      ],
+      [
+        "model_list",
+        "Model",
+        "jeep",
+        "吉普"
+      ],
+      [
+        "model_list",
+        "Model",
+        "volkswagen",
+        "大众"
+      ],
+      [
+        "model_list",
+        "Model",
+        "oldsmobile",
+        "奥兹莫比尔"
+      ],
+      [
+        "model_list",
+        "Model",
+        "bmw",
+        "宝马"
+      ],
+      [
+        "model_list",
+        "Model",
+        "pontiac",
+        "庞蒂亚克"
+      ],
+      [
+        "model_list",
+        "Model",
+        "fiat",
+        "菲亚特"
+      ],
+      [
+        "model_list",
+        "Model",
+        "mercury",
+        "水星"
+      ],
+      [
+        "model_list",
+        "Model",
+        "ford",
+        "福特"
+      ],
+      [
+        "model_list",
+        "Model",
+        "chevrolet",
+        "雪佛兰"
+      ],
+      [
+        "model_list",
+        "Model",
+        "mazda",
+        "马自达"
+      ],
+      [
+        "model_list",
+        "Model",
+        "plymouth",
+        "普利茅斯"
+      ],
+      [
+        "model_list",
+        "Model",
+        "hi",
+        "嗨"
+      ],
+      [
+        "car_names",
+        "Model",
+        "kia",
+        "起亚"
+      ],
+      [
+        "car_names",
+        "Model",
+        "datsun",
+        "达特桑"
+      ],
+      [
+        "car_names",
+        "Model",
+        "scion",
+        "赛昂"
+      ],
+      [
+        "car_names",
+        "Model",
+        "saab",
+        "萨博"
+      ],
+      [
+        "car_names",
+        "Model",
+        "amc",
+        "美国汽车公司"
+      ],
+      [
+        "car_names",
+        "Model",
+        "audi",
+        "奥迪"
+      ],
+      [
+        "car_names",
+        "Model",
+        "capri",
+        "卡普里"
+      ],
+      [
+        "car_names",
+        "Model",
+        "triumph",
+        "凯旋"
+      ],
+      [
+        "car_names",
+        "Model",
+        "hyundai",
+        "现代"
+      ],
+      [
+        "car_names",
+        "Model",
+        "buick",
+        "别克"
+      ],
+      [
+        "car_names",
+        "Model",
+        "honda",
+        "本田"
+      ],
+      [
+        "car_names",
+        "Model",
+        "citroen",
+        "雪铁龙"
+      ],
+      [
+        "car_names",
+        "Model",
+        "dodge",
+        "道奇"
+      ],
+      [
+        "car_names",
+        "Model",
+        "cadillac",
+        "凯迪拉克"
+      ],
+      [
+        "car_names",
+        "Model",
+        "mercedes",
+        "梅赛德斯"
+      ],
+      [
+        "car_names",
+        "Model",
+        "subaru",
+        "斯巴鲁"
+      ],
+      [
+        "car_names",
+        "Model",
+        "peugeot",
+        "标致"
+      ],
+      [
+        "car_names",
+        "Model",
+        "chrysler",
+        "克莱斯勒"
+      ],
+      [
+        "car_names",
+        "Model",
+        "opel",
+        "欧宝"
+      ],
+      [
+        "car_names",
+        "Model",
+        "volvo",
+        "沃尔沃"
+      ],
+      [
+        "car_names",
+        "Model",
+        "renault",
+        "雷诺"
+      ],
+      [
+        "car_names",
+        "Model",
+        "mercedes-benz",
+        "梅赛德斯-奔驰"
+      ],
+      [
+        "car_names",
+        "Model",
+        "nissan",
+        "日产"
+      ],
+      [
+        "car_names",
+        "Model",
+        "toyota",
+        "丰田"
+      ],
+      [
+        "car_names",
+        "Model",
+        "jeep",
+        "吉普"
+      ],
+      [
+        "car_names",
+        "Model",
+        "volkswagen",
+        "大众"
+      ],
+      [
+        "car_names",
+        "Model",
+        "oldsmobile",
+        "奥兹莫比尔"
+      ],
+      [
+        "car_names",
+        "Model",
+        "bmw",
+        "宝马"
+      ],
+      [
+        "car_names",
+        "Model",
+        "pontiac",
+        "庞蒂亚克"
+      ],
+      [
+        "car_names",
+        "Model",
+        "fiat",
+        "菲亚特"
+      ],
+      [
+        "car_names",
+        "Model",
+        "mercury",
+        "水星"
+      ],
+      [
+        "car_names",
+        "Model",
+        "ford",
+        "福特"
+      ],
+      [
+        "car_names",
+        "Model",
+        "chevrolet",
+        "雪佛兰"
+      ],
+      [
+        "car_names",
+        "Model",
+        "mazda",
+        "马自达"
+      ],
+      [
+        "car_names",
+        "Model",
+        "plymouth",
+        "普利茅斯"
+      ],
+      [
+        "car_names",
+        "Model",
+        "hi",
+        "嗨"
+      ],
+      [
+        "car_names",
+        "Make",
+        "plymouth duster",
+        "普利茅斯达斯特"
+      ],
+      [
+        "car_names",
+        "Make",
+        "dodge diplomat",
+        "道奇外交官"
+      ],
+      [
+        "car_names",
+        "Make",
+        "fiat 131",
+        "菲亚特131"
+      ],
+      [
+        "car_names",
+        "Make",
+        "fiat 124 sport coupe",
+        "菲亚特124运动轿跑"
+      ],
+      [
+        "car_names",
+        "Make",
+        "dodge colt",
+        "道奇科尔特"
+      ],
+      [
+        "car_names",
+        "Make",
+        "datsun b-210",
+        "达特桑B-210"
+      ],
+      [
+        "car_names",
+        "Make",
+        "volkswagen super beetle 117",
+        "大众超级甲壳虫117"
+      ],
+      [
+        "car_names",
+        "Make",
+        "mercury capri v6",
+        "水星卡伯里V6"
+      ],
+      [
+        "car_names",
+        "Make",
+        "ford fairmont (auto)",
+        "福特费尔蒙（自动挡）"
+      ],
+      [
+        "car_names",
+        "Make",
+        "audi 5000s (diesel)",
+        "奥迪5000S（柴油版）"
+      ],
+      [
+        "car_names",
+        "Make",
+        "dodge d100",
+        "道奇 D100"
+      ],
+      [
+        "car_names",
+        "Make",
+        "opel 1900",
+        "欧宝 1900"
+      ],
+      [
+        "car_names",
+        "Make",
+        "dodge aspen",
+        "道奇 Aspen"
+      ],
+      [
+        "car_names",
+        "Make",
+        "nissan stanza xe",
+        "日产 斯坦扎XE"
+      ],
+      [
+        "car_names",
+        "Make",
+        "saab 99gle",
+        "萨博 99GLE"
+      ],
+      [
+        "car_names",
+        "Make",
+        "pontiac astro",
+        "庞蒂亚克 Astro"
+      ],
+      [
+        "car_names",
+        "Make",
+        "fiat 128",
+        "菲亚特 128"
+      ],
+      [
+        "car_names",
+        "Make",
+        "plymouth custom suburb",
+        "普利茅斯 Custom Suburb"
+      ],
+      [
+        "car_names",
+        "Make",
+        "ford fiesta",
+        "福特 Fiesta"
+      ],
+      [
+        "car_names",
+        "Make",
+        "chevrolet malibu classic (sw)",
+        "雪佛兰 Malibu Classic（旅行版）"
+      ],
+      [
+        "car_names",
+        "Make",
+        "hi 1200d",
+        "HI 1200D"
+      ],
+      [
+        "car_names",
+        "Make",
+        "amc pacer d/l",
+        "AMC Pacer D/L"
+      ],
+      [
+        "car_names",
+        "Make",
+        "dodge rampage",
+        "道奇 Rampage"
+      ],
+      [
+        "car_names",
+        "Make",
+        "datsun 510 hatchback",
+        "达特桑 510掀背版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "buick century 350",
+        "别克 Century 350"
+      ],
+      [
+        "car_names",
+        "Make",
+        "mercury monarch",
+        "水星 Monarch"
+      ],
+      [
+        "car_names",
+        "Make",
+        "mercury marquis",
+        "水星 Marquis"
+      ],
+      [
+        "car_names",
+        "Make",
+        "toyota corona",
+        "丰田 Corona"
+      ],
+      [
+        "car_names",
+        "Make",
+        "dodge coronet custom",
+        "道奇 Coronet Custom"
+      ],
+      [
+        "car_names",
+        "Make",
+        "chevy c10",
+        "雪佛兰 C10"
+      ],
+      [
+        "car_names",
+        "Make",
+        "ford fairmont futura",
+        "福特 Fairmont Futura"
+      ],
+      [
+        "car_names",
+        "Make",
+        "pontiac lemans v6",
+        "庞蒂亚克 LeMans V6"
+      ],
+      [
+        "car_names",
+        "Make",
+        "ford futura",
+        "福特 Futura"
+      ],
+      [
+        "car_names",
+        "Make",
+        "datsun 710",
+        "达特桑 710"
+      ],
+      [
+        "car_names",
+        "Make",
+        "pontiac phoenix",
+        "庞蒂亚克 Phoenix"
+      ],
+      [
+        "car_names",
+        "Make",
+        "toyota carina",
+        "丰田 Carina"
+      ],
+      [
+        "car_names",
+        "Make",
+        "toyota mark ii",
+        "丰田 Mark II"
+      ],
+      [
+        "car_names",
+        "Make",
+        "dodge st. regis",
+        "道奇 St. Regis"
+      ],
+      [
+        "car_names",
+        "Make",
+        "plymouth satellite custom",
+        "普利茅斯 Satellite Custom"
+      ],
+      [
+        "car_names",
+        "Make",
+        "chevrolet woody",
+        "雪佛兰 Woody"
+      ],
+      [
+        "car_names",
+        "Make",
+        "mercury marquis brougham",
+        "水星 Marquis Brougham"
+      ],
+      [
+        "car_names",
+        "Make",
+        "volvo 264gl",
+        "沃尔沃 264GL"
+      ],
+      [
+        "car_names",
+        "Make",
+        "chevrolet camaro",
+        "雪佛兰 Camaro"
+      ],
+      [
+        "car_names",
+        "Make",
+        "buick skylark limited",
+        "别克 Skylark Limited"
+      ],
+      [
+        "car_names",
+        "Make",
+        "vw rabbit",
+        "大众 Rabbit"
+      ],
+      [
+        "car_names",
+        "Make",
+        "datsun b210 gx",
+        "达特桑 B210 GX"
+      ],
+      [
+        "car_names",
+        "Make",
+        "toyota corona mark ii",
+        "丰田 Corona Mark II"
+      ],
+      [
+        "car_names",
+        "Make",
+        "fiat strada custom",
+        "菲亚特 Strada Custom"
+      ],
+      [
+        "car_names",
+        "Make",
+        "mazda glc 4",
+        "马自达 GLC 4"
+      ],
+      [
+        "car_names",
+        "Make",
+        "ford mustang ii 2+2",
+        "福特 Mustang II 2+2"
+      ],
+      [
+        "car_names",
+        "Make",
+        "chevy s-10",
+        "雪佛兰 S-10"
+      ],
+      [
+        "car_names",
+        "Make",
+        "chevrolet vega",
+        "雪佛兰 Vega"
+      ],
+      [
+        "car_names",
+        "Make",
+        "mazda glc deluxe",
+        "马自达 GLC Deluxe"
+      ],
+      [
+        "car_names",
+        "Make",
+        "ford granada l",
+        "福特 Granada L"
+      ],
+      [
+        "car_names",
+        "Make",
+        "fiat 124 tc",
+        "菲亚特 124 TC"
+      ],
+      [
+        "car_names",
+        "Make",
+        "datsun 200-sx",
+        "达特桑 200-SX"
+      ],
+      [
+        "car_names",
+        "Make",
+        "vw rabbit c (diesel)",
+        "大众 Rabbit C（柴油版）"
+      ],
+      [
+        "car_names",
+        "Make",
+        "ford pinto (sw)",
+        "福特 Pinto（旅行版）"
+      ],
+      [
+        "car_names",
+        "Make",
+        "chrysler lebaron salon",
+        "克莱斯勒 LeBaron Salon"
+      ],
+      [
+        "car_names",
+        "Make",
+        "datsun 200sx",
+        "达特桑 200SX"
+      ],
+      [
+        "car_names",
+        "Make",
+        "fiat x1.9",
+        "菲亚特 X1.9"
+      ],
+      [
+        "car_names",
+        "Make",
+        "buick skylark",
+        "别克 Skylark"
+      ],
+      [
+        "car_names",
+        "Make",
+        "pontiac catalina brougham",
+        "庞蒂亚克 Catalina Brougham"
+      ],
+      [
+        "car_names",
+        "Make",
+        "mercury lynx l",
+        "水星 Lynx L"
+      ],
+      [
+        "car_names",
+        "Make",
+        "datsun f-10 hatchback",
+        "达特桑 F-10掀背版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "plymouth fury",
+        "普利茅斯 Fury"
+      ],
+      [
+        "car_names",
+        "Make",
+        "renault 12tl",
+        "雷诺 12TL"
+      ],
+      [
+        "car_names",
+        "Make",
+        "amc hornet sportabout (sw)",
+        "AMC Hornet Sportabout（旅行版）"
+      ],
+      [
+        "car_names",
+        "Make",
+        "mercury zephyr 6",
+        "水星 Zephyr 6"
+      ],
+      [
+        "car_names",
+        "Make",
+        "dodge colt hatchback custom",
+        "道奇 Colt掀背版Custom"
+      ],
+      [
+        "car_names",
+        "Make",
+        "chrysler lebaron medallion",
+        "克莱斯勒 LeBaron Medallion"
+      ],
+      [
+        "car_names",
+        "Make",
+        "ford gran torino",
+        "福特 Gran Torino"
+      ],
+      [
+        "car_names",
+        "Make",
+        "plymouth arrow gs",
+        "普利茅斯 Arrow GS"
+      ],
+      [
+        "car_names",
+        "Make",
+        "buick electra 225 custom",
+        "别克 Electra 225 Custom"
+      ],
+      [
+        "car_names",
+        "Make",
+        "volkswagen 411 (sw)",
+        "大众 411（旅行版）"
+      ],
+      [
+        "car_names",
+        "Make",
+        "toyota corona mark ii (sw)",
+        "丰田 Corona Mark II（旅行版）"
+      ],
+      [
+        "car_names",
+        "Make",
+        "ford f108",
+        "福特 F108"
+      ],
+      [
+        "car_names",
+        "Make",
+        "datsun 510 (sw)",
+        "达特桑 510（旅行版）"
+      ],
+      [
+        "car_names",
+        "Make",
+        "volkswagen 1131 deluxe sedan",
+        "大众 1131 Deluxe轿车"
+      ],
+      [
+        "car_names",
+        "Make",
+        "datsun 810",
+        "达特桑 810"
+      ],
+      [
+        "car_names",
+        "Make",
+        "ford ranger",
+        "福特 Ranger"
+      ],
+      [
+        "car_names",
+        "Make",
+        "amc matador",
+        "AMC Matador"
+      ],
+      [
+        "car_names",
+        "Make",
+        "saab 99e",
+        "萨博 99E"
+      ],
+      [
+        "car_names",
+        "Make",
+        "ford granada ghia",
+        "福特 Granada Ghia"
+      ],
+      [
+        "car_names",
+        "Make",
+        "ford mustang ii",
+        "福特 Mustang II"
+      ],
+      [
+        "car_names",
+        "Make",
+        "chevrolet monte carlo landau",
+        "雪佛兰 Monte Carlo Landau"
+      ],
+      [
+        "car_names",
+        "Make",
+        "volvo diesel",
+        "沃尔沃 柴油版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "plymouth sapporo",
+        "普利茅斯 Sapporo"
+      ],
+      [
+        "car_names",
+        "Make",
+        "datsun 280-zx",
+        "达特桑 280ZX"
+      ],
+      [
+        "car_names",
+        "Make",
+        "bmw 320i",
+        "宝马 320i"
+      ],
+      [
+        "car_names",
+        "Make",
+        "chevrolet cavalier 2-door",
+        "雪佛兰 Cavalier双门版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "amc hornet",
+        "AMC Hornet"
+      ],
+      [
+        "car_names",
+        "Make",
+        "buick skyhawk",
+        "别克 Skyhawk"
+      ],
+      [
+        "car_names",
+        "Make",
+        "amc concord dl 6",
+        "AMC Concord DL 6"
+      ],
+      [
+        "car_names",
+        "Make",
+        "saab 900s",
+        "萨博 900S"
+      ],
+      [
+        "car_names",
+        "Make",
+        "datsun 1200",
+        "达特桑 1200"
+      ],
+      [
+        "car_names",
+        "Make",
+        "peugeot 504 (sw)",
+        "标致 504（旅行版）"
+      ],
+      [
+        "car_names",
+        "Make",
+        "plymouth satellite custom (sw)",
+        "普利茅斯 Satellite Custom（旅行版）"
+      ],
+      [
+        "car_names",
+        "Make",
+        "volkswagen rabbit custom diesel",
+        "大众 Rabbit Custom柴油版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "chevrolet monte carlo",
+        "雪佛兰 Monte Carlo"
+      ],
+      [
+        "car_names",
+        "Make",
+        "chevrolet impala",
+        "雪佛兰 Impala"
+      ],
+      [
+        "car_names",
+        "Make",
+        "toyota starlet",
+        "丰田 Starlet"
+      ],
+      [
+        "car_names",
+        "Make",
+        "volvo 144ea",
+        "沃尔沃 144EA"
+      ],
+      [
+        "car_names",
+        "Make",
+        "peugeot 505s turbo diesel",
+        "标致 505S涡轮增压柴油版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "plymouth horizon tc3",
+        "普利茅斯 Horizon TC3"
+      ],
+      [
+        "car_names",
+        "Make",
+        "ford pinto",
+        "福特 Pinto"
+      ],
+      [
+        "car_names",
+        "Make",
+        "datsun b210",
+        "达特桑 B210"
+      ],
+      [
+        "car_names",
+        "Make",
+        "vw rabbit custom",
+        "大众 Rabbit Custom"
+      ],
+      [
+        "car_names",
+        "Make",
+        "chevrolet cavalier",
+        "雪佛兰 Cavalier"
+      ],
+      [
+        "car_names",
+        "Make",
+        "chevrolet chevelle malibu",
+        "雪佛兰 Chevelle Malibu"
+      ],
+      [
+        "car_names",
+        "Make",
+        "dodge monaco (sw)",
+        "道奇蒙特卡洛（旅行车）"
+      ],
+      [
+        "car_names",
+        "Make",
+        "audi 100 ls",
+        "奥迪100 LS"
+      ],
+      [
+        "car_names",
+        "Make",
+        "chrysler lebaron town @ country (sw)",
+        "克莱斯勒利伯伦城镇版@乡村版（旅行车）"
+      ],
+      [
+        "car_names",
+        "Make",
+        "mazda rx2 coupe",
+        "马自达RX-2双门轿跑车"
+      ],
+      [
+        "car_names",
+        "Make",
+        "oldsmobile cutlass supreme",
+        "奥兹莫比尔剪刀手至尊版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "buick regal sport coupe (turbo)",
+        "别克雷格尔运动型双门轿跑车（涡轮增压）"
+      ],
+      [
+        "car_names",
+        "Make",
+        "plymouth grand fury",
+        "普利茅斯大怒神"
+      ],
+      [
+        "car_names",
+        "Make",
+        "amc concord d/l",
+        "AMC康科德D/L版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "chevrolet chevette",
+        "雪佛兰切维特"
+      ],
+      [
+        "car_names",
+        "Make",
+        "ford granada",
+        "福特格兰达"
+      ],
+      [
+        "car_names",
+        "Make",
+        "ford f250",
+        "福特F-250"
+      ],
+      [
+        "car_names",
+        "Make",
+        "cadillac seville",
+        "凯迪拉克塞维尔"
+      ],
+      [
+        "car_names",
+        "Make",
+        "audi fox",
+        "奥迪Fox"
+      ],
+      [
+        "car_names",
+        "Make",
+        "oldsmobile cutlass salon brougham",
+        "奥兹莫比尔剪刀手沙龙布劳汉姆版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "plymouth champ",
+        "普利茅斯冠军"
+      ],
+      [
+        "car_names",
+        "Make",
+        "plymouth valiant custom",
+        "普利茅斯勇士定制版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "honda accord cvcc",
+        "本田雅阁CVCC"
+      ],
+      [
+        "car_names",
+        "Make",
+        "toyota corolla tercel",
+        "丰田卡罗拉特塞尔"
+      ],
+      [
+        "car_names",
+        "Make",
+        "ford torino 500",
+        "福特托里诺500"
+      ],
+      [
+        "car_names",
+        "Make",
+        "amc concord",
+        "AMC康科德"
+      ],
+      [
+        "car_names",
+        "Make",
+        "chevrolet chevelle concours (sw)",
+        "雪佛兰切维莱康考尔斯版（旅行车）"
+      ],
+      [
+        "car_names",
+        "Make",
+        "chrysler cordoba",
+        "克莱斯勒科尔多巴"
+      ],
+      [
+        "car_names",
+        "Make",
+        "amc rebel sst",
+        "AMC叛逆者SST版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "peugeot 504",
+        "标致504"
+      ],
+      [
+        "car_names",
+        "Make",
+        "ford ltd landau",
+        "福特LTD兰道版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "amc ambassador sst",
+        "AMC大使SST版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "volvo 244dl",
+        "沃尔沃244DL"
+      ],
+      [
+        "car_names",
+        "Make",
+        "saab 99le",
+        "萨博99LE"
+      ],
+      [
+        "car_names",
+        "Make",
+        "volkswagen rabbit",
+        "大众兔子"
+      ],
+      [
+        "car_names",
+        "Make",
+        "volkswagen super beetle",
+        "大众超级甲壳虫"
+      ],
+      [
+        "car_names",
+        "Make",
+        "amc ambassador dpl",
+        "AMC大使DPL版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "plymouth horizon",
+        "普利茅斯地平线"
+      ],
+      [
+        "car_names",
+        "Make",
+        "honda civic (auto)",
+        "本田思域（自动挡）"
+      ],
+      [
+        "car_names",
+        "Make",
+        "amc gremlin",
+        "AMC小精灵"
+      ],
+      [
+        "car_names",
+        "Make",
+        "mercury zephyr",
+        "水星泽菲尔"
+      ],
+      [
+        "car_names",
+        "Make",
+        "renault 5 gtl",
+        "雷诺5 GTL"
+      ],
+      [
+        "car_names",
+        "Make",
+        "ford ltd",
+        "福特LTD"
+      ],
+      [
+        "car_names",
+        "Make",
+        "ford mustang gl",
+        "福特野马GL版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "opel manta",
+        "欧宝曼塔"
+      ],
+      [
+        "car_names",
+        "Make",
+        "volvo 145e (sw)",
+        "沃尔沃145E（旅行车）"
+      ],
+      [
+        "car_names",
+        "Make",
+        "dodge charger 2.2",
+        "道奇挑战者2.2"
+      ],
+      [
+        "car_names",
+        "Make",
+        "oldsmobile omega",
+        "奥兹莫比尔欧米茄"
+      ],
+      [
+        "car_names",
+        "Make",
+        "toyota corolla liftback",
+        "丰田卡罗拉掀背版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "mazda glc custom l",
+        "马自达GLC定制L版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "amc pacer",
+        "AMC帕西菲卡"
+      ],
+      [
+        "car_names",
+        "Make",
+        "mercury capri 2000",
+        "水星卡珀里2000"
+      ],
+      [
+        "car_names",
+        "Make",
+        "mercury cougar brougham",
+        "水星美洲狮布劳汉姆版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "dodge coronet custom (sw)",
+        "道奇王冠定制版（旅行车）"
+      ],
+      [
+        "car_names",
+        "Make",
+        "plymouth fury iii",
+        "普利茅斯狂怒III"
+      ],
+      [
+        "car_names",
+        "Make",
+        "vw dasher (diesel)",
+        "大众达舍（柴油版）"
+      ],
+      [
+        "car_names",
+        "Make",
+        "datsun 210",
+        "达特桑210"
+      ],
+      [
+        "car_names",
+        "Make",
+        "oldsmobile omega brougham",
+        "奥兹莫比尔欧米茄布劳汉姆版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "subaru dl",
+        "斯巴鲁DL"
+      ],
+      [
+        "car_names",
+        "Make",
+        "pontiac j2000 se hatchback",
+        "庞蒂亚克J2000 SE掀背版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "mercury monarch ghia",
+        "水星君王Ghia版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "audi 100ls",
+        "奥迪100LS"
+      ],
+      [
+        "car_names",
+        "Make",
+        "mazda rx-7 gs",
+        "马自达RX-7 GS版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "dodge monaco brougham",
+        "道奇蒙特卡洛布劳汉姆版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "datsun 810 maxima",
+        "达特桑810马克斯玛"
+      ],
+      [
+        "car_names",
+        "Make",
+        "ford granada gl",
+        "福特格兰达GL版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "dodge coronet brougham",
+        "道奇王冠布劳汉姆版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "chevrolet nova",
+        "雪佛兰诺瓦"
+      ],
+      [
+        "car_names",
+        "Make",
+        "datsun 310",
+        "达特桑310"
+      ],
+      [
+        "car_names",
+        "Make",
+        "dodge colt (sw)",
+        "道奇柯尔特（旅行车）"
+      ],
+      [
+        "car_names",
+        "Make",
+        "datsun pl510",
+        "达特桑PL510"
+      ],
+      [
+        "car_names",
+        "Make",
+        "chrysler new yorker brougham",
+        "克莱斯勒纽约人布劳汉姆版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "renault lecar deluxe",
+        "雷诺LeCar豪华版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "chevrolet citation",
+        "雪佛兰引证"
+      ],
+      [
+        "car_names",
+        "Make",
+        "honda civic 1500 gl",
+        "本田思域1500 GL版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "ford torino (sw)",
+        "福特托里诺（旅行车）"
+      ],
+      [
+        "car_names",
+        "Make",
+        "triumph tr7 coupe",
+        "凯旋TR7双门轿跑车"
+      ],
+      [
+        "car_names",
+        "Make",
+        "datsun 210 mpg",
+        "达特桑210 MPG版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "plymouth satellite",
+        "普利茅斯卫星"
+      ],
+      [
+        "car_names",
+        "Make",
+        "dodge aries se",
+        "道奇阿里斯SE版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "dodge magnum xe",
+        "道奇MAGNUM XE版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "toyota corolla 1600 (sw)",
+        "丰田卡罗拉1600（旅行车）"
+      ],
+      [
+        "car_names",
+        "Make",
+        "audi 5000",
+        "奥迪5000"
+      ],
+      [
+        "car_names",
+        "Make",
+        "pontiac phoenix lj",
+        "庞蒂亚克凤凰LJ版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "volkswagen rabbit custom",
+        "大众兔子定制版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "plymouth satellite sebring",
+        "普利茅斯卫星塞布林版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "dodge aspen 6",
+        "道奇阿斯彭6缸版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "ford torino",
+        "福特托里诺"
+      ],
+      [
+        "car_names",
+        "Make",
+        "chevrolet concours",
+        "雪佛兰康考尔斯"
+      ],
+      [
+        "car_names",
+        "Make",
+        "mercedes benz 300d",
+        "梅赛德斯-奔驰300D"
+      ],
+      [
+        "car_names",
+        "Make",
+        "chevrolet chevelle malibu classic",
+        "雪佛兰切维莱马里布经典版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "volkswagen model 111",
+        "大众111型"
+      ],
+      [
+        "car_names",
+        "Make",
+        "mazda rx3",
+        "马自达RX-3"
+      ],
+      [
+        "car_names",
+        "Make",
+        "fiat 124b",
+        "菲亚特124B"
+      ],
+      [
+        "car_names",
+        "Make",
+        "volkswagen rabbit l",
+        "大众兔子L版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "mazda glc custom",
+        "马自达GLC定制版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "pontiac safari (sw)",
+        "庞蒂亚克游猎者（旅行车）"
+      ],
+      [
+        "car_names",
+        "Make",
+        "honda civic",
+        "本田思域"
+      ],
+      [
+        "car_names",
+        "Make",
+        "honda accord",
+        "本田雅阁"
+      ],
+      [
+        "car_names",
+        "Make",
+        "chrysler newport royal",
+        "克莱斯勒纽波特皇家版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "oldsmobile cutlass ls",
+        "奥兹莫比尔剪刀手LS版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "ford mustang",
+        "福特野马"
+      ],
+      [
+        "car_names",
+        "Make",
+        "chevrolet monte carlo s",
+        "雪佛兰蒙特卡洛S版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "oldsmobile starfire sx",
+        "奥兹莫比尔星火SX版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "plymouth satellite (sw)",
+        "普利茅斯卫星（旅行车）"
+      ],
+      [
+        "car_names",
+        "Make",
+        "ford country",
+        "福特乡村"
+      ],
+      [
+        "car_names",
+        "Make",
+        "honda civic 1300",
+        "本田思域 1300"
+      ],
+      [
+        "car_names",
+        "Make",
+        "pontiac ventura sj",
+        "庞蒂亚克文图拉 SJ"
+      ],
+      [
+        "car_names",
+        "Make",
+        "toyota corona hardtop",
+        "丰田卡罗纳硬顶版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "plymouth valiant",
+        "普利茅斯瓦良特"
+      ],
+      [
+        "car_names",
+        "Make",
+        "pontiac firebird",
+        "庞蒂亚克火鸟"
+      ],
+      [
+        "car_names",
+        "Make",
+        "plymouth cuda 340",
+        "普利茅斯Cuda 340"
+      ],
+      [
+        "car_names",
+        "Make",
+        "volkswagen dasher",
+        "大众达泽尔"
+      ],
+      [
+        "car_names",
+        "Make",
+        "pontiac grand prix",
+        "庞蒂亚克大后驱"
+      ],
+      [
+        "car_names",
+        "Make",
+        "ford galaxie 500",
+        "福特银河500"
+      ],
+      [
+        "car_names",
+        "Make",
+        "ford mustang cobra",
+        "福特野马眼镜蛇"
+      ],
+      [
+        "car_names",
+        "Make",
+        "ford escort 4w",
+        "福特护卫者 4轮驱动"
+      ],
+      [
+        "car_names",
+        "Make",
+        "peugeot 604sl",
+        "标致604 SL"
+      ],
+      [
+        "car_names",
+        "Make",
+        "ford country squire (sw)",
+        "福特乡村绅士（旅行车）"
+      ],
+      [
+        "car_names",
+        "Make",
+        "mazda rx-4",
+        "马自达RX-4"
+      ],
+      [
+        "car_names",
+        "Make",
+        "plymouth horizon miser",
+        "普利茅斯地平线节油版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "amc concord dl",
+        "AMC康科德 DL"
+      ],
+      [
+        "car_names",
+        "Make",
+        "pontiac sunbird coupe",
+        "庞蒂亚克太阳鸟双门轿跑"
+      ],
+      [
+        "car_names",
+        "Make",
+        "toyota corona liftback",
+        "丰田卡罗纳掀背版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "peugeot 304",
+        "标致304"
+      ],
+      [
+        "car_names",
+        "Make",
+        "chevrolet cavalier wagon",
+        "雪佛兰凯越旅行车"
+      ],
+      [
+        "car_names",
+        "Make",
+        "buick century special",
+        "别克世纪特别版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "buick century limited",
+        "别克世纪限量版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "buick century luxus (sw)",
+        "别克世纪豪华版（旅行车）"
+      ],
+      [
+        "car_names",
+        "Make",
+        "datsun 610",
+        "达特桑610"
+      ],
+      [
+        "car_names",
+        "Make",
+        "buick opel isuzu deluxe",
+        "别克-欧宝-五十铃尊贵版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "dodge colt m/m",
+        "道奇科尔特手动/手动（双离合？）"
+      ],
+      [
+        "car_names",
+        "Make",
+        "amc ambassador brougham",
+        "AMC大使官邸版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "plymouth cricket",
+        "普利茅斯蟋蟀"
+      ],
+      [
+        "car_names",
+        "Make",
+        "honda prelude",
+        "本田 Prelude"
+      ],
+      [
+        "car_names",
+        "Make",
+        "buick skylark 320",
+        "别克天鹰320"
+      ],
+      [
+        "car_names",
+        "Make",
+        "ford fairmont (man)",
+        "福特公平山（手动挡）"
+      ],
+      [
+        "car_names",
+        "Make",
+        "honda accord lx",
+        "本田雅阁 LX"
+      ],
+      [
+        "car_names",
+        "Make",
+        "plymouth fury gran sedan",
+        "普利茅斯狂怒旗舰轿车"
+      ],
+      [
+        "car_names",
+        "Make",
+        "volvo 245",
+        "沃尔沃245"
+      ],
+      [
+        "car_names",
+        "Make",
+        "chevrolet malibu",
+        "雪佛兰迈锐宝"
+      ],
+      [
+        "car_names",
+        "Make",
+        "dodge aspen se",
+        "道奇阿斯彭 SE"
+      ],
+      [
+        "car_names",
+        "Make",
+        "volkswagen jetta",
+        "大众捷达"
+      ],
+      [
+        "car_names",
+        "Make",
+        "datsun 510",
+        "达特桑510"
+      ],
+      [
+        "car_names",
+        "Make",
+        "volkswagen type 3",
+        "大众Type 3"
+      ],
+      [
+        "car_names",
+        "Make",
+        "dodge challenger se",
+        "道奇挑战者 SE"
+      ],
+      [
+        "car_names",
+        "Make",
+        "chevrolet bel air",
+        "雪佛兰贝尔艾尔"
+      ],
+      [
+        "car_names",
+        "Make",
+        "toyota celica gt",
+        "丰田凯美瑞GT"
+      ],
+      [
+        "car_names",
+        "Make",
+        "citroen ds-21 pallas",
+        "雪铁龙DS-21帕拉斯"
+      ],
+      [
+        "car_names",
+        "Make",
+        "audi 4000",
+        "奥迪4000"
+      ],
+      [
+        "car_names",
+        "Make",
+        "bmw 2002",
+        "宝马2002"
+      ],
+      [
+        "car_names",
+        "Make",
+        "pontiac grand prix lj",
+        "庞蒂亚克大后驱 LJ"
+      ],
+      [
+        "car_names",
+        "Make",
+        "plymouth volare custom",
+        "普利茅斯沃勒定制版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "amc matador (sw)",
+        "AMC马塔多尔（旅行车）"
+      ],
+      [
+        "car_names",
+        "Make",
+        "plymouth reliant",
+        "普利茅斯信赖者"
+      ],
+      [
+        "car_names",
+        "Make",
+        "mazda 626",
+        "马自达626"
+      ],
+      [
+        "car_names",
+        "Make",
+        "renault 12 (sw)",
+        "雷诺12（旅行车）"
+      ],
+      [
+        "car_names",
+        "Make",
+        "mercedes-benz 280s",
+        "梅赛德斯-奔驰280S"
+      ],
+      [
+        "car_names",
+        "Make",
+        "oldsmobile cutlass ciera (diesel)",
+        "奥兹莫比尔库尔特·西埃拉（柴油版）"
+      ],
+      [
+        "car_names",
+        "Make",
+        "datsun 310 gx",
+        "达特桑310 GX"
+      ],
+      [
+        "car_names",
+        "Make",
+        "toyota corolla 1200",
+        "丰田卡罗拉1200"
+      ],
+      [
+        "car_names",
+        "Make",
+        "renault 18i",
+        "雷诺18i"
+      ],
+      [
+        "car_names",
+        "Make",
+        "dodge d200",
+        "道奇D200"
+      ],
+      [
+        "car_names",
+        "Make",
+        "toyota tercel",
+        "丰田特塞尔"
+      ],
+      [
+        "car_names",
+        "Make",
+        "chevrolet monza 2+2",
+        "雪佛兰蒙扎2+2"
+      ],
+      [
+        "car_names",
+        "Make",
+        "toyota corolla",
+        "丰田卡罗拉"
+      ],
+      [
+        "car_names",
+        "Make",
+        "plymouth volare premier v8",
+        "普利茅斯沃勒旗舰V8"
+      ],
+      [
+        "car_names",
+        "Make",
+        "buick century",
+        "别克世纪"
+      ],
+      [
+        "car_names",
+        "Make",
+        "amc rebel sst (sw)",
+        "AMC叛逆者SST（旅行车）"
+      ],
+      [
+        "car_names",
+        "Make",
+        "buick lesabre custom",
+        "别克莱萨布雷定制版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "ford maverick",
+        "福特野马客"
+      ],
+      [
+        "car_names",
+        "Make",
+        "vw pickup",
+        "大众皮卡"
+      ],
+      [
+        "car_names",
+        "Make",
+        "mazda glc",
+        "马自达GLC"
+      ],
+      [
+        "car_names",
+        "Make",
+        "ford mustang boss 302",
+        "福特野马Boss 302"
+      ],
+      [
+        "car_names",
+        "Make",
+        "plymouth volare",
+        "普利茅斯沃勒"
+      ],
+      [
+        "car_names",
+        "Make",
+        "oldsmobile vista cruiser",
+        "奥兹莫比尔远景巡洋舰"
+      ],
+      [
+        "car_names",
+        "Make",
+        "toyota cressida",
+        "丰田佳美"
+      ],
+      [
+        "car_names",
+        "Make",
+        "capri ii",
+        "福特Capri II"
+      ],
+      [
+        "car_names",
+        "Make",
+        "cadillac eldorado",
+        "凯迪拉克埃尔多拉多"
+      ],
+      [
+        "car_names",
+        "Make",
+        "mercedes-benz 240d",
+        "梅赛德斯-奔驰240D"
+      ],
+      [
+        "car_names",
+        "Make",
+        "buick estate wagon (sw)",
+        "别克庄园旅行车（旅行车）"
+      ],
+      [
+        "car_names",
+        "Make",
+        "chevrolet nova custom",
+        "雪佛兰诺瓦定制版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "honda civic cvcc",
+        "本田思域CVCC"
+      ],
+      [
+        "car_names",
+        "Make",
+        "chevrolet vega 2300",
+        "雪佛兰维加2300"
+      ],
+      [
+        "car_names",
+        "Make",
+        "subaru",
+        "斯巴鲁"
+      ],
+      [
+        "car_names",
+        "Make",
+        "dodge omni",
+        "道奇Omni"
+      ],
+      [
+        "car_names",
+        "Make",
+        "oldsmobile delta 88 royale",
+        "奥兹莫比尔德尔塔88皇家版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "ford escort 2h",
+        "福特护卫者2座硬顶"
+      ],
+      [
+        "car_names",
+        "Make",
+        "ford fairmont 4",
+        "福特公平山四门版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "chevrolet vega (sw)",
+        "雪佛兰维加（旅行车）"
+      ],
+      [
+        "car_names",
+        "Make",
+        "chevrolet caprice classic",
+        "雪佛兰卡普里斯经典版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "toyota celica gt liftback",
+        "丰田凯美瑞GT掀背版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "dodge aries wagon (sw)",
+        "道奇阿里斯旅行车（旅行车）"
+      ],
+      [
+        "car_names",
+        "Make",
+        "chevy c20",
+        "雪佛兰C20"
+      ],
+      [
+        "car_names",
+        "Make",
+        "plymouth horizon 4",
+        "普利茅斯地平线四门版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "volkswagen scirocco",
+        "大众尚酷"
+      ],
+      [
+        "car_names",
+        "Make",
+        "amc spirit dl",
+        "AMC精灵DL"
+      ],
+      [
+        "car_names",
+        "Make",
+        "dodge colt hardtop",
+        "道奇科尔特硬顶版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "dodge dart custom",
+        "道奇达特定制版"
+      ],
+      [
+        "car_names",
+        "Make",
+        "pontiac catalina",
+        "庞蒂亚克卡塔利娜"
+      ],
+      [
+        "car_names",
+        "Make",
+        "ford thunderbird",
+        "福特雷鸟"
+      ],
+      [
+        "car_names",
+        "Make",
+        "ford pinto runabout",
+        "福特平托小型车"
+      ],
+      [
+        "car_names",
+        "Make",
+        "mercury grand marquis",
+        "水星大侯爵"
+      ],
+      [
+        "car_names",
+        "Make",
+        "ford gran torino (sw)",
+        "福特大托里诺（旅行车）"
+      ],
+      [
+        "car_names",
+        "Make",
+        "ford fairmont",
+        "福特公平山"
+      ]
+    ]
+  },
+  "real_estate_properties": {
+    "tables": [
+      [
+        "Ref_Feature_Types",
+        "设施类型参考表"
+      ],
+      [
+        "Ref_Property_Types",
+        "房产类型参考表"
+      ],
+      [
+        "Other_Available_Features",
+        "其他可用设施"
+      ],
+      [
+        "Properties",
+        "房产"
+      ],
+      [
+        "Other_Property_Features",
+        "房产其他设施"
+      ]
+    ],
+    "columns": [
+      [
+        "Ref_Feature_Types",
+        "feature_type_code",
+        "设施类型编码"
+      ],
+      [
+        "Ref_Feature_Types",
+        "feature_type_name",
+        "设施类型名称"
+      ],
+      [
+        "Ref_Property_Types",
+        "property_type_code",
+        "房产类型编码"
+      ],
+      [
+        "Ref_Property_Types",
+        "property_type_description",
+        "房产类型描述"
+      ],
+      [
+        "Other_Available_Features",
+        "feature_id",
+        "设施编号"
+      ],
+      [
+        "Other_Available_Features",
+        "feature_type_code",
+        "设施类型编码"
+      ],
+      [
+        "Other_Available_Features",
+        "feature_name",
+        "设施名称"
+      ],
+      [
+        "Other_Available_Features",
+        "feature_description",
+        "设施描述"
+      ],
+      [
+        "Properties",
+        "property_id",
+        "房产编号"
+      ],
+      [
+        "Properties",
+        "property_type_code",
+        "房产类型编码"
+      ],
+      [
+        "Properties",
+        "date_on_market",
+        "上市日期"
+      ],
+      [
+        "Properties",
+        "date_sold",
+        "售出日期"
+      ],
+      [
+        "Properties",
+        "property_name",
+        "房产名称"
+      ],
+      [
+        "Properties",
+        "property_address",
+        "房产地址"
+      ],
+      [
+        "Properties",
+        "room_count",
+        "房间数量"
+      ],
+      [
+        "Properties",
+        "vendor_requested_price",
+        "卖方报价"
+      ],
+      [
+        "Properties",
+        "buyer_offered_price",
+        "买方出价"
+      ],
+      [
+        "Properties",
+        "agreed_selling_price",
+        "成交价"
+      ],
+      [
+        "Properties",
+        "apt_feature_1",
+        "公寓设施1"
+      ],
+      [
+        "Properties",
+        "apt_feature_2",
+        "公寓设施2"
+      ],
+      [
+        "Properties",
+        "apt_feature_3",
+        "公寓设施3"
+      ],
+      [
+        "Properties",
+        "fld_feature_1",
+        "平房设施1"
+      ],
+      [
+        "Properties",
+        "fld_feature_2",
+        "平房设施2"
+      ],
+      [
+        "Properties",
+        "fld_feature_3",
+        "平房设施3"
+      ],
+      [
+        "Properties",
+        "hse_feature_1",
+        "住宅设施1"
+      ],
+      [
+        "Properties",
+        "hse_feature_2",
+        "住宅设施2"
+      ],
+      [
+        "Properties",
+        "hse_feature_3",
+        "住宅设施3"
+      ],
+      [
+        "Properties",
+        "oth_feature_1",
+        "其他设施1"
+      ],
+      [
+        "Properties",
+        "oth_feature_2",
+        "其他设施2"
+      ],
+      [
+        "Properties",
+        "oth_feature_3",
+        "其他设施3"
+      ],
+      [
+        "Properties",
+        "shp_feature_1",
+        "商铺设施1"
+      ],
+      [
+        "Properties",
+        "shp_feature_2",
+        "商铺设施2"
+      ],
+      [
+        "Properties",
+        "shp_feature_3",
+        "商铺设施3"
+      ],
+      [
+        "Properties",
+        "other_property_details",
+        "房产其他详情"
+      ],
+      [
+        "Other_Property_Features",
+        "property_id",
+        "房产编号"
+      ],
+      [
+        "Other_Property_Features",
+        "feature_id",
+        "设施编号"
+      ],
+      [
+        "Other_Property_Features",
+        "property_feature_description",
+        "房产设施描述"
+      ]
+    ],
+    "values": [
+      [
+        "Other_Available_Features",
+        "feature_description",
+        "Air Conditioning.",
+        "空调"
+      ],
+      [
+        "Other_Available_Features",
+        "feature_description",
+        "Swimming Pool.",
+        "游泳池"
+      ],
+      [
+        "Other_Available_Features",
+        "feature_description",
+        "Burglar Alarm",
+        "防盗报警系统"
+      ],
+      [
+        "Ref_Property_Types",
+        "property_type_description",
+        "Apartment, Flat, Condo, etc.",
+        "公寓、单元房、共管公寓等"
+      ],
+      [
+        "Ref_Property_Types",
+        "property_type_description",
+        "House, Bungalow, etc.",
+        "独立屋、平房等"
+      ],
+      [
+        "Ref_Property_Types",
+        "property_type_description",
+        "Shop, Retail Outlet.",
+        "商铺、零售门店"
+      ],
+      [
+        "Ref_Property_Types",
+        "property_type_description",
+        "Other, to be determined.",
+        "其他（待确定）"
+      ],
+      [
+        "Ref_Property_Types",
+        "property_type_description",
+        "Field, Meadow.",
+        "田地、草地"
+      ],
+      [
+        "Properties",
+        "apt_feature_1",
+        "consequatur",
+        "因此"
+      ],
+      [
+        "Properties",
+        "apt_feature_1",
+        "qui",
+        "谁"
+      ],
+      [
+        "Properties",
+        "apt_feature_1",
+        "ut",
+        "以便"
+      ],
+      [
+        "Properties",
+        "apt_feature_1",
+        "quos",
+        "那些"
+      ],
+      [
+        "Properties",
+        "apt_feature_1",
+        "aut",
+        "或"
+      ],
+      [
+        "Properties",
+        "apt_feature_1",
+        "nesciunt",
+        "不知"
+      ],
+      [
+        "Properties",
+        "apt_feature_1",
+        "enim",
+        "因为"
+      ],
+      [
+        "Properties",
+        "apt_feature_1",
+        "et",
+        "和"
+      ],
+      [
+        "Properties",
+        "apt_feature_1",
+        "est",
+        "是"
+      ],
+      [
+        "Properties",
+        "apt_feature_1",
+        "sed",
+        "但是"
+      ],
+      [
+        "Properties",
+        "apt_feature_1",
+        "fuga",
+        "逃避"
+      ],
+      [
+        "Properties",
+        "apt_feature_1",
+        "quo",
+        "到哪里"
+      ],
+      [
+        "Properties",
+        "apt_feature_2",
+        "vero",
+        "真实"
+      ],
+      [
+        "Properties",
+        "apt_feature_2",
+        "sequi",
+        "追随"
+      ],
+      [
+        "Properties",
+        "apt_feature_2",
+        "adipisci",
+        "喜爱"
+      ],
+      [
+        "Properties",
+        "apt_feature_2",
+        "culpa",
+        "过失"
+      ],
+      [
+        "Properties",
+        "apt_feature_2",
+        "odio",
+        "憎恶"
+      ],
+      [
+        "Properties",
+        "apt_feature_2",
+        "suscipit",
+        "承担"
+      ],
+      [
+        "Properties",
+        "apt_feature_2",
+        "aut",
+        "或"
+      ],
+      [
+        "Properties",
+        "apt_feature_2",
+        "eos",
+        "他们"
+      ],
+      [
+        "Properties",
+        "apt_feature_2",
+        "et",
+        "和"
+      ],
+      [
+        "Properties",
+        "apt_feature_2",
+        "est",
+        "是"
+      ],
+      [
+        "Properties",
+        "apt_feature_2",
+        "iusto",
+        "公正"
+      ],
+      [
+        "Properties",
+        "apt_feature_2",
+        "sit",
+        "位于"
+      ],
+      [
+        "Properties",
+        "apt_feature_2",
+        "autem",
+        "然而"
+      ],
+      [
+        "Other_Property_Features",
+        "property_feature_description",
+        "earum",
+        "它们的"
+      ],
+      [
+        "Other_Property_Features",
+        "property_feature_description",
+        "ad",
+        "用于"
+      ],
+      [
+        "Other_Property_Features",
+        "property_feature_description",
+        "modi",
+        "方式"
+      ],
+      [
+        "Other_Property_Features",
+        "property_feature_description",
+        "vitae",
+        "生命；生活"
+      ],
+      [
+        "Other_Property_Features",
+        "property_feature_description",
+        "dolorem",
+        "痛苦"
+      ],
+      [
+        "Other_Property_Features",
+        "property_feature_description",
+        "doloribus",
+        "痛苦（复数）"
+      ],
+      [
+        "Other_Property_Features",
+        "property_feature_description",
+        "odio",
+        "憎恨；厌恶"
+      ],
+      [
+        "Other_Property_Features",
+        "property_feature_description",
+        "hic",
+        "这个"
+      ],
+      [
+        "Other_Property_Features",
+        "property_feature_description",
+        "cumque",
+        "无论……还是……"
+      ],
+      [
+        "Other_Property_Features",
+        "property_feature_description",
+        "et",
+        "和"
+      ],
+      [
+        "Other_Property_Features",
+        "property_feature_description",
+        "autem",
+        "然而"
+      ],
+      [
+        "Other_Property_Features",
+        "property_feature_description",
+        "corrupti",
+        "腐败的；被破坏的"
+      ],
+      [
+        "Other_Property_Features",
+        "property_feature_description",
+        "quo",
+        "凭借什么；通过什么"
+      ],
+      [
+        "Other_Property_Features",
+        "property_feature_description",
+        "illo",
+        "那个"
+      ]
+    ]
+  },
+  "orchestra": {
+    "tables": [
+      [
+        "conductor",
+        "指挥家"
+      ],
+      [
+        "orchestra",
+        "乐团"
+      ],
+      [
+        "performance",
+        "演出"
+      ],
+      [
+        "show",
+        "节目"
+      ]
+    ],
+    "columns": [
+      [
+        "conductor",
+        "Conductor_ID",
+        "指挥家编号"
+      ],
+      [
+        "conductor",
+        "Name",
+        "姓名"
+      ],
+      [
+        "conductor",
+        "Age",
+        "年龄"
+      ],
+      [
+        "conductor",
+        "Nationality",
+        "国籍"
+      ],
+      [
+        "conductor",
+        "Year_of_Work",
+        "从业年份"
+      ],
+      [
+        "orchestra",
+        "Orchestra_ID",
+        "乐团编号"
+      ],
+      [
+        "orchestra",
+        "Orchestra",
+        "乐团名称"
+      ],
+      [
+        "orchestra",
+        "Conductor_ID",
+        "指挥家编号"
+      ],
+      [
+        "orchestra",
+        "Record_Company",
+        "唱片公司"
+      ],
+      [
+        "orchestra",
+        "Year_of_Founded",
+        "成立年份"
+      ],
+      [
+        "orchestra",
+        "Major_Record_Format",
+        "主要录音格式"
+      ],
+      [
+        "performance",
+        "Performance_ID",
+        "演出编号"
+      ],
+      [
+        "performance",
+        "Orchestra_ID",
+        "乐团编号"
+      ],
+      [
+        "performance",
+        "Type",
+        "类型"
+      ],
+      [
+        "performance",
+        "Date",
+        "日期"
+      ],
+      [
+        "performance",
+        "Official_ratings_(millions)",
+        "官方收视率（百万）"
+      ],
+      [
+        "performance",
+        "Weekly_rank",
+        "周排名"
+      ],
+      [
+        "performance",
+        "Share",
+        "收视份额"
+      ],
+      [
+        "show",
+        "Show_ID",
+        "节目编号"
+      ],
+      [
+        "show",
+        "Performance_ID",
+        "演出编号"
+      ],
+      [
+        "show",
+        "If_first_show",
+        "是否首播"
+      ],
+      [
+        "show",
+        "Result",
+        "结果"
+      ],
+      [
+        "show",
+        "Attendance",
+        "出席人数"
+      ]
+    ],
+    "values": [
+      [
+        "conductor",
+        "Nationality",
+        "USA",
+        "美国"
+      ],
+      [
+        "conductor",
+        "Nationality",
+        "UK",
+        "英国"
+      ],
+      [
+        "conductor",
+        "Nationality",
+        "France",
+        "法国"
+      ],
+      [
+        "orchestra",
+        "Major_Record_Format",
+        "DVD",
+        "DVD"
+      ],
+      [
+        "orchestra",
+        "Major_Record_Format",
+        "CD",
+        "CD"
+      ],
+      [
+        "orchestra",
+        "Major_Record_Format",
+        "CD / LP",
+        "CD / 黑胶唱片"
+      ],
+      [
+        "orchestra",
+        "Orchestra",
+        "Kirov Orchestra",
+        "基洛夫管弦乐团"
+      ],
+      [
+        "orchestra",
+        "Orchestra",
+        "Philharmonia Orchestra",
+        "爱乐管弦乐团"
+      ],
+      [
+        "orchestra",
+        "Orchestra",
+        "Royal Concertgebouw Orchestra",
+        "皇家音乐厅管弦乐团"
+      ],
+      [
+        "orchestra",
+        "Orchestra",
+        "Royal Danish Orchestra",
+        "丹麦皇家管弦乐团"
+      ],
+      [
+        "orchestra",
+        "Orchestra",
+        "Seattle Symphony Orchestra",
+        "西雅图交响乐团"
+      ],
+      [
+        "orchestra",
+        "Orchestra",
+        "Orchestre de Paris",
+        "巴黎管弦乐团"
+      ],
+      [
+        "orchestra",
+        "Orchestra",
+        "London Symphony Orchestra",
+        "伦敦交响乐团"
+      ],
+      [
+        "orchestra",
+        "Orchestra",
+        "Columbia Symphony Orchestra",
+        "哥伦比亚交响乐团"
+      ],
+      [
+        "orchestra",
+        "Orchestra",
+        "Chicago Symphony Orchestra",
+        "芝加哥交响乐团"
+      ],
+      [
+        "orchestra",
+        "Orchestra",
+        "Detroit Symphony Orchestra",
+        "底特律交响乐团"
+      ],
+      [
+        "orchestra",
+        "Orchestra",
+        "San Francisco Symphony Orchestra",
+        "旧金山交响乐团"
+      ],
+      [
+        "orchestra",
+        "Orchestra",
+        "Montreal Symphony Orchestra",
+        "蒙特利尔交响乐团"
+      ],
+      [
+        "performance",
+        "Type",
+        "Auditions 4",
+        "试镜 4"
+      ],
+      [
+        "performance",
+        "Type",
+        "Auditions 5",
+        "试镜 5"
+      ],
+      [
+        "performance",
+        "Type",
+        "Semi-final 2",
+        "半决赛 2"
+      ],
+      [
+        "performance",
+        "Type",
+        "Live final results",
+        "直播总决赛结果"
+      ],
+      [
+        "performance",
+        "Type",
+        "Series average",
+        "全季平均分"
+      ],
+      [
+        "performance",
+        "Type",
+        "Auditions 1",
+        "试镜 1"
+      ],
+      [
+        "performance",
+        "Type",
+        "Auditions 2",
+        "试镜 2"
+      ],
+      [
+        "performance",
+        "Type",
+        "Live final",
+        "直播总决赛"
+      ],
+      [
+        "performance",
+        "Type",
+        "Semi-final 1",
+        "半决赛 1"
+      ],
+      [
+        "performance",
+        "Type",
+        "Semi-final 3",
+        "半决赛 3"
+      ],
+      [
+        "performance",
+        "Type",
+        "Auditions 3",
+        "试镜 3"
+      ],
+      [
+        "orchestra",
+        "Record_Company",
+        "Delos Records",
+        "Delos唱片"
+      ],
+      [
+        "orchestra",
+        "Record_Company",
+        "Philips Classics Records",
+        "飞利浦古典唱片"
+      ],
+      [
+        "orchestra",
+        "Record_Company",
+        "Deutsche Grammophon",
+        "德意志留声机公司"
+      ],
+      [
+        "orchestra",
+        "Record_Company",
+        "Koch Records / Naxos Records",
+        "Koch唱片／Naxos唱片"
+      ],
+      [
+        "orchestra",
+        "Record_Company",
+        "Philips",
+        "飞利浦"
+      ],
+      [
+        "orchestra",
+        "Record_Company",
+        "Kultur",
+        "Kultur"
+      ],
+      [
+        "orchestra",
+        "Record_Company",
+        "Decca Records",
+        "迪卡唱片"
+      ],
+      [
+        "orchestra",
+        "Record_Company",
+        "EMI",
+        "EMI"
+      ],
+      [
+        "orchestra",
+        "Record_Company",
+        "RCA",
+        "RCA"
+      ],
+      [
+        "orchestra",
+        "Record_Company",
+        "Mercury Records",
+        "水星唱片"
+      ],
+      [
+        "orchestra",
+        "Record_Company",
+        "Columbia Masterworks",
+        "哥伦比亚大师作品"
+      ]
+    ]
+  },
+  "singer": {
+    "tables": [
+      [
+        "singer",
+        "歌手"
+      ],
+      [
+        "song",
+        "歌曲"
+      ]
+    ],
+    "columns": [
+      [
+        "singer",
+        "Singer_ID",
+        "歌手编号"
+      ],
+      [
+        "singer",
+        "Name",
+        "姓名"
+      ],
+      [
+        "singer",
+        "Birth_Year",
+        "出生年份"
+      ],
+      [
+        "singer",
+        "Net_Worth_Millions",
+        "净资产（百万美元）"
+      ],
+      [
+        "singer",
+        "Citizenship",
+        "国籍"
+      ],
+      [
+        "song",
+        "Song_ID",
+        "歌曲编号"
+      ],
+      [
+        "song",
+        "Title",
+        "标题"
+      ],
+      [
+        "song",
+        "Singer_ID",
+        "歌手编号"
+      ],
+      [
+        "song",
+        "Sales",
+        "销量"
+      ],
+      [
+        "song",
+        "Highest_Position",
+        "最高排名"
+      ]
+    ],
+    "values": [
+      [
+        "singer",
+        "Citizenship",
+        "Australia",
+        "澳大利亚"
+      ],
+      [
+        "singer",
+        "Citizenship",
+        "Chile",
+        "智利"
+      ],
+      [
+        "singer",
+        "Citizenship",
+        "Germany",
+        "德国"
+      ],
+      [
+        "singer",
+        "Citizenship",
+        "France",
+        "法国"
+      ],
+      [
+        "singer",
+        "Citizenship",
+        "United States",
+        "美国"
+      ],
+      [
+        "song",
+        "Title",
+        "F**k It (I Don't Want You Back)",
+        "算了（我不想再要你了）"
+      ],
+      [
+        "song",
+        "Title",
+        "Left Outside Alone",
+        "独自被遗留在外"
+      ],
+      [
+        "song",
+        "Title",
+        "All This Time",
+        "一直以来"
+      ],
+      [
+        "song",
+        "Title",
+        "Do They Know It's Christmas",
+        "他们知道今天是圣诞节吗？"
+      ],
+      [
+        "song",
+        "Title",
+        "Cha Cha Slide",
+        "查查滑步舞"
+      ],
+      [
+        "song",
+        "Title",
+        "Mysterious Girl",
+        "神秘女孩"
+      ],
+      [
+        "song",
+        "Title",
+        "Call on Me",
+        "呼唤我"
+      ],
+      [
+        "song",
+        "Title",
+        "Yeah",
+        "耶"
+      ]
+    ]
+  },
+  "concert_singer": {
+    "tables": [
+      [
+        "stadium",
+        "体育场"
+      ],
+      [
+        "singer",
+        "歌手"
+      ],
+      [
+        "concert",
+        "演唱会"
+      ],
+      [
+        "singer_in_concert",
+        "歌手参演"
+      ]
+    ],
+    "columns": [
+      [
+        "stadium",
+        "Stadium_ID",
+        "体育场编号"
+      ],
+      [
+        "stadium",
+        "Location",
+        "所在地"
+      ],
+      [
+        "stadium",
+        "Name",
+        "名称"
+      ],
+      [
+        "stadium",
+        "Capacity",
+        "容量"
+      ],
+      [
+        "stadium",
+        "Highest",
+        "最高票价"
+      ],
+      [
+        "stadium",
+        "Lowest",
+        "最低票价"
+      ],
+      [
+        "stadium",
+        "Average",
+        "平均票价"
+      ],
+      [
+        "singer",
+        "Singer_ID",
+        "歌手编号"
+      ],
+      [
+        "singer",
+        "Name",
+        "姓名"
+      ],
+      [
+        "singer",
+        "Country",
+        "国籍"
+      ],
+      [
+        "singer",
+        "Song_Name",
+        "歌曲名称"
+      ],
+      [
+        "singer",
+        "Song_release_year",
+        "歌曲发行年份"
+      ],
+      [
+        "singer",
+        "Age",
+        "年龄"
+      ],
+      [
+        "singer",
+        "Is_male",
+        "是否男性"
+      ],
+      [
+        "concert",
+        "concert_ID",
+        "演唱会编号"
+      ],
+      [
+        "concert",
+        "concert_Name",
+        "演唱会名称"
+      ],
+      [
+        "concert",
+        "Theme",
+        "主题"
+      ],
+      [
+        "concert",
+        "Stadium_ID",
+        "体育场编号"
+      ],
+      [
+        "concert",
+        "Year",
+        "年份"
+      ],
+      [
+        "singer_in_concert",
+        "concert_ID",
+        "演唱会编号"
+      ],
+      [
+        "singer_in_concert",
+        "Singer_ID",
+        "歌手编号"
+      ]
+    ],
+    "values": [
+      [
+        "concert",
+        "Theme",
+        "Bleeding Love",
+        "爱已流血"
+      ],
+      [
+        "concert",
+        "Theme",
+        "Party All Night",
+        "彻夜狂欢"
+      ],
+      [
+        "concert",
+        "Theme",
+        "Free choice 2",
+        "自选曲目2"
+      ],
+      [
+        "concert",
+        "Theme",
+        "Happy Tonight",
+        "今夜快乐"
+      ],
+      [
+        "concert",
+        "Theme",
+        "Wide Awake",
+        "完全清醒"
+      ],
+      [
+        "concert",
+        "Theme",
+        "Free choice",
+        "自选曲目"
+      ],
+      [
+        "stadium",
+        "Location",
+        "Brechin City",
+        "布雷钦城"
+      ],
+      [
+        "stadium",
+        "Location",
+        "Peterhead",
+        "彼得黑德"
+      ],
+      [
+        "stadium",
+        "Location",
+        "Stirling Albion",
+        "斯特灵阿尔比恩"
+      ],
+      [
+        "stadium",
+        "Location",
+        "East Fife",
+        "东法夫"
+      ],
+      [
+        "stadium",
+        "Location",
+        "Raith Rovers",
+        "拉思罗弗斯"
+      ],
+      [
+        "stadium",
+        "Location",
+        "Arbroath",
+        "阿布罗斯"
+      ],
+      [
+        "stadium",
+        "Location",
+        "Alloa Athletic",
+        "阿洛亚竞技"
+      ],
+      [
+        "stadium",
+        "Location",
+        "Ayr United",
+        "艾尔联"
+      ],
+      [
+        "stadium",
+        "Location",
+        "Queen's Park",
+        "女王公园"
+      ]
+    ]
+  },
+  "world_1": {
+    "tables": [
+      [
+        "city",
+        "城市"
+      ],
+      [
+        "sqlite_sequence",
+        "sqlite_sequence"
+      ],
+      [
+        "country",
+        "国家"
+      ],
+      [
+        "countrylanguage",
+        "国家语言"
+      ]
+    ],
+    "columns": [
+      [
+        "city",
+        "ID",
+        "编号"
+      ],
+      [
+        "city",
+        "Name",
+        "名称"
+      ],
+      [
+        "city",
+        "CountryCode",
+        "国家代码"
+      ],
+      [
+        "city",
+        "District",
+        "行政区"
+      ],
+      [
+        "city",
+        "Population",
+        "人口"
+      ],
+      [
+        "sqlite_sequence",
+        "name",
+        "name"
+      ],
+      [
+        "sqlite_sequence",
+        "seq",
+        "seq"
+      ],
+      [
+        "country",
+        "Code",
+        "代码"
+      ],
+      [
+        "country",
+        "Name",
+        "名称"
+      ],
+      [
+        "country",
+        "Continent",
+        "洲"
+      ],
+      [
+        "country",
+        "Region",
+        "区域"
+      ],
+      [
+        "country",
+        "SurfaceArea",
+        "国土面积"
+      ],
+      [
+        "country",
+        "IndepYear",
+        "独立年份"
+      ],
+      [
+        "country",
+        "Population",
+        "人口"
+      ],
+      [
+        "country",
+        "LifeExpectancy",
+        "预期寿命"
+      ],
+      [
+        "country",
+        "GNP",
+        "国民生产总值"
+      ],
+      [
+        "country",
+        "GNPOld",
+        "旧国民生产总值"
+      ],
+      [
+        "country",
+        "LocalName",
+        "本地名称"
+      ],
+      [
+        "country",
+        "GovernmentForm",
+        "政体"
+      ],
+      [
+        "country",
+        "HeadOfState",
+        "国家元首"
+      ],
+      [
+        "country",
+        "Capital",
+        "首都"
+      ],
+      [
+        "country",
+        "Code2",
+        "两位字母国家代码"
+      ],
+      [
+        "countrylanguage",
+        "CountryCode",
+        "国家代码"
+      ],
+      [
+        "countrylanguage",
+        "Language",
+        "语言"
+      ],
+      [
+        "countrylanguage",
+        "IsOfficial",
+        "是否官方语言"
+      ],
+      [
+        "countrylanguage",
+        "Percentage",
+        "使用百分比"
+      ]
+    ],
+    "values": [
+      [
+        "country",
+        "Continent",
+        "Oceania",
+        "大洋洲"
+      ],
+      [
+        "country",
+        "Continent",
+        "Europe",
+        "欧洲"
+      ],
+      [
+        "country",
+        "Continent",
+        "North America",
+        "北美洲"
+      ],
+      [
+        "country",
+        "Continent",
+        "Africa",
+        "非洲"
+      ],
+      [
+        "country",
+        "Continent",
+        "Antarctica",
+        "南极洲"
+      ],
+      [
+        "country",
+        "Continent",
+        "South America",
+        "南美洲"
+      ],
+      [
+        "country",
+        "Continent",
+        "Asia",
+        "亚洲"
+      ],
+      [
+        "country",
+        "Region",
+        "Melanesia",
+        "美拉尼西亚"
+      ],
+      [
+        "country",
+        "Region",
+        "Polynesia",
+        "波利尼西亚"
+      ],
+      [
+        "country",
+        "Region",
+        "Antarctica",
+        "南极洲"
+      ],
+      [
+        "country",
+        "Region",
+        "North America",
+        "北美洲"
+      ],
+      [
+        "country",
+        "Region",
+        "Baltic Countries",
+        "波罗的海国家"
+      ],
+      [
+        "country",
+        "Region",
+        "Micronesia/Caribbean",
+        "密克罗尼西亚/加勒比地区"
+      ],
+      [
+        "country",
+        "Region",
+        "Caribbean",
+        "加勒比地区"
+      ],
+      [
+        "country",
+        "Region",
+        "Central America",
+        "中美洲"
+      ],
+      [
+        "country",
+        "Region",
+        "Nordic Countries",
+        "北欧国家"
+      ],
+      [
+        "country",
+        "Region",
+        "Southern Africa",
+        "南部非洲"
+      ],
+      [
+        "country",
+        "Region",
+        "Southeast Asia",
+        "东南亚"
+      ],
+      [
+        "country",
+        "Region",
+        "Western Africa",
+        "西非"
+      ],
+      [
+        "country",
+        "Region",
+        "Southern and Central Asia",
+        "南亚和中亚"
+      ],
+      [
+        "country",
+        "Region",
+        "Southern Europe",
+        "南欧"
+      ],
+      [
+        "country",
+        "Region",
+        "Eastern Asia",
+        "东亚"
+      ],
+      [
+        "country",
+        "Region",
+        "Australia and New Zealand",
+        "澳大利亚和新西兰"
+      ],
+      [
+        "country",
+        "Region",
+        "Northern Africa",
+        "北非"
+      ],
+      [
+        "country",
+        "Region",
+        "Eastern Europe",
+        "东欧"
+      ],
+      [
+        "country",
+        "Region",
+        "South America",
+        "南美洲"
+      ],
+      [
+        "country",
+        "Region",
+        "Middle East",
+        "中东"
+      ],
+      [
+        "country",
+        "Region",
+        "Eastern Africa",
+        "东非"
+      ],
+      [
+        "country",
+        "Region",
+        "British Islands",
+        "不列颠群岛"
+      ],
+      [
+        "country",
+        "Region",
+        "Micronesia",
+        "密克罗尼西亚"
+      ],
+      [
+        "country",
+        "Region",
+        "Western Europe",
+        "西欧"
+      ],
+      [
+        "country",
+        "Region",
+        "Central Africa",
+        "中非"
+      ],
+      [
+        "country",
+        "GovernmentForm",
+        "Socialistic State",
+        "社会主义国家"
+      ],
+      [
+        "country",
+        "GovernmentForm",
+        "Special Administrative Region of China",
+        "中华人民共和国特别行政区"
+      ],
+      [
+        "country",
+        "GovernmentForm",
+        "Nonmetropolitan Territory of The Netherlands",
+        "荷兰海外领地"
+      ],
+      [
+        "country",
+        "GovernmentForm",
+        "Administrated by the UN",
+        "由联合国管理"
+      ],
+      [
+        "country",
+        "GovernmentForm",
+        "Dependent Territory of the US",
+        "美国海外领地"
+      ],
+      [
+        "country",
+        "GovernmentForm",
+        "Parlementary Monarchy",
+        "议会君主制"
+      ],
+      [
+        "country",
+        "GovernmentForm",
+        "Monarchy (Sultanate)",
+        "君主制（苏丹国）"
+      ],
+      [
+        "country",
+        "GovernmentForm",
+        "Territorial Collectivity of France",
+        "法国海外集体"
+      ],
+      [
+        "country",
+        "GovernmentForm",
+        "US Territory",
+        "美国领土"
+      ],
+      [
+        "country",
+        "GovernmentForm",
+        "Parliamentary Coprincipality",
+        "议会共主邦联"
+      ],
+      [
+        "country",
+        "GovernmentForm",
+        "Nonmetropolitan Territory of France",
+        "法国海外领地"
+      ],
+      [
+        "country",
+        "GovernmentForm",
+        "Constitutional Monarchy, Federation",
+        "君主立宪制联邦"
+      ],
+      [
+        "country",
+        "GovernmentForm",
+        "Islamic Emirate",
+        "伊斯兰酋长国"
+      ],
+      [
+        "country",
+        "GovernmentForm",
+        "Emirate Federation",
+        "酋长国联邦"
+      ],
+      [
+        "country",
+        "GovernmentForm",
+        "Federal Republic",
+        "联邦共和国"
+      ],
+      [
+        "country",
+        "GovernmentForm",
+        "Republic",
+        "共和国"
+      ],
+      [
+        "country",
+        "GovernmentForm",
+        "Nonmetropolitan Territory of New Zealand",
+        "新西兰海外领地"
+      ],
+      [
+        "country",
+        "GovernmentForm",
+        "Autonomous Area",
+        "自治地区"
+      ],
+      [
+        "country",
+        "GovernmentForm",
+        "Occupied by Marocco",
+        "被摩洛哥占领"
+      ],
+      [
+        "country",
+        "GovernmentForm",
+        "Overseas Department of France",
+        "法国海外省"
+      ],
+      [
+        "country",
+        "GovernmentForm",
+        "Constitutional Monarchy (Emirate)",
+        "君主立宪制（酋长国）"
+      ],
+      [
+        "country",
+        "GovernmentForm",
+        "Independent Church State",
+        "独立教会国家"
+      ],
+      [
+        "country",
+        "GovernmentForm",
+        "People'sRepublic",
+        "人民共和国"
+      ],
+      [
+        "country",
+        "GovernmentForm",
+        "Co-administrated",
+        "共管"
+      ],
+      [
+        "country",
+        "GovernmentForm",
+        "Commonwealth of the US",
+        "美国联邦"
+      ],
+      [
+        "country",
+        "GovernmentForm",
+        "Monarchy",
+        "君主制"
+      ],
+      [
+        "country",
+        "GovernmentForm",
+        "Federation",
+        "联邦"
+      ],
+      [
+        "country",
+        "GovernmentForm",
+        "Part of Denmark",
+        "丹麦的一部分"
+      ],
+      [
+        "country",
+        "GovernmentForm",
+        "Constitutional Monarchy",
+        "君主立宪制"
+      ],
+      [
+        "country",
+        "GovernmentForm",
+        "Dependent Territory of Norway",
+        "挪威海外领地"
+      ],
+      [
+        "country",
+        "GovernmentForm",
+        "Islamic Republic",
+        "伊斯兰共和国"
+      ],
+      [
+        "country",
+        "GovernmentForm",
+        "Dependent Territory of the UK",
+        "英国海外领地"
+      ],
+      [
+        "country",
+        "GovernmentForm",
+        "Territory of Australia",
+        "澳大利亚领土"
+      ],
+      [
+        "country",
+        "GovernmentForm",
+        "Socialistic Republic",
+        "社会主义共和国"
+      ],
+      [
+        "country",
+        "GovernmentForm",
+        "Monarchy (Emirate)",
+        "君主制（酋长国）"
+      ]
+    ]
+  }
+}

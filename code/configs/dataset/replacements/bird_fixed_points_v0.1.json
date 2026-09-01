@@ -1,0 +1,19 @@
+{
+  "schema_version": "mol-fixed-points-v0.1",
+  "source_family": "bird",
+  "columns": [
+    {
+      "database_id": "card_games",
+      "table": "cards",
+      "column": "id",
+      "reason": "Distinct schema identifier; translating it to 编号 collides with cards.number."
+    },
+    {
+      "database_id": "card_games",
+      "table": "cards",
+      "column": "number",
+      "reason": "Distinct schema identifier; translating it to 编号 collides with cards.id."
+    }
+  ],
+  "value_columns": []
+}

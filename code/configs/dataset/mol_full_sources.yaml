@@ -1,0 +1,145 @@
+# Paths are relative to the repository root. To rebuild Full from aligned seeds,
+# place the four-cell source dumps under seeds/ (or edit the paths below).
+# Packaged releases in data/releases/ do not need these seed directories.
+schema_version: mol-full-sources-v0.1
+sources:
+  - source_family: spider
+    release_role: core
+    root: seeds/Spider
+    native_language: en
+    split: dev
+    id_field: null
+    sql_fields: [query, SQL]
+    difficulty_field: null
+    upstream_version: Spider 1.0 dev snapshot (README update 2020-08-03)
+    source_url: https://github.com/taoyds/spider
+    snapshot_date: "2026-07-28"
+    license_spdx: Apache-2.0
+    license_evidence_url: https://github.com/taoyds/spider/blob/b7b5b8c890cd30e35427348bb9eb8c6d1350ca7c/LICENSE
+    redistribution_policy: redistributable_with_attribution
+    license_notes: Preserve Spider and cited third-party database attribution notices.
+    replacement_proposals: seeds/replacement_configs/spider_replacements.json
+    replacement_map: code/configs/dataset/replacements/spider_applied_v0.1.json
+    execution_repairs: code/configs/dataset/execution_repairs_v0.1.json
+    execution_adjudications: code/configs/dataset/execution_adjudications_v0.1.json
+    database_roots:
+      en: seeds/Spider/spider_enq_end/database
+      zh: seeds/Spider/spider_enq_cnd/database
+    variants:
+      Q_en--S_en--V_en: {directory: spider_enq_end, question_language: en, schema_language: en, value_language: en}
+      Q_zh--S_en--V_en: {directory: spider_cnq_end, question_language: zh, schema_language: en, value_language: en}
+      Q_en--S_zh--V_zh: {directory: spider_enq_cnd, question_language: en, schema_language: zh, value_language: zh}
+      Q_zh--S_zh--V_zh: {directory: spider_cnq_cnd, question_language: zh, schema_language: zh, value_language: zh}
+
+  - source_family: bird
+    release_role: core
+    root: seeds/BIRD
+    native_language: en
+    split: mini-dev
+    id_field: question_id
+    sql_fields: [query, SQL]
+    difficulty_field: difficulty
+    upstream_version: BIRD Mini-Dev SQLite 500-example package (2024-06-27)
+    source_url: https://github.com/bird-bench/mini_dev
+    snapshot_date: "2026-07-28"
+    license_spdx: CC-BY-SA-4.0
+    license_evidence_url: https://github.com/bird-bench/mini_dev/blob/b3d4bcbbae9a96934ad812551eb400c7a3b23c12/README.md
+    redistribution_policy: redistributable_with_attribution
+    license_notes: Adapted release must retain attribution and ShareAlike terms.
+    replacement_proposals: seeds/replacement_configs/bird_replacements.json
+    replacement_map: code/configs/dataset/replacements/bird_applied_v0.1.json
+    fixed_points: code/configs/dataset/replacements/bird_fixed_points_v0.1.json
+    execution_repairs: code/configs/dataset/execution_repairs_v0.1.json
+    execution_adjudications: code/configs/dataset/execution_adjudications_v0.1.json
+    database_roots:
+      en: seeds/BIRD/minidev_enq_end/database
+      zh: seeds/BIRD/minidev_enq_cnd/database
+    variants:
+      Q_en--S_en--V_en: {directory: minidev_enq_end, question_language: en, schema_language: en, value_language: en}
+      Q_zh--S_en--V_en: {directory: minidev_cnq_end, question_language: zh, schema_language: en, value_language: en}
+      Q_en--S_zh--V_zh: {directory: minidev_enq_cnd, question_language: en, schema_language: zh, value_language: zh}
+      Q_zh--S_zh--V_zh: {directory: minidev_cnq_cnd, question_language: zh, schema_language: zh, value_language: zh}
+
+  - source_family: bull
+    release_role: core
+    root: seeds/BULL-FinSQL
+    native_language: zh
+    split: dev
+    id_field: q_id
+    sql_fields: [query, SQL, sql_query]
+    difficulty_field: difficulty
+    upstream_version: FinSQL 5753259b62fd734e8a0dfd0ed990b7aae48d9540 / BULL.zip sha256:103ef58e68bd22fc5c64b44c6f1594fc59a0d4ac809714bb42c5c92e9eacbcd1
+    source_url: https://github.com/bigbigwatermalon/FinSQL
+    snapshot_date: "2026-07-28"
+    license_spdx: null
+    license_evidence_url: https://github.com/bigbigwatermalon/FinSQL/blob/5753259b62fd734e8a0dfd0ed990b7aae48d9540/README.md
+    redistribution_policy: unresolved
+    license_notes: The official repository and BULL download page contain no license declaration; do not redistribute artifacts without permission.
+    replacement_proposals: seeds/replacement_configs/bull_replacements.json
+    replacement_map: code/configs/dataset/replacements/bull_applied_v0.1.json
+    execution_repairs: code/configs/dataset/execution_repairs_v0.1.json
+    execution_adjudications: code/configs/dataset/execution_adjudications_v0.1.json
+    database_roots:
+      en: seeds/BULL-FinSQL/BULL-cnq-ends-endv/database
+      zh: seeds/BULL-FinSQL/BULL-cnq-cnds-cndv/database
+    variants:
+      Q_en--S_en--V_en: {directory: BULL-enq-ends-endv, question_language: en, schema_language: en, value_language: en}
+      Q_zh--S_en--V_en: {directory: BULL-cnq-ends-endv, question_language: zh, schema_language: en, value_language: en}
+      Q_en--S_zh--V_zh: {directory: BULL-enq-cnds-cndv, question_language: en, schema_language: zh, value_language: zh}
+      Q_zh--S_zh--V_zh: {directory: BULL-cnq-cnds-cndv, question_language: zh, schema_language: zh, value_language: zh}
+
+  - source_family: ehrsql
+    release_role: core
+    root: seeds/EHRSQL
+    native_language: en
+    split: valid
+    id_field: id
+    sql_fields: [query, SQL]
+    difficulty_field: difficulty
+    upstream_version: EHRSQL v1.5.1 (01241a3c55bda895561c76923251ea2421d2e892)
+    source_url: https://github.com/glee4810/EHRSQL
+    snapshot_date: "2026-07-28"
+    license_spdx: CC-BY-4.0
+    license_evidence_url: https://github.com/glee4810/EHRSQL/blob/01241a3c55bda895561c76923251ea2421d2e892/LICENSE
+    redistribution_policy: redistributable_with_attribution
+    license_notes: Preprocessed databases are publicly provided by EHRSQL, derived from MIMIC-III/eICU, de-identified and shuffled; retain attribution and intended-use notice.
+    replacement_proposals: seeds/replacement_configs/ehrsql_replacements.json
+    replacement_map: code/configs/dataset/replacements/ehrsql_applied_v0.1.json
+    fixed_points: code/configs/dataset/replacements/ehrsql_fixed_points_v0.1.json
+    execution_repairs: code/configs/dataset/execution_repairs_v0.1.json
+    execution_adjudications: code/configs/dataset/execution_adjudications_v0.1.json
+    database_roots:
+      en: seeds/EHRSQL/EHRSQL-origin
+      zh: seeds/EHRSQL/EHR-enq-cnd/database
+    variants:
+      Q_en--S_en--V_en: {directory: EHR-enq-end, question_language: en, schema_language: en, value_language: en}
+      Q_zh--S_en--V_en: {directory: EHR-cnq-end, question_language: zh, schema_language: en, value_language: en}
+      Q_en--S_zh--V_zh: {directory: EHR-enq-cnd, question_language: en, schema_language: zh, value_language: zh}
+      Q_zh--S_zh--V_zh: {directory: EHR-cnq-cnd, question_language: zh, schema_language: zh, value_language: zh}
+
+  - source_family: kaggledbqa
+    release_role: core
+    root: seeds/KaggleDBQA
+    native_language: en
+    split: test-derived-dev
+    id_field: null
+    sql_fields: [query, SQL]
+    difficulty_field: difficulty
+    upstream_version: KaggleDBQA ab6325c9b5749f2f3509a1f64299bfa30396e6b0
+    source_url: https://github.com/Chia-Hsuan-Lee/KaggleDBQA
+    snapshot_date: "2026-07-28"
+    license_spdx: CC-BY-SA-4.0
+    license_evidence_url: https://github.com/Chia-Hsuan-Lee/KaggleDBQA/blob/ab6325c9b5749f2f3509a1f64299bfa30396e6b0/LICENSE.md
+    redistribution_policy: redistributable_with_attribution
+    license_notes: Adapted release must retain attribution, ShareAlike terms, and the Census Bureau non-endorsement notice.
+    replacement_map: seeds/replacement_configs/kaggledbqa_replacements.json
+    execution_repairs: code/configs/dataset/execution_repairs_v0.1.json
+    execution_adjudications: code/configs/dataset/execution_adjudications_v0.1.json
+    database_roots:
+      en: seeds/KaggleDBQA/kaggle-origin/database
+      zh: seeds/KaggleDBQA/kaggle_enq_cnd/database
+    variants:
+      Q_en--S_en--V_en: {directory: kaggle_enq_end, question_language: en, schema_language: en, value_language: en}
+      Q_zh--S_en--V_en: {directory: kaggle_cnq_end, question_language: zh, schema_language: en, value_language: en}
+      Q_en--S_zh--V_zh: {directory: kaggle_enq_cnd, question_language: en, schema_language: zh, value_language: zh}
+      Q_zh--S_zh--V_zh: {directory: kaggle_cnq_cnd, question_language: zh, schema_language: zh, value_language: zh}

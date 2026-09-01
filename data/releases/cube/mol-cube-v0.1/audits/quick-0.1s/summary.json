@@ -1,0 +1,1 @@
+{"attempted_logical_instances":480,"audit_kind":"quick-screen","failed":50,"note":"Quick screen before targeted parallel recheck; not the final execution gate.","passed":430,"status_counts":{"mismatch":0,"pass":430,"source_execution_error":2,"timeout":48},"timeout_seconds":0.1}

@@ -1,0 +1,22 @@
+[
+  {
+    "question": "How many singers do we have?",
+    "query": "SELECT count(*) FROM singer"
+  },
+  {
+    "question": "Show name, country, age for all singers ordered by age from the oldest to the youngest.",
+    "query": "SELECT name, country, age FROM singer ORDER BY age DESC"
+  },
+  {
+    "question": "What are the names of all singers who have a song with more than 20 words?",
+    "query": "SELECT DISTINCT T2.name FROM song AS T1 JOIN singer AS T2 ON T1.singer_id = T2.singer_id WHERE T1.word_count > 20"
+  },
+  {
+    "question": "What is the average age of singers by country?",
+    "query": "SELECT country, AVG(age) FROM singer GROUP BY country"
+  },
+  {
+    "question": "List the name of the singer who has the most songs.",
+    "query": "SELECT name FROM singer WHERE singer_id = (SELECT singer_id FROM song GROUP BY singer_id ORDER BY count(*) DESC LIMIT 1)"
+  }
+]

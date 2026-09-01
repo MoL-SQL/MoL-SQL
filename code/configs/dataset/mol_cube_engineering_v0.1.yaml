@@ -1,0 +1,60 @@
+schema_version: mol-cube-sampler-v0.1
+release_id: mol-cube-v0.1
+seed: 20260729
+target_per_source: 96
+difficulty_proportions:
+  easy: 0.20
+  medium: 0.35
+  hard: 0.45
+minimums_per_source:
+  v_support: 32
+  literal_free: 16
+  recurring_entity: 12
+database_max_fraction: 0.40
+priority_order:
+  - quality
+  - treatment_validity
+  - barrier_coverage
+  - difficulty
+  - source_balance
+barrier_registry:
+  Q-COMP:
+    claim: Question-language effects increase for compositionally demanding questions.
+    contrast: Q main effect and Q-by-difficulty interaction.
+    paper_output: Cube barrier-by-difficulty table.
+  S-SELECT:
+    claim: Schema-language effects increase with distractor-heavy schema selection.
+    contrast: S main effect within schema-selection opportunities.
+    paper_output: Cube schema-grounding coverage table.
+  S-JOIN:
+    claim: Schema-language effects increase for multi-table grounding.
+    contrast: S and Q-by-S effects within join opportunities.
+    paper_output: Cube barrier-by-difficulty heatmap.
+  S-LEX:
+    claim: Cross-language lexical alignment affects schema grounding.
+    contrast: S and Q-by-S effects within lexical-grounding opportunities.
+    paper_output: Cube treatment-support appendix table.
+  V-EXACT:
+    claim: Value-language effects are estimable when mapped literals are present.
+    contrast: V and Q-by-V effects on eligible-value cases.
+    paper_output: Cube value-support table.
+  V-RECUR:
+    claim: Recurring entities amplify value-consistency demands.
+    contrast: V effect within recurring-entity opportunities.
+    paper_output: Cube recurring-entity appendix table.
+  I-QS:
+    claim: Question-schema language alignment changes grounding difficulty.
+    contrast: Q-by-S interaction.
+    paper_output: Eight-cell factorial effect figure.
+  I-QV:
+    claim: Question-value language alignment changes entity grounding.
+    contrast: Q-by-V interaction.
+    paper_output: Eight-cell factorial effect figure.
+  I-SV:
+    claim: Mixed schema/value languages create cross-component alignment demands.
+    contrast: S-by-V interaction.
+    paper_output: Eight-cell factorial effect figure.
+  I-QSV:
+    claim: Simultaneous question, schema, and value demands create higher-order interaction.
+    contrast: Q-by-S-by-V interaction.
+    paper_output: Eight-cell factorial effect figure.

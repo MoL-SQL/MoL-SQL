@@ -1,0 +1,284 @@
+{
+  "schema_version": "mol-execution-repairs-v0.1",
+  "sql_repairs": [
+    {
+      "source_family": "spider",
+      "legacy_indices": [229, 230],
+      "database_id": "flight_2",
+      "schema_language": "en",
+      "old_fragment": "ORDER BY count(*) DESC LIMIT 1",
+      "new_fragment": "ORDER BY count(*) DESC, MIN(T1.uid) ASC LIMIT 1",
+      "reason": "Add a stable language-independent tie break."
+    },
+    {
+      "source_family": "spider",
+      "legacy_indices": [229, 230],
+      "database_id": "flight_2",
+      "schema_language": "zh",
+      "old_fragment": "ORDER BY count(*) DESC LIMIT 1",
+      "new_fragment": "ORDER BY count(*) DESC, MIN(T1.`唯一标识符`) ASC LIMIT 1",
+      "reason": "Add a stable language-independent tie break."
+    },
+    {
+      "source_family": "spider",
+      "legacy_indices": [231, 232],
+      "database_id": "flight_2",
+      "schema_language": "en",
+      "old_fragment": "ORDER BY count(*) LIMIT 1",
+      "new_fragment": "ORDER BY count(*) ASC, MIN(T1.uid) ASC LIMIT 1",
+      "reason": "Add a stable language-independent tie break."
+    },
+    {
+      "source_family": "spider",
+      "legacy_indices": [231, 232],
+      "database_id": "flight_2",
+      "schema_language": "zh",
+      "old_fragment": "ORDER BY count(*) LIMIT 1",
+      "new_fragment": "ORDER BY count(*) ASC, MIN(T1.`唯一标识符`) ASC LIMIT 1",
+      "reason": "Add a stable language-independent tie break."
+    },
+    {
+      "source_family": "spider",
+      "legacy_indices": [325, 326],
+      "database_id": "cre_Doc_Template_Mgt",
+      "schema_language": "zh",
+      "old_fragment": "\"简历\"",
+      "new_fragment": "\"CV\"",
+      "reason": "Templates.template_type_code remained a fixed code; the global value rewrite used a description-column translation."
+    },
+    {
+      "source_family": "spider",
+      "legacy_indices": [395, 396],
+      "database_id": "course_teach",
+      "schema_language": "en",
+      "old_fragment": "ORDER BY COUNT(*) DESC LIMIT 1",
+      "new_fragment": "ORDER BY COUNT(*) DESC, MIN(Teacher_ID) ASC LIMIT 1",
+      "reason": "Add a stable language-independent tie break."
+    },
+    {
+      "source_family": "spider",
+      "legacy_indices": [395, 396],
+      "database_id": "course_teach",
+      "schema_language": "zh",
+      "old_fragment": "ORDER BY COUNT(*) DESC LIMIT 1",
+      "new_fragment": "ORDER BY COUNT(*) DESC, MIN(`教师编号`) ASC LIMIT 1",
+      "reason": "Add a stable language-independent tie break."
+    },
+    {
+      "source_family": "bird",
+      "legacy_indices": [59],
+      "database_id": "student_club",
+      "schema_language": "en",
+      "old_fragment": "ORDER BY source DESC LIMIT 1",
+      "new_fragment": "ORDER BY amount DESC, income_id ASC LIMIT 1",
+      "reason": "The question asks for the top source by amount; the upstream SQL incorrectly sorted the source text."
+    },
+    {
+      "source_family": "bird",
+      "legacy_indices": [59],
+      "database_id": "student_club",
+      "schema_language": "zh",
+      "old_fragment": "ORDER BY `来源` DESC LIMIT 1",
+      "new_fragment": "ORDER BY `金额` DESC, `收入编号` ASC LIMIT 1",
+      "reason": "The question asks for the top source by amount; the upstream SQL incorrectly sorted the translated source text."
+    },
+    {
+      "source_family": "bird",
+      "legacy_indices": [340],
+      "database_id": "codebase_community",
+      "schema_language": "en",
+      "old_fragment": "INNER JOIN ( SELECT MAX(Reputation) AS max_reputation FROM users ) T3 ON T1.Reputation = T3.max_reputation",
+      "new_fragment": "WHERE T1.Reputation = (SELECT MAX(Reputation) FROM users)",
+      "reason": "Equivalent correlated filter avoids the pathological join plan that timed out."
+    },
+    {
+      "source_family": "bird",
+      "legacy_indices": [340],
+      "database_id": "codebase_community",
+      "schema_language": "zh",
+      "old_fragment": "INNER JOIN ( SELECT MAX(`声望值`) AS max_reputation FROM `用户` ) T3 ON T1.`声望值` = T3.max_reputation",
+      "new_fragment": "WHERE T1.`声望值` = (SELECT MAX(`声望值`) FROM `用户`)",
+      "reason": "Equivalent correlated filter avoids the pathological join plan that timed out."
+    },
+    {
+      "source_family": "bird",
+      "legacy_indices": [393],
+      "database_id": "card_games",
+      "schema_language": "en",
+      "old_fragment": "WITH MaxBanned AS (SELECT format, COUNT(*) AS count_banned FROM legalities WHERE status = 'Banned' GROUP BY format ORDER BY COUNT(*) DESC LIMIT 1) SELECT T2.format, T1.name FROM cards AS T1 INNER JOIN legalities AS T2 ON T2.uuid = T1.uuid INNER JOIN MaxBanned MB ON MB.format = T2.format WHERE T2.status = 'Banned'",
+      "new_fragment": "SELECT T2.format, T1.name FROM legalities AS T2 INNER JOIN cards AS T1 ON T2.uuid = T1.uuid WHERE T2.status = 'Banned' AND T2.format = (SELECT format FROM legalities WHERE status = 'Banned' GROUP BY format ORDER BY COUNT(*) DESC, MIN(uuid) ASC LIMIT 1)",
+      "reason": "Equivalent scalar subquery avoids the pathological CTE join plan and adds a stable tie break."
+    },
+    {
+      "source_family": "bird",
+      "legacy_indices": [393],
+      "database_id": "card_games",
+      "schema_language": "zh",
+      "old_fragment": "WITH MaxBanned AS (SELECT `赛制`, COUNT(*) AS count_banned FROM `合法性` WHERE `状态` = '禁用' GROUP BY `赛制` ORDER BY COUNT(*) DESC LIMIT 1) SELECT T2.`赛制`, T1.`名称` FROM `卡牌` AS T1 INNER JOIN `合法性` AS T2 ON T2.UUID = T1.UUID INNER JOIN MaxBanned MB ON MB.`赛制` = T2.`赛制` WHERE T2.`状态` = '禁用'",
+      "new_fragment": "SELECT T2.`赛制`, T1.`名称` FROM `合法性` AS T2 INNER JOIN `卡牌` AS T1 ON T2.UUID = T1.UUID WHERE T2.`状态` = '禁用' AND T2.`赛制` = (SELECT `赛制` FROM `合法性` WHERE `状态` = '禁用' GROUP BY `赛制` ORDER BY COUNT(*) DESC, MIN(UUID) ASC LIMIT 1)",
+      "reason": "Equivalent scalar subquery avoids the pathological CTE join plan and adds a stable tie break."
+    },
+    {
+      "source_family": "bird",
+      "legacy_indices": [406],
+      "database_id": "toxicology",
+      "schema_language": "en",
+      "old_fragment": "ORDER BY COUNT(DISTINCT T1.molecule_id) ASC LIMIT 1",
+      "new_fragment": "ORDER BY COUNT(DISTINCT T1.molecule_id) ASC, MIN(T1.atom_id) ASC LIMIT 1",
+      "reason": "Add a stable language-independent tie break."
+    },
+    {
+      "source_family": "bird",
+      "legacy_indices": [406],
+      "database_id": "toxicology",
+      "schema_language": "zh",
+      "old_fragment": "ORDER BY COUNT(DISTINCT T1.`分子编号`) ASC LIMIT 1",
+      "new_fragment": "ORDER BY COUNT(DISTINCT T1.`分子编号`) ASC, MIN(T1.`原子编号`) ASC LIMIT 1",
+      "reason": "Add a stable language-independent tie break."
+    },
+    {
+      "source_family": "bull",
+      "legacy_indices": [670],
+      "database_id": "ccks_stock",
+      "schema_language": "en",
+      "old_fragment": "like '%计算机%' or IndustryName like '%通信%'",
+      "new_fragment": "like '%Computer%' or IndustryName like '%Communication%'",
+      "reason": "Translate LIKE fragments for the English-value database."
+    },
+    {
+      "source_family": "bull",
+      "legacy_indices": [670],
+      "database_id": "ccks_stock",
+      "schema_language": "zh",
+      "old_fragment": "`行业名称` like '%计算机%' or `行业名称` like '%通信%'",
+      "new_fragment": "`行业名称` like '%计算机%' or `行业名称` like '%通信%' or `行业名称` like '%电信%'",
+      "reason": "The English telecommunications category is translated with 电信, which is not covered by the original 通信 substring."
+    },
+    {
+      "source_family": "bull",
+      "legacy_indices": [680],
+      "database_id": "ccks_stock",
+      "schema_language": "en",
+      "old_fragment": "PositionDescription like '%董事%'",
+      "new_fragment": "PositionDescription like '%Director%'",
+      "reason": "Translate the LIKE fragment for the English-value database."
+    },
+    {
+      "source_family": "bull",
+      "legacy_indices": [680],
+      "database_id": "ccks_stock",
+      "schema_language": "en",
+      "old_fragment": "PositionDescription like '%Director%'",
+      "new_fragment": "(PositionDescription like '%Director%' or PositionDescription like '%Chairman%') and PositionDescription not like '%Supervisory%'",
+      "reason": "Match the Chinese 董事 substring across Director and Chairman translations while excluding 监事会主席."
+    },
+    {
+      "source_family": "bull",
+      "legacy_indices": [692],
+      "database_id": "ccks_stock",
+      "schema_language": "en",
+      "old_fragment": "order by count(*) limit 10",
+      "new_fragment": "order by count(*) asc, min(id) asc limit 10",
+      "reason": "Add a stable language-independent tie break."
+    },
+    {
+      "source_family": "bull",
+      "legacy_indices": [692],
+      "database_id": "ccks_stock",
+      "schema_language": "zh",
+      "old_fragment": "order by count(*) limit 10",
+      "new_fragment": "order by count(*) asc, min(`序号`) asc limit 10",
+      "reason": "Add a stable language-independent tie break."
+    },
+    {
+      "source_family": "bull",
+      "legacy_indices": [830],
+      "database_id": "ccks_stock",
+      "schema_language": "en",
+      "old_fragment": "PositionDescription like '%副总裁%'",
+      "new_fragment": "PositionDescription like '%Vice President%'",
+      "reason": "Translate the LIKE fragment for the English-value database."
+    },
+    {
+      "source_family": "bull",
+      "legacy_indices": [868],
+      "database_id": "ccks_stock",
+      "schema_language": "en",
+      "old_fragment": "IndustryName like '%计算机%'",
+      "new_fragment": "IndustryName like '%Computer%'",
+      "reason": "Translate the LIKE fragment for the English-value database."
+    },
+    {
+      "source_family": "ehrsql",
+      "legacy_indices": [609],
+      "database_id": "eicu",
+      "schema_language": "zh",
+      "old_fragment": "'镇静剂'",
+      "new_fragment": "'镇静药物'",
+      "reason": "Preserve the distinction between sedative and sedative agent after reviewed value-map repair."
+    },
+    {
+      "source_family": "ehrsql",
+      "legacy_indices": [1045],
+      "database_id": "mimic_iii",
+      "schema_language": "zh",
+      "old_fragment": "'小瓶'",
+      "new_fragment": "'vial'",
+      "reason": "PRESCRIPTIONS.DRUG keeps the fixed database value vial; the translated SQL literal had no corresponding reviewed value mapping."
+    },
+    {
+      "source_family": "kaggledbqa",
+      "legacy_indices": [22],
+      "database_id": "GreaterManchesterCrime",
+      "schema_language": "zh",
+      "old_fragment": "%Under investigation%",
+      "new_fragment": "%正在调查中%",
+      "reason": "Translate the LIKE literal for the Chinese-value database."
+    },
+    {
+      "source_family": "kaggledbqa",
+      "legacy_indices": [25],
+      "database_id": "GreaterManchesterCrime",
+      "schema_language": "zh",
+      "old_fragment": "%Drug%",
+      "new_fragment": "%毒品%",
+      "reason": "Translate the LIKE fragment for the Chinese-value database."
+    },
+    {
+      "source_family": "kaggledbqa",
+      "legacy_indices": [100],
+      "database_id": "TheHistoryofBaseball",
+      "schema_language": "en",
+      "old_fragment": "ORDER BY count(*) DESC LIMIT 10",
+      "new_fragment": "ORDER BY count(*) DESC, MIN(T1.player_id) ASC LIMIT 10",
+      "reason": "Add a stable language-independent tie break."
+    },
+    {
+      "source_family": "kaggledbqa",
+      "legacy_indices": [100],
+      "database_id": "TheHistoryofBaseball",
+      "schema_language": "zh",
+      "old_fragment": "ORDER BY count(*) DESC LIMIT 10",
+      "new_fragment": "ORDER BY count(*) DESC, MIN(T1.`球员编号`) ASC LIMIT 10",
+      "reason": "Add a stable language-independent tie break."
+    },
+    {
+      "source_family": "kaggledbqa",
+      "legacy_indices": [122],
+      "database_id": "USWildFires",
+      "schema_language": "zh",
+      "old_fragment": "%Arson%",
+      "new_fragment": "%纵火%",
+      "reason": "Translate the LIKE literal for the Chinese-value database."
+    },
+    {
+      "source_family": "kaggledbqa",
+      "legacy_indices": [129],
+      "database_id": "USWildFires",
+      "schema_language": "zh",
+      "old_fragment": "%Campfire%",
+      "new_fragment": "%营火%",
+      "reason": "Translate the LIKE literal for the Chinese-value database."
+    }
+  ]
+}
